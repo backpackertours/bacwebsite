@@ -1,9 +1,28 @@
 import Navigation from './components/layout/Navigation';
+import Banner from './components/layout/Banner';
+import UpTrips from './components/ui/UpTrips';
+import WeekendTrips from './components/ui/WeekendTrips';
+import Testimonials from './components/ui/Testimonials';
+import TripBanner from './components/ui/TripBanner';
+import Footer from './components/layout/Footer';
+import Iternary from './components/ui/Iternary';
 
 function App() {
   return (
     <div className="App">
-      <Navigation color="light" expand="md" horizontal="end" />
+      <Navigation expand="md" horizontal="end" />
+      {/* 
+      **
+      ** Home page code
+      ** 
+      <Banner />
+      <UpTrips />
+      <WeekendTrips />
+      <Testimonials /> 
+      */}
+      <TripBanner />
+      <Iternary />
+      <Footer />
     </div>
   );
 }

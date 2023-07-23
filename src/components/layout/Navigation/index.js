@@ -19,7 +19,7 @@ const Navigation = (args) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div>
+        <div className="container">
             <Navbar {...args}>
                 <NavbarBrand href="/">Backapcker Tours</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
