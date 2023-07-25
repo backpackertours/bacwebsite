@@ -11,17 +11,17 @@ function App() {
   return (
     <div className="App">
       <Navigation expand="md" horizontal="end" />
-      {/* 
-      **
-      ** Home page code
-      ** 
+      {/* Home Page */}
       <Banner />
       <UpTrips />
       <WeekendTrips />
-      <Testimonials /> 
+      <Testimonials />
+
+      {/* Trip Details Page */}
+      {
+      /* <TripBanner />
+      <Iternary /> 
       */}
-      <TripBanner />
-      <Iternary />
       <Footer />
     </div>
   );
