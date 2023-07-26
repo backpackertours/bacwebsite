@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './style.css'
 import {
+    Badge,
     Carousel,
     CarouselItem,
     CarouselControl,
@@ -14,23 +15,23 @@ import {
 
 const items = [
     {
-        src: 'https://picsum.photos/id/123/1200/400',
+        src: 'https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80',
         title: 'Ratnesh Patil',
         subtitle: 'Software Engineer, Cybage',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam quibusdam pariatur? Facilis beatae incidunt explicabo eius voluptates velit odit!',
         key: 1,
     },
     {
-        src: 'https://picsum.photos/id/456/1200/400',
-        title: 'Ratnesh Patil',
-        subtitle: 'Software Engineer, Cybage',
+        src: 'https://images.unsplash.com/photo-1552699611-e2c208d5d9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1108&q=80',
+        title: 'Shreya Paliwal',
+        subtitle: 'Digital Marketing Manager, Keywordio',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam quibusdam pariatur? Facilis beatae incidunt explicabo eius voluptates velit odit!',
         key: 2,
     },
     {
-        src: 'https://picsum.photos/id/678/1200/400',
-        title: 'Ratnesh Patil',
-        subtitle: 'Software Engineer, Cybage',
+        src: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
+        title: 'Yashavi Chauhan',
+        subtitle: 'Youtuber & Influencer',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam quibusdam pariatur? Facilis beatae incidunt explicabo eius voluptates velit odit!',
         key: 3,
     },
@@ -64,25 +65,30 @@ const Testimonials = (args) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <Card className="text-center text-white bg-transparent border border-0 py-5 px-10 align-items-center justify-content-center" style={{ height: "350px" }}>
-                    <img
-                        alt="Sample"
-                        src="https://picsum.photos/300/200"
-                        className='rounded-circle mb-3'
-                        style={{
-                            height: "75px",
-                            width: "75px"
-                        }}
-                    />
+                <Card className="text-center bg-transparent border border-0 py-5 px-10 align-items-center justify-content-center" style={{ height: "350px" }}>
+                    <div className="rounded-circle p-1 bg-secondary mb-3" style={{
+                        height: "85px",
+                        width: "85px"
+                    }}>
+                        <img
+                            alt="Sample"
+                            src={item.src}
+                            className="rounded-circle mb-3 p-1 bg-white"
+                            style={{
+                                height: "100%",
+                                width: "100%"
+                            }}
+                        />
+                    </div>
                     <CardTitle tag="h5">
                         {item.title}
                     </CardTitle>
-                    <CardSubtitle
+                    <small
                         className="mb-3 text-muted"
                         tag="h6"
                     >
                         {item.subtitle}
-                    </CardSubtitle>
+                    </small>
                     <CardText>
                         {item.description}
                     </CardText>
@@ -94,36 +100,39 @@ const Testimonials = (args) => {
     return (
         <div className="container py-5">
             <Row>
-                <Col className="pe-4" md="5">
-                    <div>
-                        <h3>Testimonials</h3>
-                        <p>Find what our clients say about us!</p>
-                    </div>
-                    <div>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, praesentium beatae minima doloribus modi ipsa ab, tempore fuga ad eaque nobis necessitatibus distinctio, accusantium officia commodi laudantium molestiae ea. Ullam!
-                        Eius consequatur vero ipsa totam eaque illum obcaecati pariatur dolorem eum ab exercitationem, magni corrupti numquam sint perspiciatis distinctio. Iste vel dolorem itaque tempore ipsam fugiat recusandae pariatur, nulla aspernatur.
-                        Molestiae, suscipit! Voluptates quis quibusdam
-                    </div>
-                    <div className="mt-4">
-                        <Button color="primary">
-                            Contact Us
-                        </Button>
+                <Col className="pe-5 pt-3" md="6">
+                    <div className="pe-5">
+                        <h2 className="mb-4">Client Reviews</h2>
+                        <div className="mb-5">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, praesentium beatae minima doloribus modi ipsa ab, tempore fuga ad eaque nobis necessitatibus distinctio, accusantium officia commodi laudantium molestiae ea. Ullam!
+                            Eius consequatur vero ipsa totam eaque illum obcaecati pariatur dolorem eum ab exercitationem.
+                        </div>
+                        <div className="d-flex gap-3">
+                            <Button className="rounded-pill py-2 px-3" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary">
+                                Follow Us On<i class="bi bi-instagram ms-2"></i>
+                            </Button>
+                            <Button className="rounded-pill py-2 px-3" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary" outline>
+                                Check Reviews On<i class="bi bi-google ms-2"></i>
+                            </Button>
+                        </div>
                     </div>
                 </Col>
-                <Col md="7">
+                <Col md="6">
                     <Carousel
-                        className="p-3 bg-primary rounded"
+                        className="p-3 bg-light rounded-4"
                         activeIndex={activeIndex}
                         next={next}
                         previous={previous}
                         {...args}
                     >
-                        <CarouselIndicators
+                        {/* TODO - Remove the indicators if not needed in future */}
+                        {/* <CarouselIndicators
                             items={items}
                             activeIndex={activeIndex}
                             onClickHandler={goToIndex}
-                        />
+                        /> */}
                         {slides}
+                        {/* TODO - Remove these controls if not needed in future */}
                         {/* <CarouselControl
                             direction="prev"
                             directionText="Previous"
