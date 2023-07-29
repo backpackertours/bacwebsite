@@ -1,0 +1,25 @@
+.slider-container {
+    overflow: hidden;
+    height: 350px;
+}
+
+.sliding-background {
+    /* The image height times 3 */
+    width: 5076px;
+    height: 350px;
+    background: url('../../../assets/images/BackpackerSlider2.png') repeat-x;
+    background-size: contain;
+    animation: slide 60s linear infinite;
+}
+
+/* Animation to make the background image slide infinitly */
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1692px, 0, 0);
+        /* The image width */
+    }
+}

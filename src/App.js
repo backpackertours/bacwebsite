@@ -6,6 +6,7 @@ import Testimonials from './components/ui/Testimonials';
 import TripBanner from './components/ui/TripBanner';
 import Footer from './components/layout/Footer';
 import Iternary from './components/ui/Iternary';
+import Slider from './components/ui/Slider';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <UpTrips />
       <WeekendTrips />
       <Testimonials />
+      <Slider />
 
       {/* Trip Details Page */}
       {
