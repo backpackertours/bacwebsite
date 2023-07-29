@@ -13,7 +13,7 @@ const Banner = (props) => {
         <div className="container">
             <Row>
                 <Col className="py-3" md="5">
-                    <div className="d-flex gap-3 align-items-center justify-content-start  pt-5 mb-5">
+                    <div className="d-flex gap-3 align-items-center justify-content-start  pt-5 mb-4">
                         {/*
                         **** ASK - Should we keep the logo or a nice text in the banner ***
                         <img

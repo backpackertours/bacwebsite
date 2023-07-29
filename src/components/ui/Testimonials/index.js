@@ -66,20 +66,15 @@ const Testimonials = (args) => {
                 key={item.src}
             >
                 <Card className="text-center bg-transparent border border-0 py-5 px-10 align-items-center justify-content-center" style={{ height: "350px" }}>
-                    <div className="rounded-circle p-1 bg-secondary mb-3" style={{
-                        height: "85px",
-                        width: "85px"
-                    }}>
-                        <img
-                            alt="Sample"
-                            src={item.src}
-                            className="rounded-circle mb-3 p-1 bg-white"
-                            style={{
-                                height: "100%",
-                                width: "100%"
-                            }}
-                        />
-                    </div>
+                    <img
+                        alt="Sample"
+                        src={item.src}
+                        className="rounded-circle mb-3"
+                        style={{
+                            height: "85px",
+                            width: "85px"
+                        }}
+                    />
                     <CardTitle tag="h5">
                         {item.title}
                     </CardTitle>
