@@ -1,4 +1,4 @@
-import { Row, Col, Badge } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const Footer = () => {
     return (

@@ -1,11 +1,11 @@
-import Navigation from './components/layout/Navigation';
+// import Navigation from './components/layout/Navigation';
 import Banner from './components/layout/Banner';
-import UpTrips from './components/ui/UpTrips';
-import WeekendTrips from './components/ui/WeekendTrips';
-import Testimonials from './components/ui/Testimonials';
-import Footer from './components/layout/Footer';
-import TripDetails from './components/ui/TripDetails';
-import Slider from './components/ui/Slider';
+// import UpTrips from './components/ui/UpTrips';
+// import WeekendTrips from './components/ui/WeekendTrips';
+// import Testimonials from './components/ui/Testimonials';
+// import Footer from './components/layout/Footer';
+// import TripDetails from './components/ui/TripDetails';
+// import Slider from './components/ui/Slider';
 
 function App() {
   return (
