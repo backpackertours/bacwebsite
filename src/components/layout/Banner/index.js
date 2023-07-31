@@ -27,6 +27,12 @@ const Banner = (props) => {
                                 <TypewriterAnimation />
                             </div> */}
                             <h2 className="mt-4 text-secondary">Coming Soon..</h2>
+                            <div className="mt-5">
+                                <h5 className="mb-4">Contact Us -</h5>
+                                <p><i class="bi bi-mailbox text-primary" style={{ fontSize: "20px" }}></i> backpackertours.in@gmail.com</p>
+                                <p><i class="bi bi-phone text-primary" style={{ fontSize: "20px" }}></i>+91 8082647928</p>
+                                <p><i class="bi bi-phone text-primary" style={{ fontSize: "20px" }}></i>+91 8286835202</p>
+                            </div>
                         </div>
                     </div>
                     {/* <div className="mb-5">
