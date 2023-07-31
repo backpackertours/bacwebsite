@@ -10,10 +10,11 @@ import Slider from './components/ui/Slider';
 function App() {
   return (
     <div className="App">
-      <Navigation expand="md" horizontal="end" />
+      {/* <Navigation expand="md" horizontal="end" /> */}
       {/* Home Page */}
-      {/* 
+
       <Banner />
+      {/* 
       <UpTrips />
       <WeekendTrips />
       <Testimonials />
@@ -21,8 +22,8 @@ function App() {
       */}
 
       {/* Trip Details Page */}
-      <TripDetails />
-      <Footer />
+      {/* <TripDetails /> */}
+      {/* <Footer /> */}
     </div>
   );
 }
