@@ -1,4 +1,4 @@
-import { Card, CardTitle, CardText, CardImg, CardImgOverlay, Row, Col, Badge } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 
 const TripBanner = (props) => {
     return (

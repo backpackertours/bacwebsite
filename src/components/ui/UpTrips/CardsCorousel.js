@@ -1,8 +1,8 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 
 import {
     Card, Button, CardImg, CardTitle, CardText,
-    CardSubtitle, CardBody, Row, Col
+    CardSubtitle, CardBody
 } from 'reactstrap';
 
 // Import Swiper React components

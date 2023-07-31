@@ -1,7 +1,6 @@
 import React from 'react';
 import {
-    Card, Button, CardImg, CardTitle, CardText,
-    CardSubtitle, CardBody, Row, Col, Badge
+    Card, CardText, CardBody, Row, Col, Badge
 } from 'reactstrap';
 
 const WeekendTrips = (props) => {
