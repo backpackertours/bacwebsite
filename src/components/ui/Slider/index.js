@@ -1,10 +1,5 @@
 import React from 'react';
 import './style.css'
-import {
-    Row,
-    Col,
-    Button,
-} from 'reactstrap';
 
 
 const Slider = (args) => {

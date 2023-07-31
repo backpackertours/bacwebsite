@@ -15,7 +15,7 @@ const WeekendTrips = (props) => {
                         <img
                             className="rounded rounded-4"
                             src="https://images.unsplash.com/photo-1604009506606-fd4989d50e6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            alt="Card image cap"
+                            alt="Spiti Valley"
                             style={{
                                 width: "100%",
                                 height: "200px"
@@ -44,7 +44,7 @@ const WeekendTrips = (props) => {
                         <img
                             className="rounded rounded-4"
                             src="https://plus.unsplash.com/premium_photo-1675824592772-4d0f0daa067e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80"
-                            alt="Card image cap"
+                            alt="Spiti Valley"
                             style={{
                                 width: "100%",
                                 height: "200px"
@@ -73,7 +73,7 @@ const WeekendTrips = (props) => {
                         <img
                             className="rounded rounded-4"
                             src="https://images.unsplash.com/photo-1520637102912-2df6bb2aec6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1769&q=80"
-                            alt="Card image cap"
+                            alt="Spiti Valley"
                             style={{
                                 width: "100%",
                                 height: "200px"
@@ -102,7 +102,7 @@ const WeekendTrips = (props) => {
                         <img
                             className="rounded rounded-4"
                             src="https://images.unsplash.com/photo-1649700718564-fd0d0f825ad5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1450&q=80"
-                            alt="Card image cap"
+                            alt="Spiti Valley"
                             style={{
                                 width: "100%",
                                 height: "200px"
