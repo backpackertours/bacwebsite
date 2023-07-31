@@ -14,7 +14,7 @@ const Iternary = () => {
                     <Col md="8">
                         <img
                             className="rounded-4 w-100"
-                            alt="Card image cap"
+                            alt="Spiti Valley"
                             src="https://images.unsplash.com/photo-1619282401041-56e69dcc5335?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80"
                         />
                         <div className="pt-4">

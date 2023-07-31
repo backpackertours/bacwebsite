@@ -1,16 +1,12 @@
 import React, { useState } from 'react';
 import './style.css'
 import {
-    Badge,
     Carousel,
     CarouselItem,
-    CarouselControl,
-    CarouselIndicators,
     Row,
     Col,
     Button,
     Card, CardTitle, CardText,
-    CardSubtitle, CardBody,
 } from 'reactstrap';
 
 const items = [
