@@ -22,16 +22,23 @@ const Banner = (props) => {
                             src={BackpackerLogo}
                         /> */}
                         <div className="d-flex flex-column">
-                            <span className="mb-0" style={{ fontSize: "4rem", fontWeight: "500" }}>Let's go on</span>
-                            <div className="mt-0 text-secondary">
+                            <span className="mb-0" style={{ fontSize: "4rem", fontWeight: "500" }}>Backpacker Tours</span>
+                            {/* <div className="mt-0 text-secondary">
                                 <TypewriterAnimation />
+                            </div> */}
+                            <h2 className="mt-4 text-secondary">Coming Soon..</h2>
+                            <div className="mt-5">
+                                <h5 className="mb-4">Contact Us -</h5>
+                                <p><i class="bi bi-mailbox text-primary" style={{ fontSize: "20px" }}></i> backpackmumbai@gmail.com</p>
+                                <p><i class="bi bi-phone text-primary" style={{ fontSize: "20px" }}></i>+91 8082647928</p>
+                                <p><i class="bi bi-phone text-primary" style={{ fontSize: "20px" }}></i>+91 8286835202</p>
                             </div>
                         </div>
                     </div>
-                    <div className="mb-5">
+                    {/* <div className="mb-5">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis, et ad quas odit itaque sint voluptas recusandae maxime incidunt? Delectus inventore ducimus odio natus! Accusantium quo quos ab neque!</p>
-                    </div>
-                    <Row className="mb-5">
+                    </div> */}
+                    {/* <Row className="mb-5">
                         <Col className="text-center" md="4">
                             <img
                                 className="mb-3 bg-light rounded p-3"
@@ -64,7 +71,7 @@ const Banner = (props) => {
                         <Button className="rounded-pill py-2 px-3" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary">
                             Explore Trips <i class="bi bi-arrow-down"></i>
                         </Button>
-                    </div>
+                    </div> */}
 
                 </Col>
                 <Col md="7">

@@ -19,7 +19,7 @@ const Navigation = (args) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="container py-2">
+        <div className="container py-2 px-0">
             <Navbar {...args}>
                 <NavbarBrand href="/">Backapcker Tours</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
