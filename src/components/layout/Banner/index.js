@@ -1,11 +1,5 @@
-import { Card, CardTitle, CardText, CardImg, CardImgOverlay, Row, Col, Badge, Button } from 'reactstrap';
+import { Row, Col } from 'reactstrap';
 import BackpackerBanner from '../../../assets/images/BackpackerBanner.png';
-import BackpackerLogo from '../../../assets/images/BackpackerLogo.png';
-import sunbed from '../../../assets/images/sunbed.png';
-import tent from '../../../assets/images/tent.png';
-import fosterfamily from '../../../assets/images/foster-family.png';
-
-import TypewriterAnimation from './TypewriterAnimation';
 
 const Banner = (props) => {
 
