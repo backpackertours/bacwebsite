@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-
 import {
     Collapse,
     Navbar,
     NavbarToggler,
     NavbarBrand,
     Nav,
-    NavItem
+    NavItem,
+    NavLink,
+    UncontrolledDropdown,
+    DropdownToggle,
+    DropdownMenu,
+    DropdownItem,
 } from 'reactstrap';
 
 const Navigation = (args) => {
@@ -16,23 +19,22 @@ const Navigation = (args) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="container-fluid py-2 px-5 bg-light">
+        <div className="container py-2 px-0">
             <Navbar {...args}>
                 <NavbarBrand href="/">Backapcker Tours</NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="ms-auto text-muted" navbar>
-                        <NavItem className="me-4">
-                            <Link className="nav-link" to="/">Home</Link>
-                        </NavItem>
-                        <NavItem className="me-4">
-                            <Link className="nav-link" to="/trip">About</Link>
+                    <Nav className="ms-auto" navbar>
+                        <NavItem>
+                            <NavLink href="/components/">Home</NavLink>
                         </NavItem>
                         <NavItem>
-                            <Link className="nav-link" to="/trip">Contact Us</Link>
+                            <NavLink href="/components/">About</NavLink>
                         </NavItem>
-                        {/* TODO - Remove dropdown if not needed */}
-                        {/* <UncontrolledDropdown nav inNavbar>
+                        <NavItem>
+                            <NavLink href="/components/">Contact Us</NavLink>
+                        </NavItem>
+                        <UncontrolledDropdown nav inNavbar>
                             <DropdownToggle nav caret>
                                 Options
                             </DropdownToggle>
@@ -42,7 +44,7 @@ const Navigation = (args) => {
                                 <DropdownItem divider />
                                 <DropdownItem>Reset</DropdownItem>
                             </DropdownMenu>
-                        </UncontrolledDropdown> */}
+                        </UncontrolledDropdown>
                     </Nav>
                 </Collapse>
             </Navbar>

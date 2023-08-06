@@ -8,11 +8,11 @@ const TypewriterAnimation = () => {
                 // Same substring at the start will only be typed out once, initially
                 'Tours.',
                 1000,
-                'Treks.',
+                'Treks',
                 1000,
-                'Adventures.',
+                'Adventures',
                 1000,
-                'Experiences.',
+                'Experiences',
                 1000
             ]}
             wrapper="span"

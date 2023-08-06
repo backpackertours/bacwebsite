@@ -4,7 +4,7 @@ const TripBanner = (props) => {
     return (
         <section className="container pt-5 pb-4">
             <Row>
-                <Col md="7">
+                <Col md="12">
                     <h3 className="mb-3">Spiti Valley Roadtrip with Sissu</h3>
                     <div className="d-flex gap-4 text-muted">
                         <div>
