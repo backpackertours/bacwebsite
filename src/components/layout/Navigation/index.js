@@ -10,22 +10,26 @@ import {
     NavItem
 } from 'reactstrap';
 
+import logo from '../../../assets/images/logo.png';
+
 const Navigation = (args) => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="container-fluid py-2 px-5 bg-light">
+        <div className="container-fluid py-2 px-5">
             <Navbar {...args}>
-                <NavbarBrand href="/">Backapcker Tours</NavbarBrand>
+                <NavbarBrand href="/">
+                    <img src={logo} alt="Backpacker Logo" style={{ width: "150px" }} />
+                </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className="ms-auto text-muted" navbar>
-                        <NavItem className="me-4">
+                    <Nav className="ms-auto" navbar>
+                        <NavItem className="me-5">
                             <Link className="nav-link" to="/">Home</Link>
                         </NavItem>
-                        <NavItem className="me-4">
+                        <NavItem className="me-5">
                             <Link className="nav-link" to="/trip">About</Link>
                         </NavItem>
                         <NavItem>

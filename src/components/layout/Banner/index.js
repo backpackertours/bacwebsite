@@ -1,5 +1,5 @@
 import { Row, Col, Button } from 'reactstrap';
-import BackpackerBanner from '../../../assets/images/BackpackerBanner.png';
+import banner from '../../../assets/images/banner.png';
 import TypewriterAnimation from './TypewriterAnimation';
 
 import sunbed from '../../../assets/images/sunbed.png';
@@ -9,10 +9,10 @@ import fosterfamily from '../../../assets/images/foster-family.png';
 const Banner = (props) => {
 
     return (
-        <div className="container">
+        <div className="container pb-5">
             <Row>
                 <Col className="py-3" md="5">
-                    <div className="d-flex gap-3 align-items-center justify-content-start  pt-5 mb-4">
+                    <div className="d-flex gap-3 align-items-center justify-content-start py-2 mb-4">
                         {/*
                         **** ASK - Should we keep the logo or a nice text in the banner ***
                         <img
@@ -21,16 +21,17 @@ const Banner = (props) => {
                             src={BackpackerLogo}
                         /> */}
                         <div className="d-flex flex-column">
-                            <span className="mb-0" style={{ fontSize: "4rem", fontWeight: "500" }}>Let's go on</span>
+                            <span className="mb-0" style={{ fontSize: "4rem", fontWeight: "600" }}><span className="text-primary">Backpacker</span> takes you on unforgettable</span>
                             <div className="mt-0 text-secondary">
                                 <TypewriterAnimation />
                             </div>
                         </div>
                     </div>
-                    <div className="mb-5">
+                    <div className="mb-5 text-muted">
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis, et ad quas odit itaque sint voluptas recusandae maxime incidunt? Delectus inventore ducimus odio natus! Accusantium quo quos ab neque!</p>
                     </div>
-                    <Row className="mb-5">
+                    {/* Convert this to a saperate section */}
+                    {/* <Row className="mb-5">
                         <Col className="text-center" md="4">
                             <img
                                 className="mb-3 bg-light rounded p-3"
@@ -58,18 +59,18 @@ const Banner = (props) => {
                             />
                             <p>Family Trips</p>
                         </Col>
-                    </Row>
+                    </Row> */}
                     <div>
-                        <Button className="rounded-pill py-2 px-3" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary">
+                        <Button className="rounded-pill py-2 px-4" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary">
                             Explore Trips <i class="bi bi-arrow-down"></i>
                         </Button>
                     </div>
                 </Col>
-                <Col md="7">
+                <Col md="7" className="p-5">
                     <img
                         className="w-100"
                         alt="Backpackertours Banner"
-                        src={BackpackerBanner}
+                        src={banner}
                     />
                 </Col>
             </Row>
