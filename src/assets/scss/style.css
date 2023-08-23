@@ -76,3 +76,9 @@ Date card background.
         /* The image width */
     }
 }
+
+/* About Us Page Styles */
+.founder-img {
+    width: 300px;
+    height: 300px;
+}

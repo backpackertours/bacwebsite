@@ -30,7 +30,7 @@ const Navigation = (args) => {
                             <Link className="nav-link" to="/">Home</Link>
                         </NavItem>
                         <NavItem className="me-5">
-                            <Link className="nav-link" to="/trip">About</Link>
+                            <Link className="nav-link" to="/aboutus">About Us</Link>
                         </NavItem>
                         <NavItem>
                             <Link className="nav-link" to="/trip">Contact Us</Link>
