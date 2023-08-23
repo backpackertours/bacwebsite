@@ -7,7 +7,7 @@ const AboutUs = () => {
         <section className="container py-5">
             <Row>
                 <Col className="mx-auto" lg="8">
-                    <h1 className="mb-4 text-center">About Us</h1>
+                    <h1 className="mb-4 text-center">Our Mission</h1>
                     <div className="mb-4">
                         <p><i className="bi bi-quote text-primary" style={{ fontSize: "2rem", fontWeight: "600" }}></i> Welcome to Backpacker Tours, your gateway to unforgettable adventures in India! Our mission
                             is to take you beyond the ordinary, exploring offbeat locations that are untouched by mass

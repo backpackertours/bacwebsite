@@ -1,4 +1,4 @@
-import { Row, Col, Card, Form, FormGroup, Label, Input, Button, Badge } from 'reactstrap';
+import { Row, Col, Badge } from 'reactstrap';
 import DayWise from './DayWise';
 import InclusionExclusion from './InclusionExclusion';
 import TripHeaderText from './TripHeaderText';
