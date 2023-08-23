@@ -33,7 +33,7 @@ const Navigation = (args) => {
                             <Link className="nav-link" to="/aboutus">About Us</Link>
                         </NavItem>
                         <NavItem>
-                            <Link className="nav-link" to="/trip">Contact Us</Link>
+                            <Link className="nav-link" to="/contactus">Contact Us</Link>
                         </NavItem>
                         {/* TODO - Remove dropdown if not needed */}
                         {/* <UncontrolledDropdown nav inNavbar>
