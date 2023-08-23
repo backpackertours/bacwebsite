@@ -4,7 +4,7 @@ const InclusionExclusion = () => {
     return (
         <Row>
             <Col md="4" className="pe-5">
-                <h6 className="mb-3">Inclusions</h6>
+                <h5 className="mb-3">Inclusions</h5>
                 <ul className="list-unstyled">
                     <li className="mb-3"><i class="bi bi-check2"></i> Transport as per itinerary starting from Delhi to Delhi</li>
                     <li className="mb-3"><i class="bi bi-check2"></i> 06 Breakfasts and 06 Dinners</li>
@@ -19,7 +19,7 @@ const InclusionExclusion = () => {
                 </ul>
             </Col>
             <Col md="4" className="pe-5">
-                <h6 className="mb-3">Exlusions</h6>
+                <h5 className="mb-3">Exlusions</h5>
                 <ul className="list-unstyled">
                     <li className="mb-3"><i class="bi bi-x"></i> Any Extra transport not mentioned in Itinerary</li>
                     <li className="mb-3"><i class="bi bi-x"></i> Any Lunch</li>
@@ -29,7 +29,7 @@ const InclusionExclusion = () => {
                 </ul>
             </Col>
             <Col md="4">
-                <h6 className="mb-3">Please Note</h6>
+                <h5 className="mb-3">Please Note</h5>
                 <ul className="list-unstyled">
                     <li className="mb-3"><i class="bi bi-dash"></i> Homestay in Chitkul</li>
                     <li className="mb-3"><i class="bi bi-dash"></i> Homestay in Tabo</li>

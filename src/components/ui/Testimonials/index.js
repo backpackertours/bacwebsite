@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
-import './style.css'
 import {
     Carousel,
     CarouselItem,
+    CarouselIndicators,
+    CarouselControl,
     Row,
     Col,
     Button,
     Card, CardTitle, CardText,
 } from 'reactstrap';
+
+import './style.css';
 
 const items = [
     {
@@ -49,10 +52,10 @@ const Testimonials = (args) => {
         setActiveIndex(nextIndex);
     };
 
-    // const goToIndex = (newIndex) => {
-    //     if (animating) return;
-    //     setActiveIndex(newIndex);
-    // };
+    const goToIndex = (newIndex) => {
+        if (animating) return;
+        setActiveIndex(newIndex);
+    };
 
     const slides = items.map((item) => {
         return (
@@ -116,15 +119,13 @@ const Testimonials = (args) => {
                         previous={previous}
                         {...args}
                     >
-                        {/* TODO - Remove the indicators if not needed in future */}
-                        {/* <CarouselIndicators
+                        <CarouselIndicators
                             items={items}
                             activeIndex={activeIndex}
                             onClickHandler={goToIndex}
-                        /> */}
+                        />
                         {slides}
-                        {/* TODO - Remove these controls if not needed in future */}
-                        {/* <CarouselControl
+                        <CarouselControl
                             direction="prev"
                             directionText="Previous"
                             onClickHandler={previous}
@@ -133,7 +134,7 @@ const Testimonials = (args) => {
                             direction="next"
                             directionText="Next"
                             onClickHandler={next}
-                        /> */}
+                        />
                     </Carousel>
                 </Col>
             </Row>
