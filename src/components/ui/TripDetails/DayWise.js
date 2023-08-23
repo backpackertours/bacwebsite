@@ -41,11 +41,6 @@ const DayWise = (props) => {
                             </div>
                         </div>
                         <p><strong>Attractions -</strong> Evening walk to Monastery, staying in valley view Homestay</p>
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            className="w-100 rounded-3"
-                            alt=""
-                        />
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -61,11 +56,6 @@ const DayWise = (props) => {
                             </div>
                         </div>
                         <p><strong>Attractions -</strong> Nako lake, Nako Monastery, Gue monastery, Tabo monastery</p>
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            className="w-100 rounded-3"
-                            alt=""
-                        />
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -81,11 +71,6 @@ const DayWise = (props) => {
                             </div>
                         </div>
                         <p><strong>Attractions -</strong> Nako lake, Nako Monastery, Gue monastery, Tabo monastery</p>
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            className="w-100 rounded-3"
-                            alt=""
-                        />
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -101,11 +86,6 @@ const DayWise = (props) => {
                             </div>
                         </div>
                         <p><strong>Attractions -</strong> Nako lake, Nako Monastery, Gue monastery, Tabo monastery</p>
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            className="w-100 rounded-3"
-                            alt=""
-                        />
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -121,11 +101,6 @@ const DayWise = (props) => {
                             </div>
                         </div>
                         <p><strong>Attractions -</strong> Nako lake, Nako Monastery, Gue monastery, Tabo monastery</p>
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            className="w-100 rounded-3"
-                            alt=""
-                        />
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -141,11 +116,6 @@ const DayWise = (props) => {
                             </div>
                         </div>
                         <p><strong>Attractions -</strong> Nako lake, Nako Monastery, Gue monastery, Tabo monastery</p>
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            className="w-100 rounded-3"
-                            alt=""
-                        />
                     </AccordionBody>
                 </AccordionItem>
                 <AccordionItem>
@@ -161,11 +131,6 @@ const DayWise = (props) => {
                             </div>
                         </div>
                         <p><strong>Attractions -</strong> Nako lake, Nako Monastery, Gue monastery, Tabo monastery</p>
-                        <img
-                            src="https://plus.unsplash.com/premium_photo-1661954540196-47f72de1a97c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
-                            className="w-100 rounded-3"
-                            alt=""
-                        />
                     </AccordionBody>
                 </AccordionItem>
             </Accordion>
