@@ -1,3 +1,7 @@
+.mt-nav {
+    margin-top: 76px;
+}
+
 .bg-primary-light {
     background: #DACDFF;
 }
@@ -65,7 +69,9 @@ Date card background.
     animation: slide 60s linear infinite;
 }
 
-/* Animation to make the background image slide infinitly */
+/* 
+Animation to make the background image slide infinitly
+ */
 @keyframes slide {
     0% {
         transform: translate3d(0, 0, 0);
@@ -77,13 +83,17 @@ Date card background.
     }
 }
 
-/* About Us Page Styles */
+/* 
+About Us Page Styles
+ */
 .founder-img {
     width: 300px;
     height: 300px;
 }
 
-/* Share buttons background colors */
+/* 
+Share buttons background colors 
+*/
 .bg-outline {
     background: #FFFFFF;
     color: #6E3DFA;
@@ -103,4 +113,24 @@ Date card background.
 
 .bg-snapchat {
     background-color: #f5f100;
+}
+
+/* 
+Price card, Send enquiry form position
+ */
+.sticky-price-card {
+    position: sticky;
+    top: 6rem;
+}
+
+/* 
+Utilities
+ */
+
+.drop-shadow {
+    box-shadow: 0 15px 20px -6px rgb(0 0 0 / 0.15);
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(83, 83, 83, 0.1), 0 2px 4px -2px rgba(34, 34, 34, 0.1);
 }
