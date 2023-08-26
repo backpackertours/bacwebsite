@@ -1,3 +1,11 @@
+.dropdown-item:hover {
+    background-color: #DACDFF;
+}
+
+.dropdown-item:active {
+    color: #FFFFFF;
+}
+
 .mt-nav {
     margin-top: 76px;
 }
