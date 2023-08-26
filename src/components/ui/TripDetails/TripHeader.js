@@ -9,7 +9,7 @@ const TripHeader = () => {
 
     return (
         <>
-            <section className="container pt-3 pb-4">
+            <section className="container pt-5 pb-4">
                 <Row>
                     <Col md="10" lg="10">
                         <h2 className="mb-3">Spiti Valley Roadtrip with Sissu</h2>

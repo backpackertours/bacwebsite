@@ -7,8 +7,10 @@ import Navigation from '../Navigation';
 const Layout = () => {
     return (
         <>
-            <Navigation expand="md" horizontal="end" />
-            <Outlet />
+            <Navigation expand="md" horizontal="end" color="white" fixed="top" className="shadow-md border-bottom" />
+            <div className="mt-nav">
+                <Outlet />
+            </div>
             <Footer />
         </>
     )

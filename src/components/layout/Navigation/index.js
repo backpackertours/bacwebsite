@@ -18,7 +18,7 @@ const Navigation = (args) => {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className="container-fluid px-5">
+        <div>
             <Navbar {...args}>
                 <NavbarBrand href="/">
                     <img src={logo} alt="Backpacker Logo" style={{ width: "150px" }} />
