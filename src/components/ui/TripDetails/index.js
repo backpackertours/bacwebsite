@@ -1,7 +1,8 @@
 import { Row, Col, Badge } from 'reactstrap';
+
 import DayWise from './DayWise';
 import InclusionExclusion from './InclusionExclusion';
-import TripHeaderText from './TripHeaderText';
+import TripHeader from './TripHeader';
 import TripSlider from './TripSlider';
 import BottomDrawer from '../BottomDrawer';
 import QueryFormBody from '../BottomDrawer/QueryFormBody';
@@ -11,7 +12,7 @@ const Iternary = () => {
     return (
         <>
             <BottomDrawer />
-            <TripHeaderText />
+            <TripHeader />
             <section className="container">
                 <Row>
                     <Col md="7">
