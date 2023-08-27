@@ -5,7 +5,6 @@ import InclusionExclusion from './InclusionExclusion';
 import TripHeader from './TripHeader';
 import TripSlider from './TripSlider';
 import BottomDrawer from '../BottomDrawer';
-import QueryFormBody from '../BottomDrawer/QueryFormBody';
 import PriceBody from '../BottomDrawer/PriceBody';
 
 const Iternary = () => {
@@ -95,7 +94,6 @@ const Iternary = () => {
                     <Col className="d-none d-md-block" md="5">
                         <div className="sticky-price-card">
                             <PriceBody />
-                            <QueryFormBody />
                         </div>
                     </Col>
                 </Row>

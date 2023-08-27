@@ -2,9 +2,10 @@ import { Input, Card, Form, FormGroup, Label, Button } from 'reactstrap';
 
 const QueryFormBody = () => {
     return (
-        <Card className="border bg-white rounded-4 p-4 mb-4 drop-shadow">
+        <Card className="bg-white rounded-4 px-4 border-0">
             <div>
-                <h5 className="mb-3">Send Enquiry</h5>
+                <h5 className="mb-4">Send Enquiry</h5>
+
                 <Form>
                     <FormGroup>
                         <Input

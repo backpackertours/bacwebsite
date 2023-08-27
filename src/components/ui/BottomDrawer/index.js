@@ -62,7 +62,7 @@ const BottomDrawer = () => {
                 open={isOpen}
                 onClose={toggleDrawer}
                 direction="bottom"
-                className="border-top h-auto p-4 mb-4 rounded-top-4"
+                className="h-auto p-4 mb-drawer rounded-top-4"
             >
                 {body === "share" && <ShareLink />}
                 {body === "prices" && <PriceBody />}

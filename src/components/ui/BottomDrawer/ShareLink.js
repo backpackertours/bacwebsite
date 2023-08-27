@@ -8,7 +8,7 @@ const ShareLink = () => {
     const facebookUrl = `https://www.facebook.com/sharer.php?t=${message}`
     const snapChatUrl = `https://www.snapchat.com/scan?attachmentUrl=${message}`;
     return (
-        <section className="mb-5">
+        <section>
             <h5 className="text-center mb-3">Share</h5>
             <div className="d-flex gap-4 justify-content-center">
                 <AppWidget url={whatsappUrl} icon="whatsapp" />
