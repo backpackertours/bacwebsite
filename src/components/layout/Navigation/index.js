@@ -78,8 +78,8 @@ const Navigation = (args) => {
                             <Link className="nav-link" to="/aboutus">About Us</Link>
                         </NavItem>
                         <NavItem>
-                            <Button className="text-white rounded-pill" color="primary">
-                                <Link className="nav-link py-0 text-white" to="/contactus">Contact Us</Link>
+                            <Button className="rounded-pill btn-try" outline>
+                                <Link className="nav-link py-0" to="/contactus">Contact Us</Link>
                             </Button>
                         </NavItem>
                     </Nav>

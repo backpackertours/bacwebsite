@@ -6,16 +6,16 @@ const TypewriterAnimation = () => {
         <TypeAnimation
             sequence={[
                 // Same substring at the start will only be typed out once, initially
-                'Tours!',
+                'Tours.',
                 1000,
-                'Treks!',
+                'Treks.',
                 1000,
-                'Adventures!',
+                'Adventures.',
                 1000
             ]}
             wrapper="span"
             speed={50}
-            style={{ fontSize: '3.5rem', fontWeight: "600" }}
+            className="text-header"
             repeat={Infinity}
         />
     );

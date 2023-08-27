@@ -18,8 +18,8 @@ const Banner = (props) => {
                             src={BackpackerLogo}
                         /> */}
                         <div className="d-flex flex-column">
-                            <span className="mb-0" style={{ fontSize: "4rem", fontWeight: "600" }}><span className="text-primary">Backpacker</span> takes you on unforgettable</span>
-                            <div className="mt-0 text-secondary">
+                            <span className="mb-0 text-slate text-header">Backpacker takes you on</span>
+                            <div className="mt-0 text-gradient">
                                 <TypewriterAnimation />
                             </div>
                         </div>
@@ -28,12 +28,12 @@ const Banner = (props) => {
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis, et ad quas odit itaque sint voluptas recusandae maxime incidunt? Delectus inventore ducimus odio natus! Accusantium quo quos ab neque!</p>
                     </div>
                     <div>
-                        <Button className="rounded-pill py-2 px-4" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary">
+                        <Button className="rounded-pill py-2 px-4 text-white bg-gradient2 border-0">
                             Explore Trips <i class="bi bi-arrow-down"></i>
                         </Button>
                     </div>
                 </Col>
-                <Col className="ps-5" lg="7" md="6">
+                <Col className="ps-5 position-relative" lg="7" md="6">
                     <img
                         className="w-100"
                         alt="Backpackertours Banner"
