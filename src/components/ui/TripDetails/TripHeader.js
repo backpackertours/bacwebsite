@@ -25,7 +25,7 @@ const TripHeader = () => {
                 </div>
                 <small className="text-muted"><strong>Places Covered - </strong>Delhi | Chandigarh | Chitkul | Nako | Dhankar | Kaza | Hikkim | Ki | Kibber | Chicham Bridge | Chandratal Lake | Kunzum pass | Manali</small>
             </section>
-            <ShareModal modal={modal} toggle={toggle} />
+            <ShareModal modal={modal} toggle={toggle} body="sharelink" />
         </>
     );
 };

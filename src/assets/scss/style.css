@@ -128,7 +128,7 @@ Price card, Send enquiry form position
  */
 .sticky-price-card {
     position: sticky;
-    top: 6rem;
+    top: 6.5rem;
 }
 
 /* 
@@ -141,4 +141,16 @@ Utilities
 
 .shadow-md {
     box-shadow: 0 4px 6px -1px rgba(83, 83, 83, 0.1), 0 2px 4px -2px rgba(34, 34, 34, 0.1);
+}
+
+.mb-drawer {
+    margin-bottom: 56px;
+}
+
+@media only screen and (max-width: 768px) {
+    .border-md {
+        border: none;
+        box-shadow: none;
+        padding: 0px !important;
+    }
 }
