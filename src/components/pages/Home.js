@@ -5,11 +5,12 @@ import Testimonials from '../ui/Testimonials';
 import Slider from '../ui/Slider';
 
 const Home = () => {
+    // const weekendTripsData = data.filter(trip => trip.category === "weekend");
     return (
         <>
             <Banner />
             <UpTrips />
-            <WeekendTrips />
+            {/* <WeekendTrips /> */}
             <Testimonials />
             <Slider />
         </>

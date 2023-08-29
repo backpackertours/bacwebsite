@@ -1,13 +1,16 @@
 import CardSwiper from '../CardSwiper';
-import data from './data';
+import tripsData from '../../data/tripsData';
 
 const UpTrips = () => {
+    //filter out upcoming trips
+    const upcomingTripsList = tripsData.filter(trip => trip.category === "upcoming");
+
     return (
         <div className="container py-5">
             <div className="mb-4">
                 <h3>Upcoming Trips</h3>
             </div>
-            <CardSwiper data={data} />
+            <CardSwiper data={upcomingTripsList} />
         </div >
     );
 };
