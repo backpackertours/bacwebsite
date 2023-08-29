@@ -147,6 +147,14 @@ Utilities
     margin-bottom: 56px;
 }
 
+.dashed {
+    border: 0.5px gray;
+    border-style: dashed;
+}
+
+/* 
+Media Queries
+*/
 @media only screen and (max-width: 768px) {
     .border-md {
         border: none;

@@ -1,18 +1,22 @@
-const TripDates = ({ data }) => {
-    const dates = data.map(date => {
-        const dateMonth = date.split(" ");
+import { Row, Col } from 'reactstrap';
+
+const TripDates = ({ departureDates }) => {
+    const dates = departureDates.map(date => {
+        const dateMonth = date.start.split(" ");
         return (
-            <div className=" border text-center p-1 rounded-3 bg-white" style={{ minWidth: "40px" }}>
-                <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[0]}</small>
-                <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[1]}</small>
-            </div>
+            <Col sm="3" md="3" className="px-1">
+                <div className="p-1 text-center rounded-3 bg-white">
+                    <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[0]}</small>
+                    <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[1]}</small>
+                </div>
+            </Col>
         )
     });
 
     return (
-        <div className='d-flex justify-content-between mb-2'>
+        <Row className='mb-2 mx-0'>
             {dates}
-        </div>
+        </Row>
     )
 }
 

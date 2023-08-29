@@ -13,8 +13,8 @@ import TripCard from '../TripCard';
 const CardSwiper = ({ data }) => {
 
     const slides = data.map(trip => (
-        <SwiperSlide>
-            <TripCard data={trip} />
+        <SwiperSlide key={trip.id}>
+            <TripCard trip={trip} />
         </SwiperSlide>
     ));
 
