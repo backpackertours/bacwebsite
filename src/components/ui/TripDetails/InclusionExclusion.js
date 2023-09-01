@@ -18,12 +18,12 @@ const InclusionExclusion = ({ inclusion, exclusion, note }) => {
                         {exclusion.map((item) => (<li className="mb-3" key={uuid4()}><i class="bi bi-x"></i> {item}</li>))}
                     </ul>
                 </Col>
-                <Col md="4" className="mb-4">
+                {note && <Col md="4" className="mb-4">
                     <h5 className="mb-3">Please Note ⚠️</h5>
                     <ul className="list-unstyled">
                         {note.map((item) => (<li className="mb-3" key={uuid4()}><i class="bi bi-dash"></i> {item}</li>))}
                     </ul>
-                </Col>
+                </Col>}
             </Row>
         </section >
     )

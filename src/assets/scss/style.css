@@ -152,6 +152,11 @@ Utilities
     border-style: dashed;
 }
 
+.link {
+    text-decoration: none;
+    color: #FFF;
+}
+
 /* 
 Media Queries
 */
