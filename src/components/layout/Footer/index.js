@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
             <div className="container">
                 <hr />
-                <p className="text-center pt-3 pb-4 text-muted"><small>Copyright @ Backpacker Tours | All Rights Reserved</small></p>
+                <p className="text-center pt-3 pb-4 text-muted mb-0"><small>Copyright @ Backpacker Tours | All Rights Reserved</small></p>
             </div>
         </footer>
     )
