@@ -10,8 +10,6 @@ import {
     Card, CardTitle, CardText,
 } from 'reactstrap';
 
-import './style.css';
-
 const items = [
     {
         src: 'https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80',
