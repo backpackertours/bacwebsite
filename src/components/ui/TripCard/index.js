@@ -5,7 +5,7 @@ import TripDates from '../TripDates';
 
 const TripCard = ({ trip }) => {
     const navigate = useNavigate();
-    const { title, duration, total_seats } = trip;
+    const { title, duration, total_seats, grade } = trip;
     const price = trip.price_breakup[0].price;
     const image = trip.gallery[0];
 
@@ -29,7 +29,11 @@ const TripCard = ({ trip }) => {
                 <CardText>
                     <div className="d-flex justify-content-between mb-2">
                         <span className="bg-light text-primary" style={{ fontSize: "12px", fontWeight: "700" }}><i class="bi bi-calendar-check"></i> <small>{duration}</small></span>
-                        <span className="bg-light text-primary" style={{ fontSize: "12px", fontWeight: "700" }}><i class="bi bi-person-circle"></i> <small>{total_seats} Seats</small></span>
+                        {trip.category === "upcoming" ?
+                            <span className="bg-light text-primary" style={{ fontSize: "12px", fontWeight: "700" }}><i class="bi bi-person-circle"></i> <small>{total_seats} Seats</small></span>
+                            :
+                            <span className="bg-light text-primary" style={{ fontSize: "12px", fontWeight: "700" }}><i class="bi bi-star-fill"></i> <small>{grade} </small></span>
+                        }
                     </div>
                     <TripDates departureDates={trip.departure} />
                     <div>

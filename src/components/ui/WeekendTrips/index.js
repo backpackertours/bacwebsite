@@ -1,13 +1,16 @@
 import CardSwiper from '../CardSwiper';
-import data from './data';
+import tripsData from '../../data/tripsData';
 
-const WeekendTrips = (props) => {
+const WeekendTrips = () => {
+
+    const upcomingTripsList = tripsData.filter(trip => trip.category === "weekend");
+
     return (
         <div className="container py-5">
             <div className="mb-4">
                 <h3>Weekend Trips</h3>
             </div>
-            <CardSwiper data={data} />
+            <CardSwiper data={upcomingTripsList} />
         </div>
 
     );

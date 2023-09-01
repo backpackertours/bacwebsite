@@ -96,7 +96,19 @@ const tripsData = [
             "We are visiting the Moon Lake Chandratal.",
             "We are Staying in Sissu for 1 night. You will not find this stay anywhere",
         ],
-        highlights: "Road trip around Spiti valley via Kinnaur | Highest post office in the world | Highest bridge in Asia | Oldest Monastery | River walks | Late night Games & Dance | 500-year-old mummy | Kunzum pass | Atal Tunnel | Staying in Sissu | Chandratal lake",
+        highlights: [
+            "Road trip around Spiti valley via Kinnaur",
+            "Highest post office in the world",
+            "Highest bridge in Asia",
+            "Oldest Monastery",
+            "River walks",
+            "Late night Games & Dance",
+            "500-year-old mummy",
+            "Kunzum pass",
+            "Atal Tunnel",
+            "Staying in Sissu",
+            "Chandratal lake"
+        ],
         price_breakup: [
             {
                 departure: "Delhi",
@@ -292,7 +304,19 @@ const tripsData = [
             "We are visiting the Moon Lake Chandratal.",
             "We are Staying in Sissu for 1 night. You will not find this stay anywhere",
         ],
-        highlights: "Road trip around Spiti valley via Kinnaur | Highest post office in the world | Highest bridge in Asia | Oldest Monastery | River walks | Late night Games & Dance | 500-year-old mummy | Kunzum pass | Atal Tunnel | Staying in Sissu | Chandratal lake",
+        highlights: [
+            "Road trip around Spiti valley via Kinnaur",
+            "Highest post office in the world",
+            "Highest bridge in Asia",
+            "Oldest Monastery",
+            "River walks",
+            "Late night Games & Dance",
+            "500-year-old mummy",
+            "Kunzum pass",
+            "Atal Tunnel",
+            "Staying in Sissu",
+            "Chandratal lake"
+        ],
         price_breakup: [
             {
                 departure: "Delhi",
@@ -389,6 +413,179 @@ const tripsData = [
                     "Plastic Bags / Plastic Zip Lock Bags Twist-ties, safety pins",
                 ]
             }
+        ]
+    },
+    {
+        id: "af5dd872-1305-49b0-97a5-7500789c7c54",
+        title: "Night Trek to Kalsubai",
+        category: "weekend",
+        duration: "2D",
+        location: "Bari village Igatpuri",
+        grade: "Medium",
+        gallery: [
+            "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
+            "https://plus.unsplash.com/premium_photo-1661964133089-630b18fef6e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "https://images.unsplash.com/photo-1516406742981-2b7d67ec4ae8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+        ],
+        departure: [
+            {
+                start: "14 Jun",
+                end: "24 Jul",
+            },
+            {
+                start: "03 Jul",
+                end: "10 Jul",
+            },
+            {
+                start: "16 Jul",
+                end: "25 Jul",
+            },
+            {
+                start: "14 Jun",
+                end: "24 Jul",
+            },
+        ],
+        description: "Kalsubai is a mountain in the Western Ghats, located in the Indian state of Maharashtra. summit is situated at an elevation of 1,646 meters (5,400 ft), is the highest point in Maharashtra. The mountain range lies within the Kalsubai Harishchandragad Wildlife Sanctuary. Kalsubai is a 6 km trek with an elevation gain of around 2,700 feet from the base village Bari",
+        iternary: [
+            {
+                time: "09.00 pm",
+                desc: "Pickup from Sanjay Gandhi National Park Borivali",
+            },
+            {
+                time: "09.15 pm",
+                desc: "Shantaram talao, Malad",
+            },
+            {
+                time: "09.20 pm",
+                desc: "Oberoi Mall, Goregaon",
+            },
+            {
+                time: "09.30 pm",
+                desc: "JVLR Jogeshwari (on WEH near best bus top",
+            },
+            {
+                time: "09.45 pm",
+                desc: "Seepz gate number",
+            },
+            {
+                time: "10.00 pm",
+                desc: "Powai Lake",
+            },
+            {
+                time: "10.15 pm",
+                desc: "Mulund Airoli link road",
+            },
+            {
+                time: "10.30 pm",
+                desc: "Thane near Viviana mall",
+            },
+            {
+                time: "01.00 am",
+                desc: "wake up sleepy head we are at base village of Kalsubai, before we start hiking have some snacks here, get fresh up, we will have introduction with our fellow trek buddies. We will talk about our hobbies, our passion, any past adventure you must have done or planning for something different and so on.",
+            },
+            {
+                time: "02.00 am",
+                desc: "We will start our hike at mid night. This will be 6 km hike tentatively regular trekkers takes 4hr to reach on top.",
+            },
+            {
+                time: "06.30 am",
+                desc: "We will reach at Kalsubai top don’t forget to carry your hoodie and jackets weather here is going to be cold & windy.",
+            },
+            {
+                time: "07.00 am",
+                desc: "Here are we at Highest peak of Maharashtra. we are going to see the beautiful sunrise from top. Keep your cameras on & eyes open",
+            },
+            {
+                time: "08.00am",
+                desc: "Start descending back to base village.",
+            },
+            {
+                time: "11.00am",
+                desc: "We will have our lunch at base have a rest for a while. If time permit while returning mumbai we can visit to Bhavli Dam one of the beautiful lakes in Igatpuri",
+            },
+            {
+                time: "05.00pm",
+                desc: "Tentatively we will reach Thane teen hath naka",
+            },
+            {
+                time: "06.00pm",
+                desc: "Seepz gate number 03",
+            },
+            {
+                time: "07.00pm",
+                desc: "Borivali Sanjay Gandhi National park",
+            },
+        ],
+        why: [
+            "We are not overcrowding our trip only 20 person in 1 batch",
+            "Mumbai to Base village travel will be in comfortable traveler",
+            "Total 2 experienced trek leads including 1 local lead for group of 20",
+            "We do our own group departure(No collaborations)",
+            "We always prefer Quality over Quantity",
+        ],
+        highlights: [
+            "Sunrise from top of kalsubai",
+            "Food made in Maharashtrian style",
+            "Various peaks from the top",
+            "Smaller group for better Experience",
+        ],
+        price_breakup: [
+            {
+                title: "From base village",
+                price: "799",
+            },
+            {
+                title: "To and From Mumbai",
+                price: "1,500",
+            },
+        ],
+        inclusion: [
+            "Travel from Mumbai to Base village and return",
+            "Snacks before trek starts & Lunch (Unlimited)",
+            "Local guide from Bari village & Trek lead from Backpacker Tours",
+            "Basic First aid kit (Volini spray, Band aid, Betadine and others)",
+        ],
+        exclusion: [
+            "Any meals or mineral water",
+            "Travel till pickup point",
+            "Any things not mentioned in Inclusions"
+
+        ],
+        cancle_policy: [
+            "If you cancel this trek between 15 to 10 days of departure INR 300 will be chargeable",
+            "If you cancel this trek between 10 to 06 days of departure INR 800 will be chargeable",
+            "No refund between 05 days to on the day of departure",
+        ],
+        things_to_carry: [],
+        venue: {
+            title: "Sanjay gandhi national park, Mumbai, India",
+            link: "https://www.google.com/maps/search/?api=1&query=19.2288092,72.9181784"
+        },
+        faqs: [
+            {
+                que: "Can the pickup time from Mumbai be changed?",
+                ans: "These pickup timings are decided after considering the Traffic jam on Saturday night and we don’t want our participates to wait for us on road late night"
+            },
+            {
+                que: "what if I want to drive my own car till base village?",
+                ans: "You can do that. Once you book your trek with us we will send you exact location where to meet in base village"
+            },
+            {
+                que: "I am first timer should I go for Kalsubai Trek?",
+                ans: "Yes, if you are someone who is planning to go for long treks let’s say something for 8 or 9 days this is the best option you can start with."
+            },
+            {
+                que: "Meals provided by you will it be Hygiene and fresh?",
+                ans: "Yes. whatever meals provided by us will be homely cooked food."
+            },
+            {
+                que: "We are planning to join this trek in group. can I expect discount?",
+                ans: "Our cost is already very low if you compare with group size. We at Backpacker Tours don’t work in Quantity. We have always preferred and try to enhance participants experience for which above given cost is as low as possible from our side."
+            },
+            {
+                que: "Will we reach back to Mumbai by 07.00 pm on Sunday?",
+                ans: "We will try our best but it is also depending on how fast we are completing the trek. And starting from base village also traffic during the journey will play a big role for Pickup and Drop"
+            },
         ]
     }
 ];
