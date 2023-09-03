@@ -23,7 +23,12 @@
 
 .swiper-pagination {
     position: relative;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+}
+
+.swiper-scrollbar {
+    position: relative !important;
+    margin-top: 1.25rem;
 }
 
 .swiper-slide {
@@ -159,6 +164,10 @@ Utilities
 .link {
     text-decoration: none;
     color: #FFF;
+}
+
+.h40 {
+    height: 40px;
 }
 
 /* 

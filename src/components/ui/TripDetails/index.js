@@ -28,9 +28,12 @@ const TripDetails = () => {
             <BottomDrawer
                 category={trip.category}
                 price_breakup={trip.price_breakup}
+                price_extras={trip.price_extras}
+                discount={trip.discount}
             />
             <TripHeader
                 title={trip.title}
+                private_plan={trip.private_plan}
                 total_seats={trip.total_seats}
                 duration={trip.duration}
                 age={trip.age}
@@ -40,19 +43,19 @@ const TripDetails = () => {
             />
             <section className="container pb-5">
                 <Row>
-                    <Col md="7">
-                        <TripSlider />
+                    <Col md="8">
+                        <TripSlider gallery={trip.gallery} />
                         <UpcomingDates departure={trip.departure} />
-                        <About aboutInfo={trip.description} />
+                        {trip.description.length > 0 && <About aboutInfo={trip.description} />}
                         <Iternary category={trip.category} iternaryInfo={trip.iternary} />
-                        <Why whyInfo={trip.why} />
-                        <Highlights highlightInfo={trip.highlights} />
+                        {trip.why.length > 0 && <Why whyInfo={trip.why} />}
+                        {trip.highlights.length > 0 && <Highlights highlightInfo={trip.highlights} />}
                         {trip.things_to_carry.length > 0 && <ThingsToCarry things_to_carry={trip.things_to_carry} />}
                         {trip.venue && <Venue venue={trip.venue} />}
                     </Col>
-                    <Col className="d-none d-md-block" md="5">
+                    <Col className="d-none d-md-block" md="4">
                         <div className="sticky-price-card">
-                            <PriceBody category={trip.category} price_breakup={trip.price_breakup} />
+                            <PriceBody category={trip.category} price_breakup={trip.price_breakup} price_extras={trip.price_extras} discount={trip.discount} />
                         </div>
                     </Col>
                 </Row>

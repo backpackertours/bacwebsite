@@ -6,23 +6,19 @@ import {
     CarouselControl,
 } from 'reactstrap';
 
-
-const items = [
-    {
-        src: "https://images.unsplash.com/photo-1619282401041-56e69dcc5335?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2232&q=80",
-    },
-    {
-        src: "https://images.unsplash.com/photo-1628782379401-4fff9cdcbbfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
-    },
-    {
-        src: "https://images.unsplash.com/photo-1579066365150-fc942c3f660a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1788&q=80",
-    },
-];
-
-const TripSlider = (args) => {
+const TripSlider = ({ gallery }) => {
     const [activeIndex, setActiveIndex] = useState(0);
     const [animating, setAnimating] = useState(false);
 
+    // cloudinary image url
+    const imageUrl = "https://res.cloudinary.com/dgjllfp17/image/upload/c_scale,h_700,w_950/v1693663080/backpackers/";
+
+    // build items array from our gallery
+    const items = gallery.map((item) => {
+        return {
+            src: `${imageUrl}/${item}`
+        }
+    })
     const next = () => {
         if (animating) return;
         const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
@@ -52,7 +48,7 @@ const TripSlider = (args) => {
                     src={item.src}
                     style={{
                         width: "100%",
-                        height: "400px"
+                        height: "500px"
                     }}
                 />
             </CarouselItem>
@@ -66,7 +62,6 @@ const TripSlider = (args) => {
             activeIndex={activeIndex}
             next={next}
             previous={previous}
-            {...args}
         >
             <CarouselIndicators
                 items={items}

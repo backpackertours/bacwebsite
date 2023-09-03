@@ -1,8 +1,9 @@
 import { useState } from 'react';
 import { Button, Col, Row } from 'reactstrap';
 import ShareModal from '../ShareModal';
+import AlertBox from '../AlertBox/AlertBox';
 
-const TripHeader = ({ title, total_seats, duration, age, places_covered, location, grade }) => {
+const TripHeader = ({ title, private_plan, total_seats, duration, age, places_covered, location, grade }) => {
     const [modal, setModal] = useState(false);
 
     const toggle = () => setModal(!modal);
@@ -10,12 +11,13 @@ const TripHeader = ({ title, total_seats, duration, age, places_covered, locatio
     return (
         <>
             <section className="container pt-5 pb-4">
+                {private_plan && <AlertBox icon="person" text={private_plan} />}
                 <Row>
                     <Col md="10" lg="10">
                         <h2 className="mb-3">{title}</h2>
                     </Col>
                     <Col className="d-none d-md-block text-end" md="2" lg="2">
-                        <Button color="primary" outline onClick={toggle}><i className="bi bi-share-fill"></i> Share</Button>
+                        <Button color="primary" outline onClick={toggle}><i className="bi bi-share-fill pe-1"></i> Share</Button>
                     </Col>
                 </Row>
                 <div className="d-flex gap-4">

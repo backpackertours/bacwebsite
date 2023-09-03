@@ -1,7 +1,10 @@
 import { Row, Col } from 'reactstrap';
 
 const TripDates = ({ departureDates }) => {
-    const dates = departureDates.map(date => {
+    // only show first four dates on the trip card.
+    let datesArr = departureDates.length > 3 ? departureDates.slice(0, 4) : departureDates;
+
+    const dates = datesArr.map(date => {
         const dateMonth = date.start.split(" ");
         return (
             <Col sm="3" md="3" className="px-1">

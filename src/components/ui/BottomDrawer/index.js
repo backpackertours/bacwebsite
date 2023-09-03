@@ -10,7 +10,7 @@ import PriceBody from './PriceBody';
 import QueryFormBody from './QueryFormBody';
 import ShareLink from './ShareLink';
 
-const BottomDrawer = ({ category, price_breakup }) => {
+const BottomDrawer = ({ category, price_breakup, price_extras, discount }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [body, setBody] = useState("");
 
@@ -65,7 +65,7 @@ const BottomDrawer = ({ category, price_breakup }) => {
                 className="h-auto p-4 mb-drawer rounded-top-4"
             >
                 {body === "share" && <ShareLink />}
-                {body === "prices" && <PriceBody price_breakup={price_breakup} category={category} />}
+                {body === "prices" && <PriceBody category={category} price_breakup={price_breakup} price_extras={price_extras} discount={discount} />}
                 {body === "queryform" && <QueryFormBody />}
             </Drawer>
         </section >
