@@ -1122,146 +1122,114 @@ const tripsData = [
     //         }
     //     ]
     // },
+
     {
         id: "af5dd872-1305-49b0-97a5-7500789c7c54",
-        title: "Night Trek to Kalsubai",
+        title: "Beach Vacation to Gokarna",
         category: "weekend",
         duration: "2D",
         location: "Bari village Igatpuri",
         grade: "Medium",
         gallery: [
-            "https://images.unsplash.com/photo-1617159156637-dfb8655c9f95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80",
-            "https://plus.unsplash.com/premium_photo-1661964133089-630b18fef6e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
-            "https://images.unsplash.com/photo-1516406742981-2b7d67ec4ae8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80",
+            "kerala1.png",
+            "kerala2.png",
+            "kerala3.png",
         ],
         departure: [
             {
-                start: "14 Jun",
-                end: "24 Jul",
+                start: "28 Sep",
+                end: "01 Oct",
             },
             {
-                start: "03 Jul",
-                end: "10 Jul",
+                start: "12 Oct",
+                end: "15 Oct",
             },
             {
-                start: "16 Jul",
-                end: "25 Jul",
+                start: "26 Oct",
+                end: "29 Oct",
             },
             {
-                start: "14 Jun",
-                end: "24 Jul",
+                start: "09 Nov",
+                end: "12 Nov",
             },
+            {
+                start: "23 Nov",
+                end: "26 Nov",
+            },
+            {
+                start: "07 Dec",
+                end: "10 Dec",
+            },
+            {
+                start: "14 Dec",
+                end: "17 Dec",
+            },
+            {
+                start: "22 Dec",
+                end: "25 Dec",
+            },
+
         ],
-        description: "Kalsubai is a mountain in the Western Ghats, located in the Indian state of Maharashtra. summit is situated at an elevation of 1,646 meters (5,400 ft), is the highest point in Maharashtra. The mountain range lies within the Kalsubai Harishchandragad Wildlife Sanctuary. Kalsubai is a 6 km trek with an elevation gain of around 2,700 feet from the base village Bari",
+        description: ["Embark on an unforgettable Gokarna trip with Backpacker Tours! Witness the magnificent Murdeshwar temple and enjoy a thrilling boat ride through Honnavar mangroves. Stay at a lovely beach-facing homestay for two nights and indulge in beach activities at Kudle Beach, Paradise Beach, Half-Moon Beach, and Om Beach. Explore Yana Caves, Vibhooti Falls, and Mirjan Fort for an adventure-filled experience. Join us for a memorable journey! Any query related to this departure connect with us on call or WhatsApp us on +91 8082647928",
+        ],
         iternary: [
             {
-                time: "09.00 pm",
-                desc: "Pickup from Sanjay Gandhi National Park Borivali",
+                title: "Day 01 (Thursday) Mumbai To Gokarna",
+                desc: "We will meet at our starting point CSMT railway station, Departure time will be at 04.00 pm from Mumbai. It’s an overnight journey in train (Book your tickets in advance to get confirm train reservation)",
             },
             {
-                time: "09.15 pm",
-                desc: "Shantaram talao, Malad",
+                title: "Day 02 (Friday): Gokarna - Murudeshwar Temple - Honnavar Boat Ride",
+                desc: "Pickup from Gokarna Railway station at 07.00 am. We are staying at Beach facing homestay for 2 nights. After fresh up and breakfast in a local restaurant we will today visit Murdeshwar temple to witness the second largest shiva statue in the world. then we visit Honnavar for a boat ride and then night stay at our beautiful beach homestay",
             },
             {
-                time: "09.20 pm",
-                desc: "Oberoi Mall, Goregaon",
+                title: "Day 03 (Saturday): Hike To Paradise Beach & Half-Moon Beach",
+                desc: "We Will reach Gokarna by 04.00 am. Today we start our day by having a late breakfast. We have a full day to detox our mind from the stress, workload we had in the past few months. We are staying right on the beach. YLets go swimming, play cricket, play volleyball, throw a Frisbee or just take your beer and chill. You will see one of the best sunsets here. Night stay at gokarna",
             },
             {
-                time: "09.30 pm",
-                desc: "JVLR Jogeshwari (on WEH near best bus top",
-            },
-            {
-                time: "09.45 pm",
-                desc: "Seepz gate number",
-            },
-            {
-                time: "10.00 pm",
-                desc: "Powai Lake",
-            },
-            {
-                time: "10.15 pm",
-                desc: "Mulund Airoli link road",
-            },
-            {
-                time: "10.30 pm",
-                desc: "Thane near Viviana mall",
-            },
-            {
-                time: "01.00 am",
-                desc: "wake up sleepy head we are at base village of Kalsubai, before we start hiking have some snacks here, get fresh up, we will have introduction with our fellow trek buddies. We will talk about our hobbies, our passion, any past adventure you must have done or planning for something different and so on.",
-            },
-            {
-                time: "02.00 am",
-                desc: "We will start our hike at mid night. This will be 6 km hike tentatively regular trekkers takes 4hr to reach on top.",
-            },
-            {
-                time: "06.30 am",
-                desc: "We will reach at Kalsubai top don’t forget to carry your hoodie and jackets weather here is going to be cold & windy.",
-            },
-            {
-                time: "07.00 am",
-                desc: "Here are we at Highest peak of Maharashtra. we are going to see the beautiful sunrise from top. Keep your cameras on & eyes open",
-            },
-            {
-                time: "08.00am",
-                desc: "Start descending back to base village.",
-            },
-            {
-                time: "11.00am",
-                desc: "We will have our lunch at base have a rest for a while. If time permit while returning mumbai we can visit to Bhavli Dam one of the beautiful lakes in Igatpuri",
-            },
-            {
-                time: "05.00pm",
-                desc: "Tentatively we will reach Thane teen hath naka",
-            },
-            {
-                time: "06.00pm",
-                desc: "Seepz gate number 03",
-            },
-            {
-                time: "07.00pm",
-                desc: "Borivali Sanjay Gandhi National park",
+                title: "Day 04 (Sunday): Drive To Vibhooti Falls & Mirjan Fort",
+                desc: "Today we start our day early in the morning by 8am we board our traveler and drive to yana caves, vibhooti falls & Mirjan fort. We will start our return journey by evening 03.00 pm & reach Mumbai on day 5 morning 06.00 am",
             },
         ],
         why: [
-            "We are not overcrowding our trip only 20 person in 1 batch",
-            "Mumbai to Base village travel will be in comfortable traveler",
-            "Total 2 experienced trek leads including 1 local lead for group of 20",
-            "We do our own group departure(No collaborations)",
-            "We always prefer Quality over Quantity",
+            "Because our stay is right on the beach. Just imagine waking up near the beach. We all needed such a break, right? What is the point of going on beach vacation if you're not staying on the beach?",
+            "No tight schedule & Relaxed Itinerary",
+            "This place is very less crowded, Peaceful & Beautiful.",
+            "This place has all types of food options available Italian, Israeli, Chinese & South Indian. You name and they have in menu",
+            "Because well plan itinerary gives better experience and relaxing trip"
         ],
-        highlights: [
-            "Sunrise from top of kalsubai",
-            "Food made in Maharashtrian style",
-            "Various peaks from the top",
-            "Smaller group for better Experience",
-        ],
+        highlights: [],
         price_breakup: [
             {
-                title: "From base village",
-                price: "799",
+                title: "Join from Mumbai",
+                price: "8,500",
             },
             {
-                title: "To and From Mumbai",
-                price: "1,500",
+                title: "Join from Bangalore",
+                price: "8,500",
+            },
+            {
+                title: "Join from Gokarna",
+                price: "7,500",
             },
         ],
         inclusion: [
-            "Travel from Mumbai to Base village and return",
-            "Snacks before trek starts & Lunch (Unlimited)",
-            "Local guide from Bari village & Trek lead from Backpacker Tours",
-            "Basic First aid kit (Volini spray, Band aid, Betadine and others)",
+            "Travel from your city (Mumbai to Gokarna & return will be in sleeper non ac train)",
+            "02 Stay on Best home stay in Gokarna on beach (Four / Triple sharing basis)",
+            "Trip leader from Backpackers",
+            "Boat ride in Honnavar",
+            "Internal transport",
+            "Veg 04 Meals (02 Breakfasts, 02 Dinner OR Lunch)",
         ],
         exclusion: [
-            "Any meals or mineral water",
-            "Travel till pickup point",
-            "Any things not mentioned in Inclusions"
-
+            "Any meals not mentioned in itinerary",
+            "Any sports activities",
+            "Non veg can be ordered on extra charges (Roughly INR 100 per meal )",
+            "Mineral water",
         ],
         cancle_policy: [
-            "If you cancel this trek between 15 to 10 days of departure INR 300 will be chargeable",
-            "If you cancel this trek between 10 to 06 days of departure INR 800 will be chargeable",
-            "No refund between 05 days to on the day of departure",
+            "Cancel before 30 Day of Departure 30% of Total Trip Cost",
+            "Cancel before 15 Day of Departure 50% of Total Trip Cost",
+            "No Refund between 10 days to dates of departure"
         ],
         things_to_carry: [],
         venue: {
@@ -1270,28 +1238,24 @@ const tripsData = [
         },
         faqs: [
             {
-                que: "Can the pickup time from Mumbai be changed?",
-                ans: "These pickup timings are decided after considering the Traffic jam on Saturday night and we don’t want our participates to wait for us on road late night"
+                que: "What type of stay do we have during the beach stay?",
+                ans: "We are staying in a very Beach view Homestay which is right on the beach. This is not very luxurious but the experience is nice. Of course, we make sure that the washrooms and rooms are clean. Sunset from this beach is amazing chilled beer, soothing music and golden hours it's a perfect match that's why we choose this stay"
             },
             {
-                que: "what if I want to drive my own car till base village?",
-                ans: "You can do that. Once you book your trek with us we will send you exact location where to meet in base village"
+                que: "What type of trek is it to half-moon beach and paradise beach? I have never done a trek. Is it possible for first timers and newbies?",
+                ans: "we don't consider this as trek this is just walk to the beach which goes from the cliff of om beach which is also a perfect spot for photography, You can even take boat ride to this beach which is again a must things to do on beach vacation to Gokarna"
             },
             {
-                que: "I am first timer should I go for Kalsubai Trek?",
-                ans: "Yes, if you are someone who is planning to go for long treks let’s say something for 8 or 9 days this is the best option you can start with."
+                que: "Can we customize this plan and add a few more places in it?",
+                ans: "Yes You can customize this itinerary as per your dates & Locations but we need minimum 6 members for this"
             },
             {
-                que: "Meals provided by you will it be Hygiene and fresh?",
-                ans: "Yes. whatever meals provided by us will be homely cooked food."
+                que: "How is the travel arrangement from Mumbai to Gokarna and return?",
+                ans: "Our journey on the first day starts from CSMT Mumbai around 3.00 pm we will be traveling by train non ac sleeper in case you want to upgrade it to AC you can do that on Extra charges. Also please book your seats in advance to get confirmed train reservations. we do not have any control for train tickets holdings"
             },
             {
-                que: "We are planning to join this trek in group. can I expect discount?",
-                ans: "Our cost is already very low if you compare with group size. We at Backpacker Tours don’t work in Quantity. We have always preferred and try to enhance participants experience for which above given cost is as low as possible from our side."
-            },
-            {
-                que: "Will we reach back to Mumbai by 07.00 pm on Sunday?",
-                ans: "We will try our best but it is also depending on how fast we are completing the trek. And starting from base village also traffic during the journey will play a big role for Pickup and Drop"
+                que: "What type of meals do we get during the trip?",
+                ans: "We provide Unlimited Veg / Non veg 02 Breakfast, 1 Dinner & 1 Lunch during a 4 days trip. Rest days we will be traveling by train so meals during train travel and during the day journey are not included"
             },
         ]
     }
