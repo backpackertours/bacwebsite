@@ -23,7 +23,12 @@
 
 .swiper-pagination {
     position: relative;
-    margin-top: 2.5rem;
+    margin-top: 1rem;
+}
+
+.swiper-scrollbar {
+    position: relative !important;
+    margin-top: 1.25rem;
 }
 
 .swiper-slide {
@@ -132,12 +137,16 @@ Price card, Send enquiry form position
  */
 .sticky-price-card {
     position: sticky;
-    top: 6rem;
+    top: 6.5rem;
 }
 
 /* 
 Utilities
  */
+.px-10 {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
 
 .drop-shadow {
     box-shadow: 0 15px 20px -6px rgb(0 0 0 / 0.15);
