@@ -1130,6 +1130,7 @@ const tripsData = [
         duration: "2D",
         location: "Bari village Igatpuri",
         grade: "Medium",
+        discount: "10% off if booked before 10th Aug 2023",
         gallery: [
             "kerala1.png",
             "kerala2.png",
@@ -1212,6 +1213,7 @@ const tripsData = [
                 price: "7,500",
             },
         ],
+        private_plan: "Just pay INR 4,000/- to block your seats",
         inclusion: [
             "Travel from your city (Mumbai to Gokarna & return will be in sleeper non ac train)",
             "02 Stay on Best home stay in Gokarna on beach (Four / Triple sharing basis)",
