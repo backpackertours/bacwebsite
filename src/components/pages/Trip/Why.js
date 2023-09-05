@@ -7,7 +7,6 @@ const Why = ({ why }) => {
             <ul>
                 {why.map(item => (<li key={uuid4()}>{item}</li>))}
             </ul>
-            {/* <hr className="mt-4" /> */}
         </div>)
 }
 
