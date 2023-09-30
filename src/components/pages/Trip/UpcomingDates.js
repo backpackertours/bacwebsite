@@ -1,58 +1,41 @@
 import uuid4 from "uuid4";
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { useState } from "react";
+import { Button, Row, Col } from 'reactstrap';
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/scrollbar';
-import 'swiper/css/navigation';
 
-// import required modules
-import { Navigation } from 'swiper/modules';
+const UpcomingDates = ({ months, departure }) => {
+    const [currentMonth, setcurrentMonth] = useState(months[0]);
+    const showDates = departure.filter((date) => date.start.includes(currentMonth))
 
-const UpcomingDates = ({ departure }) => {
+    const showMonths = months.map((month, index) => (
+        <Button
+            className={currentMonth === month ? "btn-date-active" : "btn-date"}
+            key={uuid4()}
+            onClick={() => changeCurrentMonth(index)}>
+            {month}
+        </Button>)
+    )
 
-    const slides = departure.map((item, index) => (
-        <SwiperSlide key={uuid4()}>
+    const dates = showDates.map(date => (
+        <Col md="3" key={uuid4()} className="mb-3">
             <div className="p-2 bg-light rounded-3 text-center position-relative">
-                <p className="mb-0">{item.start} - {item.end}</p>
-                {/* <Badge color="success" className="position-absolute top-0 end-0 rounded-end-3 rounded-start-0 rounded-bottom-0 py-1 px-2 fw-normal">{item.seats_left} Seats Left</Badge> */}
+                <p className="mb-0">{date.start} - {date.end}</p>
             </div>
-        </SwiperSlide>
-    ));
+        </Col>
+    ))
 
+    const changeCurrentMonth = (index) => setcurrentMonth(months[index]);
     return (
-        <div className="my-4">
-            <h5 className="mb-3">Upcoming Trips 🚐</h5>
-            <Swiper
-                slidesPerView={3}
-                spaceBetween={20}
-                slidesPerGroup={3}
-                navigation={true}
-                grabCursor={true}
-                breakpoints={{
-                    640: {
-                        slidesPerView: 2,
-                        slidesPerGroup: 2,
-                        spaceBetween: 25,
-                    },
-                    768: {
-                        slidesPerView: 3,
-                        slidesPerGroup: 3,
-                        spaceBetween: 25
-                    },
-                    1024: {
-                        slidesPerView: 4,
-                        slidesPerGroup: 4,
-                        spaceBetween: 25
-                    },
-                }}
-                modules={[Navigation]}
-                className="mySwiper"
-            >
-                {slides}
-            </Swiper >
+        <div className="my-4 bg-white p-3 rounded-4">
+            <h5 className="mb-3">Upcoming Departures</h5>
+            <div className="d-flex gap-3 justify-content-center mb-4">
+                {showMonths}
+            </div>
+            <Row>
+                {dates}
+            </Row>
         </div>
-    );
+    )
 }
 
 export default UpcomingDates;

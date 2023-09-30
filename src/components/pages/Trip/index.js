@@ -2,7 +2,6 @@ import { useParams } from 'react-router-dom';
 import { Row, Col } from 'reactstrap';
 
 import Iternary from './Iternary';
-import InclusionExclusion from './InclusionExclusion';
 import TripHeader from './TripHeader';
 import TripSlider from './TripSlider';
 import UpcomingDates from './UpcomingDates';
@@ -17,6 +16,7 @@ import BottomDrawer from './BottomDrawer';
 import PriceBody from './PriceBody';
 
 import tripsData from '../../data/tripsData';
+import InclusionCard from './InclusionCard';
 
 const Trip = () => {
     const { id } = useParams();
@@ -33,6 +33,7 @@ const Trip = () => {
         places_covered,
         discount,
         gallery,
+        months,
         departure,
         description,
         iternary,
@@ -57,7 +58,7 @@ const Trip = () => {
     const isWhy = why && why.length > 0;
 
     return (
-        <>
+        <section className="bg-gray">
             <BottomDrawer
                 category={category}
                 price_breakup={price_breakup}
@@ -78,13 +79,18 @@ const Trip = () => {
                 <Row>
                     <Col md="8">
                         <TripSlider gallery={gallery} />
-                        <UpcomingDates departure={departure} />
+                        <UpcomingDates months={months} departure={departure} />
                         {isDescription && <Description description={description} />}
                         <Iternary category={category} iternary={iternary} />
                         {isWhy && <Why why={why} />}
                         {isHighlights && <Highlights highlights={highlights} />}
                         {isThingsToCarry && <ThingsToCarry things_to_carry={things_to_carry} />}
                         {venue && <Venue venue={venue} />}
+                        {inclusion && <InclusionCard title="Inclusion" items={inclusion} icon="check2" />}
+                        {exclusion && <InclusionCard title="Exclusion" items={exclusion} icon="x" />}
+                        {note && <InclusionCard title="Please Note" items={note} icon="dash" />}
+                        <Cancellation cancle_policy={cancle_policy} />
+
                     </Col>
                     <Col className="d-none d-md-block" md="4">
                         <div className="sticky-price-card">
@@ -98,10 +104,8 @@ const Trip = () => {
                     </Col>
                 </Row>
             </section>
-            <InclusionExclusion inclusion={inclusion} exclusion={exclusion} note={note} />
-            <Cancellation cancle_policy={cancle_policy} />
             {isFaqs && <Faqs faqs={faqs} />}
-        </>
+        </section>
     )
 }
 

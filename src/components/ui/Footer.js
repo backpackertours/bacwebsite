@@ -2,7 +2,7 @@ import { Row, Col } from 'reactstrap';
 
 const Footer = () => {
     return (
-        <footer className="bg-light">
+        <footer className="">
             <div className="container py-5">
                 <Row>
                     <Col md="4">
@@ -26,7 +26,7 @@ const Footer = () => {
                 </Row>
             </div>
             <div className="container">
-                <hr />
+                <hr className="dashed" />
                 <p className="text-center pt-3 pb-4 text-muted mb-0"><small>Copyright @ Backpacker Tours | All Rights Reserved</small></p>
             </div>
         </footer>

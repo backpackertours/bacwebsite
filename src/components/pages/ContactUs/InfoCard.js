@@ -1,9 +1,11 @@
 const InfoCard = ({ icon, data, title }) => {
     return (
-        <div className="d-flex align-items-center gap-3 border rounded-4 p-2">
-            <i className={`bi bi-${icon} p-3 text-primary bg-primary-light rounded-3`}></i>
-            <div>
+        <div className="rounded-4 bg-white p-3">
+            <div className="d-flex mb-2 align-items-center">
+                <i className={`bi bi-${icon} text-primary me-2`}></i>
                 <strong>{title}</strong>
+            </div>
+            <div>
                 <p className="mb-0">{data}</p>
             </div>
 

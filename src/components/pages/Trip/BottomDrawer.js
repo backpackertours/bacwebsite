@@ -60,7 +60,7 @@ const BottomDrawer = ({ category, price_breakup, price_extras, discount }) => {
                 open={isOpen}
                 onClose={toggleDrawer}
                 direction="bottom"
-                className="h-auto p-4 mb-drawer rounded-top-4"
+                className="h-auto p-4 rounded-top-4 mb-bottom"
             >
                 {body === "share" && <ShareLink />}
                 {body === "prices" && <PriceBody category={category} price_breakup={price_breakup} price_extras={price_extras} discount={discount} />}

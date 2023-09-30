@@ -1,12 +1,17 @@
 const Slider = () => {
     return (
-        <div className="container py-5 mb-5 text-wrap rounded-4">
-            <h2 className="mb-4 text-center">We <i className="bi bi-suit-heart-fill text-primary"></i> to make memories with you!</h2>
-            <div className="slider-container" md="12">
-                <div className="sliding-background">
+        <section className="bg-gray">
+            <div className="container py-5 text-wrap rounded-4 text-center">
+                <div className='mb-4'>
+                    <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>❤️</span>
                 </div>
-            </div>
-        </div >
+                <h2 className="mb-5 text-center">Create great memories with us!</h2>
+                <div className="slider-container" md="12">
+                    <div className="sliding-background">
+                    </div>
+                </div>
+            </div >
+        </section>
     );
 }
 

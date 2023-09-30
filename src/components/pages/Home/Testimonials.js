@@ -62,7 +62,7 @@ const Testimonials = (args) => {
                 onExited={() => setAnimating(false)}
                 key={item.src}
             >
-                <Card className="text-center bg-transparent border border-0 py-5 px-10 align-items-center justify-content-center" style={{ height: "350px" }}>
+                <Card className="text-center text-white bg-transparent border border-0 py-5 px-10 align-items-center justify-content-center" style={{ height: "350px" }}>
                     <img
                         alt="Sample"
                         src={item.src}
@@ -76,7 +76,7 @@ const Testimonials = (args) => {
                         {item.title}
                     </CardTitle>
                     <small
-                        className="mb-3 text-muted"
+                        className="mb-3 text-white"
                         tag="h6"
                     >
                         {item.subtitle}
@@ -90,54 +90,55 @@ const Testimonials = (args) => {
     });
 
     return (
-        <div className="container py-5">
-            <Row>
-                <Col className="pe-5 pt-3" md="6">
-                    <div className="pe-5">
-                        <h2 className="mb-4">Client Reviews</h2>
-                        <div className="mb-5">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, praesentium beatae minima doloribus modi ipsa ab, tempore fuga ad eaque nobis necessitatibus distinctio, accusantium officia commodi laudantium molestiae ea. Ullam!
-                            Eius consequatur vero ipsa totam eaque illum obcaecati pariatur dolorem eum ab exercitationem.
+        <section className="bg-gray">
+            <div className="container py-5">
+                <Row>
+                    <Col className="pe-5 p-3" md="6">
+                        <div className="pe-5">
+                            <div className='mb-4'>
+                                <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>🙋🏻‍♂️</span>
+                            </div>
+                            <h2 className="mb-4">Client Reviews</h2>
+                            <div className="mb-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, praesentium beatae minima doloribus modi ipsa ab, tempore fuga ad eaque nobis necessitatibus distinctio, accusantium officia commodi laudantium molestiae ea. Ullam!
+                                Eius consequatur vero ipsa totam eaque illum obcaecati pariatur dolorem eum ab exercitationem.
+                            </div>
+                            <div className="d-flex gap-3">
+                                <Button className="rounded-pill py-2 px-4 hover-white" color="primary" outline>
+                                    Check Out Reviews On<i class="bi bi-google ms-2"></i>
+                                </Button>
+                            </div>
                         </div>
-                        <div className="d-flex gap-3">
-                            <Button className="rounded-pill py-2 px-3" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary">
-                                Follow Us On<i class="bi bi-instagram ms-2"></i>
-                            </Button>
-                            <Button className="rounded-pill py-2 px-3" style={{ fontSize: "12px", fontWeight: "bold" }} color="primary" outline>
-                                Check Reviews On<i class="bi bi-google ms-2"></i>
-                            </Button>
-                        </div>
-                    </div>
-                </Col>
-                <Col md="6">
-                    <Carousel
-                        className="p-3 bg-light rounded-4"
-                        activeIndex={activeIndex}
-                        next={next}
-                        previous={previous}
-                        {...args}
-                    >
-                        <CarouselIndicators
-                            items={items}
+                    </Col>
+                    <Col md="6">
+                        <Carousel
+                            className="p-3 rounded-5 bg-primary h-100"
                             activeIndex={activeIndex}
-                            onClickHandler={goToIndex}
-                        />
-                        {slides}
-                        <CarouselControl
-                            direction="prev"
-                            directionText="Previous"
-                            onClickHandler={previous}
-                        />
-                        <CarouselControl
-                            direction="next"
-                            directionText="Next"
-                            onClickHandler={next}
-                        />
-                    </Carousel>
-                </Col>
-            </Row>
-
-        </div>
+                            next={next}
+                            previous={previous}
+                            {...args}
+                        >
+                            <CarouselIndicators
+                                items={items}
+                                activeIndex={activeIndex}
+                                onClickHandler={goToIndex}
+                            />
+                            {slides}
+                            <CarouselControl
+                                direction="prev"
+                                directionText="Previous"
+                                onClickHandler={previous}
+                            />
+                            <CarouselControl
+                                direction="next"
+                                directionText="Next"
+                                onClickHandler={next}
+                            />
+                        </Carousel>
+                    </Col>
+                </Row>
+            </div>
+        </section>
     );
 }
 

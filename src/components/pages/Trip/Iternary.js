@@ -66,11 +66,11 @@ const Iternary = ({ category, iternary }) => {
     }, [category, iternary]);
 
     return (
-        <div className="mb-5">
-            <h5 className="mb-3">Day wise iternary 🗺️</h5>
+        <div className="mb-4 p-3 bg-white rounded-4">
+            <h5 className="mb-3">Day wise iternary</h5>
             <div>
                 {
-                    category === UPCOMING && (<Accordion open={open} toggle={toggle}>
+                    category === UPCOMING && (<Accordion flush open={open} toggle={toggle}>
                         {content}
                     </Accordion>)
                 }
