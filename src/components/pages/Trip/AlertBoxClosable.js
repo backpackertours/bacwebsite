@@ -5,8 +5,10 @@ const AlertBoxClosable = ({ icon, text }) => {
     const [visible, setVisible] = useState(true);
     const onDismiss = () => setVisible(false);
 
+    console.log('alertbox visibility', visible);
+
     return (
-        <Alert className="mb-5 border-0" color="primary" isOpen={visible} toggle={onDismiss}>
+        <Alert className="border-0 rounded-0 bg-primary text-white text-center mb-0" isOpen={visible} toggle={onDismiss}>
             <i className={`bi bi-${icon} pe-1`}></i> {text}
         </Alert>
     );

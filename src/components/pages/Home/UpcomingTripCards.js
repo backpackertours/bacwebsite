@@ -6,12 +6,17 @@ const UpcomingTripCards = () => {
     const upcomingTripsList = tripsData.filter(trip => trip.category === "upcoming");
 
     return (
-        <div className="container py-5">
-            <div className="mb-4">
-                <h3>Upcoming Trips</h3>
-            </div>
-            <CardSwiper data={upcomingTripsList} />
-        </div >
+        <section className='bg-gray'>
+            <div className="container py-5">
+                <div className="mb-4">
+                    <div className='mb-4'>
+                        <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>🚐</span>
+                    </div>
+                    <h3 className='text-slate'>Upcoming Trips</h3>
+                </div>
+                <CardSwiper data={upcomingTripsList} />
+            </div >
+        </section>
     );
 };
 

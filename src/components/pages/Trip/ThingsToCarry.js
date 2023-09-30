@@ -2,8 +2,8 @@ import { uuid4 } from 'uuid4';
 
 const ThingsToCarry = ({ things_to_carry }) => {
     return (
-        <div>
-            <h5 className="mb-3">Things To Carry 🧳</h5>
+        <div className="mb-4 bg-white p-3 rounded-4">
+            <h5 className="mb-3">Things To Carry</h5>
             {
                 things_to_carry.map(item => (
                     <div key={uuid4()}>

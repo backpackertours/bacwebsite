@@ -3,7 +3,7 @@ import { uuid4 } from 'uuid4';
 const Faqs = ({ faqs }) => {
     return (
         <section className="container py-5">
-            <h5 className="mb-4">Frequently Asked Questions 🙋🏻‍♂️</h5>
+            <h4 className="mb-4">Frequently Asked Questions</h4>
             {faqs.map(item => (
                 <div className="mb-3" key={uuid4()}>
                     <p className="mb-2"><strong>Q. {item.que}</strong></p>

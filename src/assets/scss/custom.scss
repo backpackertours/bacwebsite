@@ -8,8 +8,8 @@ $container-max-widths: (
     xxl: 1140px
 );
 
-$primary: #6E3DFA !default;
-$secondary: #FF6D3F !default;
+$primary: #FF8B23 !default;
+$secondary: #FF8B23 !default;
 // $success: $green !default;
 // $info: $cyan !default;
 // $warning: $yellow !default;
@@ -44,7 +44,13 @@ Corousel Indicators
 $darkblue: #172554;
 
 .hovershadow:hover {
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.15);
+    cursor: pointer;
+    transition: box-shadow 0.4s;
+}
+
+.hovershadow-md:hover {
+    box-shadow: 0 10px 12px -6px rgb(0 0 0 / 0.15);
     cursor: pointer;
     transition: box-shadow 0.4s;
 }
@@ -62,3 +68,27 @@ $darkblue: #172554;
 }
 
 @import "../../../node_modules/bootstrap/scss/bootstrap";
+
+// Accordion Button Styles
+.accordion-item {
+    border: 0;
+}
+
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
+    border-radius: 10px;
+    background: #F8F9FA;
+    margin-bottom: 10px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #FFF;
+    background-color: #FF8B23 !important;
+    border-radius: 10px !important;
+    box-shadow: 0 10px 12px -6px rgb(0 0 0 / 0.15);
+}
+
+.accordion-button:focus {
+    border-color: none;
+    box-shadow: none;
+}

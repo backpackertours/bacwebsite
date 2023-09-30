@@ -8,7 +8,7 @@ const TripDates = ({ departureDates }) => {
         const dateMonth = date.start.split(" ");
         return (
             <Col sm="3" md="3" className="px-1">
-                <div className="p-1 text-center rounded-3 bg-white">
+                <div className="p-1 text-center rounded-3 bg-gray">
                     <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[0]}</small>
                     <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[1]}</small>
                 </div>

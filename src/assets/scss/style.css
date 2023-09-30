@@ -1,5 +1,10 @@
 .dropdown-item:hover {
-    background-color: #DACDFF;
+    background-color: transparent !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #FC9538 !important;
 }
 
 .dropdown-item:active {
@@ -14,8 +19,23 @@
     background: #DACDFF;
 }
 
+.bg-gray {
+    background-color: #FAFAFA;
+}
+
+.ls-5 {
+    letter-spacing: 0.1rem;
+}
+
 .bg-mainbanner {
-    background-image: url("../images/mainbanner.svg");
+    background-image: url("../images/bannerbackground3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-testimonial {
+    background-image: url("../images/testimonialbackground.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,7 +78,7 @@ Change swiper corousel previous, next button styles
     line-height: 0.5;
     padding: 12px 16px;
     border-radius: 50%;
-    background-color: #6E3DFA;
+    background-color: #FF8B23;
 }
 
 /* 
@@ -70,13 +90,14 @@ Date card background.
 
 .slider-container {
     overflow: hidden;
-    height: 350px;
+    height: 500px;
+    border-radius: 2rem;
 }
 
 .sliding-background {
     /* The image height times 3 */
     width: 5076px;
-    height: 350px;
+    height: 500px;
     background: url('../../assets/images/BackpackerSlider2.png') repeat-x;
     background-size: contain;
     animation: slide 60s linear infinite;
@@ -116,6 +137,10 @@ Share buttons background colors
     font-size: 2rem;
 }
 
+.f3 {
+    font-size: 3rem;
+}
+
 .bg-whatsapp {
     background-color: #25d366;
 }
@@ -139,6 +164,16 @@ Price card, Send enquiry form position
 /* 
 Utilities
  */
+
+.h40 {
+
+    height: 40px;
+}
+
+.w-88 {
+    width: 88% !important;
+}
+
 .px-10 {
     padding-right: 5rem !important;
     padding-left: 5rem !important;
@@ -152,31 +187,140 @@ Utilities
     box-shadow: 0 4px 6px -1px rgba(83, 83, 83, 0.1), 0 2px 4px -2px rgba(34, 34, 34, 0.1);
 }
 
-.mb-drawer {
-    margin-bottom: 56px;
+
+.shadow-sm {
+    box-shadow: 0 10px 12px -6px rgb(0 0 0 / 0.15);
+}
+
+.bg-gradient3 {
+    background: linear-gradient(90deg, #FC9538 0%, #c42400 100%);
+}
+
+/*
+.bg-gradient2 {
+    background-color: #46DB81;
+    background: linear-gradient(90deg, #94D014 0%, #46DB81 100%);
+}*/
+
+.text-gradient {
+    background: linear-gradient(90deg, #FC9538 0%, #D12F24 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient2 {
+    background: linear-gradient(90deg, #94D014 0%, #FC9538 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-body {
+    color: rgb(71 85 105);
+}
+
+.text-header {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.hover-white:hover {
+    color: #FFFFFF;
+}
+
+.button .nav-link {
+    color: #FF8B23;
+}
+
+.button:hover .nav-link {
+    color: white !important;
+}
+
+.r-5 {
+    transform: rotate(5deg);
+}
+
+.r-5-n {
+    transform: rotate(-5deg);
+}
+
+.r-8 {
+    transform: rotate(8deg);
+}
+
+.r-10 {
+    transform: rotate(10deg);
+}
+
+.r-10-n {
+    transform: rotate(-10deg);
+}
+
+.top-5 {
+    top: 5%;
+}
+
+.bottom-8 {
+    bottom: 8%;
+}
+
+.bottom-5 {
+    bottom: 8%;
+}
+
+.start-25 {
+    right: 25%;
+}
+
+.start-20 {
+    right: 20%;
+}
+
+.start-5 {
+    right: 5%;
+}
+
+/* Upcoming Trip Dates Buttons */
+.btn-date {
+    background: none;
+    color: #000;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-date:hover,
+.btn-date:active {
+    background: none !important;
+    color: #FF8B23 !important;
+}
+
+.btn-date-active {
+    background: #FF8B23;
+    color: #FFF;
+    border-radius: 8px;
+}
+
+.btn-date-active:hover,
+.btn-date-active:active {
+    background: #FF8B23 !important;
+    color: #FFF !important;
+    border-radius: 8px;
 }
 
 .dashed {
-    border: 0.5px gray;
-    border-style: dashed;
+    border-top: 1px dashed gray;
 }
 
-.link {
-    text-decoration: none;
-    color: #FFF;
+.mb-bottom {
+    margin-bottom: 56px;
 }
 
-.h40 {
-    height: 40px;
+/* Navbar hover styles */
+.hover-show .hover-show-menu {
+    display: none !important;
 }
 
-/* 
-Media Queries
-*/
-@media only screen and (max-width: 768px) {
-    .border-md {
-        border: none;
-        box-shadow: none;
-        padding: 0px !important;
-    }
+.hover-show:hover .hover-show-menu {
+    display: block !important;
 }

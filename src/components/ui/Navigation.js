@@ -18,10 +18,11 @@ import {
 import logo from '../../assets/images/logo.png';
 
 const Navigation = (args) => {
+    const [link, setlink] = useState(1);
     const [isOpen, setIsOpen] = useState(false);
-
     const toggle = () => setIsOpen(!isOpen);
 
+    const handleLinkChange = (index) => setlink(index)
     return (
         <div>
             <Navbar {...args}>
@@ -31,14 +32,20 @@ const Navigation = (args) => {
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ms-auto" navbar>
-                        <NavItem className="me-4">
-                            <Link className="nav-link" to="/">Home</Link>
+                        <NavItem className="me-4 active">
+                            <Link
+                                className={`nav-link ${link === 1 ? "active" : ""}`}
+                                to="/"
+                                onClick={() => handleLinkChange(1)}
+                            >
+                                Home
+                            </Link>
                         </NavItem>
-                        <UncontrolledDropdown nav inNavbar className="me-4">
+                        <UncontrolledDropdown nav inNavbar className="me-4 hover-show">
                             <DropdownToggle nav caret>
                                 Upcoming Trips
                             </DropdownToggle>
-                            <DropdownMenu center className="shadow-md">
+                            <DropdownMenu center className="drop-shadow hover-show-menu rounded-4 border">
                                 <DropdownItem>
                                     <Link className="nav-link py-0" to="/trip">Spiti Valley Trek</Link>
                                 </DropdownItem>
@@ -53,11 +60,11 @@ const Navigation = (args) => {
                                 </DropdownItem>
                             </DropdownMenu>
                         </UncontrolledDropdown>
-                        <UncontrolledDropdown nav inNavbar className="me-4">
+                        <UncontrolledDropdown nav inNavbar className="me-4 hover-show">
                             <DropdownToggle nav caret>
                                 Weekend Gateways
                             </DropdownToggle>
-                            <DropdownMenu center className="shadow-md">
+                            <DropdownMenu center className="drop-shadow hover-show-menu rounded-4 border">
                                 <DropdownItem>
                                     <Link className="nav-link py-0" to="/trip">Matheran Trek</Link>
                                 </DropdownItem>
@@ -75,17 +82,28 @@ const Navigation = (args) => {
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem className="me-4">
-                            <Link className="nav-link" to="/aboutus">About Us</Link>
+                            <Link
+                                className={`nav-link ${link === 2 ? "active" : ""}`}
+                                to="/aboutus"
+                                onClick={() => handleLinkChange(2)}
+                            >
+                                About Us
+                            </Link>
                         </NavItem>
                         <NavItem>
-                            <Button className="text-white rounded-pill" color="primary">
-                                <Link className="nav-link py-0 text-white" to="/contactus">Contact Us</Link>
+                            <Button className="button rounded-pill" color="primary" outline>
+                                <Link
+                                    className="nav-link py-0"
+                                    to="/contactus"
+                                    onClick={() => handleLinkChange(3)}
+                                >Contact Us
+                                </Link>
                             </Button>
                         </NavItem>
                     </Nav>
                 </Collapse>
             </Navbar>
-        </div>
+        </div >
     );
 }
 

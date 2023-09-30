@@ -9,8 +9,7 @@ import {
 
 const ContactForm = () => {
     return (
-        <div className="ps-5">
-            <h5 className="mb-4">Send Message</h5>
+        <div>
             <Form>
                 <Row>
                     <Col md="12">
@@ -65,6 +64,7 @@ const ContactForm = () => {
                                 name="message"
                                 type="textarea"
                                 placeholder="Message"
+                                rows="3"
                             />
                         </FormGroup>
                     </Col>
