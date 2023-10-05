@@ -1,38 +1,17 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import {
+    Button,
     Carousel,
     CarouselItem,
     CarouselIndicators,
     CarouselControl,
     Row,
     Col,
-    Button,
     Card, CardTitle, CardText,
 } from 'reactstrap';
 
-const items = [
-    {
-        src: 'https://images.unsplash.com/photo-1531891570158-e71b35a485bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=928&q=80',
-        title: 'Ratnesh Patil',
-        subtitle: 'Software Engineer, Cybage',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam quibusdam pariatur? Facilis beatae incidunt explicabo eius voluptates velit odit!',
-        key: 1,
-    },
-    {
-        src: 'https://images.unsplash.com/photo-1552699611-e2c208d5d9cf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1108&q=80',
-        title: 'Shreya Paliwal',
-        subtitle: 'Digital Marketing Manager, Keywordio',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam quibusdam pariatur? Facilis beatae incidunt explicabo eius voluptates velit odit!',
-        key: 2,
-    },
-    {
-        src: 'https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80',
-        title: 'Yashavi Chauhan',
-        subtitle: 'Youtuber & Influencer',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere veniam quibusdam pariatur? Facilis beatae incidunt explicabo eius voluptates velit odit!',
-        key: 3,
-    },
-];
+import testimonialsData from '../../data/testimonialsData';
 
 const Testimonials = (args) => {
     const [activeIndex, setActiveIndex] = useState(0);
@@ -40,13 +19,13 @@ const Testimonials = (args) => {
 
     const next = () => {
         if (animating) return;
-        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        const nextIndex = activeIndex === testimonialsData.length - 1 ? 0 : activeIndex + 1;
         setActiveIndex(nextIndex);
     };
 
     const previous = () => {
         if (animating) return;
-        const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
+        const nextIndex = activeIndex === 0 ? testimonialsData.length - 1 : activeIndex - 1;
         setActiveIndex(nextIndex);
     };
 
@@ -55,17 +34,20 @@ const Testimonials = (args) => {
         setActiveIndex(newIndex);
     };
 
-    const slides = items.map((item) => {
+    const googleMapsLink = "https://maps.app.goo.gl/yrgPAbvCxe5xb12KA";
+    const cloudinaryLink = "https://res.cloudinary.com/dgjllfp17/image/upload/v1696523917/Testimonials/";
+
+    const slides = testimonialsData.map((item) => {
         return (
             <CarouselItem
                 onExiting={() => setAnimating(true)}
                 onExited={() => setAnimating(false)}
-                key={item.src}
+                key={item.key}
             >
-                <Card className="text-center text-white bg-transparent border border-0 py-5 px-10 align-items-center justify-content-center" style={{ height: "350px" }}>
+                <Card className="text-center text-white bg-transparent border border-0 py-4 px-5 align-items-center justify-content-center">
                     <img
                         alt="Sample"
-                        src={item.src}
+                        src={`${cloudinaryLink}/${item.src}`}
                         className="rounded-circle mb-3"
                         style={{
                             height: "85px",
@@ -73,17 +55,18 @@ const Testimonials = (args) => {
                         }}
                     />
                     <CardTitle tag="h5">
-                        {item.title}
+                        {item.name}
                     </CardTitle>
-                    <small
-                        className="mb-3 text-white"
-                        tag="h6"
-                    >
-                        {item.subtitle}
-                    </small>
-                    <CardText>
+                    <CardText className="testimonials-text">
                         {item.description}
                     </CardText>
+                    <div className="d-flex gap-2 mb-3 stars">
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                        <i className="bi bi-star-fill"></i>
+                    </div>
                 </Card>
             </CarouselItem>
         );
@@ -91,22 +74,24 @@ const Testimonials = (args) => {
 
     return (
         <section className="bg-gray">
-            <div className="container py-5">
+            <div className="container py-5 px-sm-4">
                 <Row>
-                    <Col className="pe-5 p-3" md="6">
+                    <Col className="pe-5 p-3 mb-sm-4" md="6">
                         <div className="pe-5">
                             <div className='mb-4'>
                                 <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>🙋🏻‍♂️</span>
                             </div>
                             <h2 className="mb-4">Client Reviews</h2>
                             <div className="mb-5">
-                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, praesentium beatae minima doloribus modi ipsa ab, tempore fuga ad eaque nobis necessitatibus distinctio, accusantium officia commodi laudantium molestiae ea. Ullam!
-                                Eius consequatur vero ipsa totam eaque illum obcaecati pariatur dolorem eum ab exercitationem.
+                                Discover what our satisfied travelers have to say about their extraordinary experiences with Backpacker Tours. Our group tours have left an indelible impression, creating cherished memories and forming lifelong bonds.
+                                Read the testimonials and get inspired to embark on your own adventure in captivating India.
                             </div>
                             <div className="d-flex gap-3">
-                                <Button className="rounded-pill py-2 px-4 hover-white" color="primary" outline>
-                                    Check Out Reviews On<i class="bi bi-google ms-2"></i>
-                                </Button>
+                                <Link to={googleMapsLink} target="_blank">
+                                    <Button className="rounded-pill py-2 px-4 hover-white" color="primary" outline>
+                                        Check Out Reviews On<i class="bi bi-google ms-2"></i>
+                                    </Button>
+                                </Link>
                             </div>
                         </div>
                     </Col>
@@ -119,7 +104,7 @@ const Testimonials = (args) => {
                             {...args}
                         >
                             <CarouselIndicators
-                                items={items}
+                                items={testimonialsData}
                                 activeIndex={activeIndex}
                                 onClickHandler={goToIndex}
                             />

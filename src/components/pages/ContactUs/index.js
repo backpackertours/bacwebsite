@@ -8,20 +8,21 @@ const ContactUs = () => {
 
     return (
         <section className="bg-gray">
-            <section className="container py-5">
+            <section className="container py-5 px-sm-4">
                 <div className='mb-4 text-center'>
                     <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>📲</span>
                 </div>
                 <h1 className="mb-5 text-center">Contact Us</h1>
-                <Row className="mb-5 pt-3 justify-content-between">
-                    <Col className="d-flex flex-column gap-3" lg="5">
+                <Row className="pt-3 justify-content-between">
+                    <Col className="mb-5 d-flex flex-column gap-3" lg="5">
                         <InfoCard icon="telephone" data="+91 8082647928, +91 8286835202" title="Phone Number" />
                         <InfoCard icon="envelope" data="backpackmumbai@gmail.com" title="Email" />
                         <InfoCard icon="geo-alt" data="Backpacker Tours, Shop No 9, Manas building, near Pragati vidyalaya school Gorai 2 Borivali west Mumbai 92"
                             title="Address"
                         />
                     </Col>
-                    <Col lg="6">
+                    <Col className="mb-5" lg="6">
+                        <h5 className="mb-4">Send Us Message</h5>
                         <ContactForm />
                     </Col>
                 </Row>
@@ -34,4 +35,4 @@ const ContactUs = () => {
     )
 }
 
-export default ContactUs
+export default ContactUs;

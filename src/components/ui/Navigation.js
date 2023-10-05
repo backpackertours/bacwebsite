@@ -22,7 +22,10 @@ const Navigation = (args) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
-    const handleLinkChange = (index) => setlink(index)
+    const handleLinkChange = (index) => {
+        setlink(index)
+        setIsOpen(false);
+    }
     return (
         <div>
             <Navbar {...args}>
@@ -45,7 +48,7 @@ const Navigation = (args) => {
                             <DropdownToggle nav caret>
                                 Upcoming Trips
                             </DropdownToggle>
-                            <DropdownMenu center className="drop-shadow hover-show-menu rounded-4 border">
+                            <DropdownMenu center className="drop-shadow-sm-0 hover-show-menu rounded-4 border">
                                 <DropdownItem>
                                     <Link className="nav-link py-0" to="/trip">Spiti Valley Trek</Link>
                                 </DropdownItem>
@@ -64,7 +67,7 @@ const Navigation = (args) => {
                             <DropdownToggle nav caret>
                                 Weekend Gateways
                             </DropdownToggle>
-                            <DropdownMenu center className="drop-shadow hover-show-menu rounded-4 border">
+                            <DropdownMenu center className="drop-shadow-sm-0 hover-show-menu rounded-4 border">
                                 <DropdownItem>
                                     <Link className="nav-link py-0" to="/trip">Matheran Trek</Link>
                                 </DropdownItem>

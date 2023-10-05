@@ -16,7 +16,7 @@ const TripHeader = ({ title, private_plan, total_seats, duration, age, places_co
     return (
         <section>
             {private_plan && <AlertBoxClosable icon="person" text={private_plan} />}
-            <section className="container pt-5 pb-4">
+            <section className="container pt-5 pb-4 px-sm-4">
                 <Row>
                     <Col md="10" lg="10">
                         <h2 className="mb-3">{title}</h2>

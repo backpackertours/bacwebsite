@@ -17,7 +17,7 @@ const UpcomingDates = ({ months, departure }) => {
     )
 
     const dates = showDates.map(date => (
-        <Col md="3" key={uuid4()} className="mb-3">
+        <Col xs="6" md="3" key={uuid4()} className="mb-3">
             <div className="p-2 bg-light rounded-3 text-center position-relative">
                 <p className="mb-0">{date.start} - {date.end}</p>
             </div>

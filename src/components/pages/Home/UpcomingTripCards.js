@@ -6,8 +6,8 @@ const UpcomingTripCards = () => {
     const upcomingTripsList = tripsData.filter(trip => trip.category === "upcoming");
 
     return (
-        <section className='bg-gray'>
-            <div className="container py-5">
+        <section className='bg-gray' id="upcomingtrips">
+            <div className="container py-5 px-sm-4">
                 <div className="mb-4">
                     <div className='mb-4'>
                         <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>🚐</span>

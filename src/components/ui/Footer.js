@@ -1,12 +1,16 @@
 import { Row, Col } from 'reactstrap';
 
 const Footer = () => {
+    const currentUrl = window.location.href;
+
+    // check if we are on trip details page
+    const isTripPage = currentUrl.includes("/trip");
+
     return (
-        <footer className="">
-            <div className="container py-5">
+        <footer className={`${isTripPage ? "mb-sm-menu" : ""}`}>
+            <div className="container py-5 px-sm-4">
                 <Row>
                     <Col md="4">
-                        {/* TODO - Insert logo here instead of text */}
                         <strong>What We Do</strong>
                         <p className="text-muted mt-3">Unlock the magic of India's vibrant tapestry with Backpacker Tours, your trusted companion for unforgettable group tours and exhilarating treks. Our expertly crafted itineraries promise to unveil the hidden gems and authentic experiences that will leave you spellbound.</p>
                     </Col>
@@ -25,9 +29,9 @@ const Footer = () => {
                     </Col>
                 </Row>
             </div>
-            <div className="container">
-                <hr className="dashed" />
-                <p className="text-center pt-3 pb-4 text-muted mb-0"><small>Copyright @ Backpacker Tours | All Rights Reserved</small></p>
+            <div className="container px-sm-4">
+                <hr className="dashed my-0" />
+                <p className="text-center py-4 text-muted mb-0"><small>Copyright @ Backpacker Tours | All Rights Reserved</small></p>
             </div>
         </footer>
     )

@@ -44,12 +44,9 @@ const TripSlider = ({ gallery }) => {
                 key={item.src}
             >
                 <img
+                    className="trip-slider-image"
                     alt="Spiti Valley"
                     src={item.src}
-                    style={{
-                        width: "100%",
-                        height: "500px"
-                    }}
                 />
             </CarouselItem>
         );
