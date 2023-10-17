@@ -45,7 +45,7 @@ const Navigation = (args) => {
                             <DropdownToggle nav caret>
                                 Upcoming Trips
                             </DropdownToggle>
-                            <DropdownMenu center className="drop-shadow hover-show-menu rounded-4 border">
+                            <DropdownMenu center="true" className="drop-shadow hover-show-menu rounded-4 border">
                                 <DropdownItem>
                                     <Link className="nav-link py-0" to="/trip">Spiti Valley Trek</Link>
                                 </DropdownItem>
@@ -64,7 +64,7 @@ const Navigation = (args) => {
                             <DropdownToggle nav caret>
                                 Weekend Gateways
                             </DropdownToggle>
-                            <DropdownMenu center className="drop-shadow hover-show-menu rounded-4 border">
+                            <DropdownMenu center="true" className="drop-shadow hover-show-menu rounded-4 border">
                                 <DropdownItem>
                                     <Link className="nav-link py-0" to="/trip">Matheran Trek</Link>
                                 </DropdownItem>

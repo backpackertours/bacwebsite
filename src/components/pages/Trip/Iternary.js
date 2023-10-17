@@ -49,7 +49,7 @@ const Iternary = ({ category, iternary }) => {
                                     {item.meal.length ?
                                         (
                                             <div className="d-flex align-items-center gap-2">
-                                                {item.meal.map(item => (<Badge color="primary" pill>{item}</Badge>))}
+                                                {item.meal.map(item => (<Badge color="primary" pill key={uuid4()}>{item}</Badge>))}
                                             </div>
                                         )
                                         :

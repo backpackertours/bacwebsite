@@ -1,4 +1,469 @@
 const tripsData = [
+    //Himachal Pradesh
+    {
+        id: "b545135d-15b3-4741-9e68-5c64532313a4",
+        category: "upcoming",
+        title: "Winter Trip to Himachal Pradesh",
+        total_seats: 15,
+        duration: "9 Days",
+        places_covered: "Amritsar | Dalhousie | Kullu | Manali | Kasol | Manikaran",
+        discount: "",
+        gallery: [
+            "v1697382970/himachal_pradesh/1_hur1o6.jpg",
+            "v1697382971/himachal_pradesh/2_po4upx.jpg",
+            "v1697382876/himachal_pradesh/3_ktnhov.jpg",
+            "v1697382877/himachal_pradesh/4_nh6e3s.jpg",
+            "v1697382877/himachal_pradesh/5_iwzqcd.jpg",
+            "v1697382878/himachal_pradesh/6_kdp413.jpg",
+        ],
+        months: ["Nov", "Dec"],
+        departure: [
+            {
+                start: "11 Nov",
+                end: "19 Nov",
+                seats_left: 15
+            },
+            {
+                start: "18 Nov",
+                end: "26 Nov",
+                seats_left: 15
+            },
+            {
+                start: "26 Dec",
+                end: "03 Jan",
+                seats_left: 15
+            },
+        ],
+        description: [
+            "This itinerary offers a well-rounded experience of Himachal Pradesh, combining spiritual sites, natural beauty, adventure activities, and cultural exploration. Here's why this itinerary could be a great choice. We have been following this itinerary for the past 7 years and getting 100% positive feedback from the travellers."
+        ],
+        iternary: [
+            {
+                title: "Delhi to Amritsar",
+                desc: "Meet us in Delhi at 06.00 pm (Pickup location in New Delhi will be informed 15 days before departure) we will board the train to Amritsar. Non ac sleeper class train tickets will be booked by us so book your seats well in advance to get confirm train reservation. Participants can also directly join this trip from Amritsar to avoid long journeys. Remember this train tickets are booked on first come first serve basis",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Arrival in Amritsar",
+                desc: "Upon arriving in Amritsar, take in the city's vibrant atmosphere. Begin by visiting the iconic Golden Temple, a place of great spiritual significance. Later, pay your respects at the Jallianwala Bagh memorial, a sombre reminder of a tragic historical event. In the evening, experience the patriotic fervour at the Wagah Border ceremony. Overnight hotels stay in Amritsar.",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Amritsar to Dalhousie ",
+                desc: "Embark on a scenic drive to Dalhousie. The journey of approximately 200 kilometres takes around 5-6 hours. Upon reaching Dalhousie, settle into your accommodation. Use the rest of the day to relax and enjoy the serene ambiance. Overnight stay in Dalhousie.",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Dalhousie Exploration ",
+                desc: "Post breakfast excursion to Khajjiar. Khajjiar: Known as mini-Switzerland of India Certified by Swiss Government Khajjiar Horse riding, Zorbing, Nature walks suggestive here in between the trees, must visit to the Khajji nag Temple there. If time permits, we shall also visit Chamera lake for boating. Night stay in Dalhousie Hotel",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Dalhousie Market and Dalhousie to Kullu (Night Journey) ",
+                desc: "Continue your exploration of Dalhousie. Get ready to explore the local market by walk Delve into the vibrant atmosphere of Gandhi Chowk & Subash chowk, indulging in local shopping, and savouring regional cuisine. Admire the architecture of St. John's Church. Later in the day, depart for Kullu. The journey covers approximately 230 kilometre’s and takes around 8-9 hours. Prepare for a night journey to Kullu",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Kullu Adventure Day ",
+                desc: "Arrived in Kullu, welcomed by the scenic beauty of the region. Engage in exhilarating activities like river rafting and paragliding, making the most of the adventure opportunities. Roam the local markets, immerse yourself in the culture, and savor the local delicacies. short drive to Manali, covering approximately 40 kilometres over 1.5-2 hours. Upon reaching Manali, check into our stay. Take this day to unwind and relax. Evening visit to mall road & Monastery.",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Local Sightseeing in Manali ",
+                desc: "Explore the local attractions of Manali. Visit the Hadimba Temple, dedicated to the goddess Hidimba. Pay your respects at the Manu Temple and Vashisht Temple, the latter also featuring hot water springs. Discover the charm of Old Manali with its vibrant cafes and local character. Explore the Mall Road for shopping and indulging in local treats. Overnight in Manali.",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Manali to Kasol and Manikaran (Night Journey to Chandigarh) ",
+                desc: "Embark on a journey to Kasol and Manikaran, experiencing the serene environment along the Parvati River. Visit the Manikaran Gurudwara, renowned for its hot water springs. Later in the day, depart for Chandigarh. The drive covers approximately 290 kilometres and takes around 7- 8 hours. Prepare for a night journey.",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Departure to Delhi and reach by afternoon 12.00 pm. ",
+                desc: "Arrive in Chandigarh in the morning. You can also take a direct flight from Chandigarh to your home city or else travel with us further to Delhi. Adios to your fellow travellers and promise them to meet on another great adventure.",
+                attractions: "",
+                meal: [],
+            },
+        ],
+        why: [
+            "Diverse Experiences: From the spiritual tranquillity of the Golden Temple to the adventurous activities in Kullu and the natural beauty of Khajjiar, this itinerary offers a diverse range of experiences to cater to various interests.",
+            "Iconic Sites: You'll visit iconic sites like the Golden Temple in Amritsar, the charming village of Khajjiar, and the vibrant streets of Manali's Old Town, ensuring you get a taste of the region's unique character",
+            "Adventure Thrills: The activities of river rafting and paragliding in Kullu & Solang valley provides an adrenaline rush for adventure enthusiasts, making the trip exciting and memorable.",
+            "Local Culture and Cuisine: Exploring local markets, trying regional dishes, and visiting cultural landmarks like St. John's Church and the Hadimba Temple allow you to immerse yourself in the local culture.",
+            "New Year's Celebration: Spending New Year's Eve in Manali offers a special way to ring in the new year amid the Himalayan beauty and festive atmosphere.",
+            "Scenic Beauty: The journey through scenic routes, whether it's the drive to Dalhousie, the landscapes of Khajjiar, or the serene Parvati River in Kasol, ensures that you'll be surrounded by breathtaking natural beauty.",
+            " Convenience: The itinerary flows logically, with well-paced travel, ensuring you have ample time to explore each destination without feeling rushed.",
+            "Memorable End: The journey concludes in Kasol, visiting some best scenic cafes, Manikaran Gurudwara, we will take you to the best tandoor corner.",
+        ],
+        highlights: [],
+        price_breakup: [
+            {
+                departure: "Delhi to Delhi",
+                duration: "9 Days",
+                price: "15,900",
+            },
+        ],
+        price_extras: [
+            {
+                title: "Quad Sharing",
+                price: 0
+            },
+            {
+                title: "Tripple Sharing",
+                price: "1,600"
+            },
+            {
+                title: "Twin Sharing",
+                price: "4,100"
+            },
+            {
+                title: "Train bookings from Mumbai / Gujrat / Pune / Hyderabad / Chennai",
+                price: "2,000"
+            }
+        ],
+        inclusion: [
+            "Train tickets from Delhi to Amritsar & Chandigarh to Delhi(Non - AC sleeper)",
+            "Accommodation in 3 - star category hotels(1N Amritsar – 2N Dalhousie – 2N Manali)",
+            "06 Breakfast & 06 Dinner at Hotels starting from Day 2 dinner to Day 8 Breakfast)",
+            "All Transport & Sightseeing by Traveller(15 - seater)",
+            "New Year DJ night & Bonfire in Manali",
+            "Experience Group lead from Backpacker Tours",
+            "Driver allowance, Toll, Tax, Parking",
+            "24x7 on call assistance from Backpackers Team",
+        ],
+        exclusion: [
+            "Anything not mentioned in Inclusions.",
+            "Any adventure activity Paragliding / River Rafting / ATV ride / Horse Ride",
+            "Any extra Transport arising due to Traffic Jam, Landslide, Political rally, weather condition",
+            "Any meal ordered from room service, Laundry",
+            "Any entry fees to monument / Park / Temple",
+            "Room Heater / Porter service / Tips / Any Emergency Travel / Medical Evacuation",
+        ],
+        note: [
+            "Above rates are for group departures only. Rates for Customize plans will different.",
+            "Triple sharing rooms can be arranged if participants inform us at least before 1 month of trip departure on extra charges.",
+            "Participate from any city can Join this trip from Chandigarh & Amritsar",
+            "Backpacker Tours do not have any control on train tickets reservation / seat allotment / RAC or waiting. We book tickets on a first come first serve basis and when we receive booking confirmation.",
+            "In winters due to heavy fog trains may get delayed in north India.",
+            "You understand that we are not responsible for cancellation to any site visit although we will try our best to make all places of visit possible.",
+            "4 sharing rooms will have 1 double bed & 1 Mattress. Triple sharing room will have 1 double bed & 1 mattress",
+            "During New Year Celebration Backpacker Tours doesn’t serve any alcohol drinks one can pay on counter for unlimited drinks",
+            "Everyone from any part of India can join this trip.",
+            "Everyone Between 15 to 40 years old can join this trip. Solo Traveler / Office colleague / College friends / Cousin anyone can join this trip.",
+            "Please You are travelling in New Year time its peak travel season we will be on tight schedule itinerary to avoid delay or miss any location",
+        ],
+        cancle_policy: [
+            "If cancelled before 2 months of Departure INR 5,000/- per person will be chargeable",
+            "If cancelled before 30 days of Departure INR 7,500/- per person will be chargeable",
+            "If cancelled between 30 days to 15 days INR 10,000/- per person will be chargeable.",
+            "No Refund for below 15 days cancellation"
+        ],
+        things_to_carry: [],
+        faqs: [
+            {
+                que: "How do I join this trip to Himachal Pradesh? ",
+                ans: "To join the trip, you can meet us in New Delhi at the specified pickup location, or if you prefer, you can directly join in Amritsar to avoid the long train journey from Delhi."
+            },
+            {
+                que: "What type of train tickets will be provided for the journey from Delhi to Amritsar & Chandigarh to Delhi?",
+                ans: ": Non-AC sleeper class train tickets will be provided. We recommend booking your seats well in advance to secure confirmed train reservations. AC upgrade is also available on extra charges"
+            },
+            {
+                que: "How do I contact the organizers for more information or to book my spot?",
+                ans: " You can contact the organizers through the provided contact information for any inquiries or to book your spot. They will be happy to assist you."
+            },
+            {
+                que: "Are meals included in the itinerary, and what type of cuisine can we expect?",
+                ans: "06 Breakfast & 06 dinner is included in the itinerary, Lunch is not included here because you can try on some local dish like, Chole Kulche, Bhature in Punjab, variety of naan in Amritsar, Siddu, laphing, Momos, Tandoori in Himachal Pradesh Himachal Pradesh offers a variety of cuisine, including North Indian and local Himachali dishes."
+            },
+            {
+                que: "What should I carry for this trip? ",
+                ans: " It's recommended to pack comfortable clothing suitable for the season, comfortable walking shoes, warm clothing for cooler evenings, any necessary medications, toiletries, and a valid ID. A more detailed packing list may be provided a week before departure."
+            },
+            {
+                que: "Are there any physical fitness requirements for the trip's activities? ",
+                ans: "Most activities are designed to be accessible to participants of average physical fitness. However, if any specific activity has physical requirements, the organizers will inform you in advance"
+            },
+            {
+                que: "What is the group size for this trip? ",
+                ans: "The group size is 15 people in one batch in a comfortable 15-seater mini traveller."
+            },
+            {
+                que: "How do I make payments for the trip, and what is the payment schedule? ",
+                ans: " To book your slot you can pay INR 8,000/- per person and balance amount to be paid before 05th December. any booking happening in November will pay 50% to block seat and balance amount before 5th December"
+            },
+        ]
+    },
+    //Spiti Valley
+    {
+        id: "95d0068c-c285-43f0-9711-1ae6cd23538d",
+        category: "upcoming",
+        title: "Spiti Valley Winter Expedition",
+        total_seats: 15,
+        duration: "9 Days",
+        places_covered: "Chitkul | Nako | Kaza | Lagza | Chicham Bridge | Kibber | Ki | Hikkim | Gue | Kalpa | Narkanda",
+        description: [
+            "We are going to Spiti valley this winter. Trip will start from Delhi - Shimla – Chitkul - Nako – Kaza – Lagza – Chicham Bridge – Kibber – Ki – Hikkim - Gue - Kalpa - Narkanda - Delhi. We are exploring the highest post office in the world. We will draft a letter to our loved ones from here. taking some group pictures at Chicham Bridge, this is the highest bridge in Asia. We may be lucky to see prayer in a key monastery. We will play Mafia, click good pictures at Langza village with a backdrop of snow-clad mountains and a lot more. We will be visiting a 500-year old mummy which is preserved in the monastery. "
+        ],
+        why: [
+            "Book your seats with us and rest we will do for you. Staying in valley view homestays & Great Itineraries we have everything sorted & Well planned for you",
+            "We are taking only up to 15 participates in one batch",
+            "Because who don’t want a crazy group picture at Langza",
+            "We are taking you to 500 year old mummy and it's crazy history",
+            "We have age limit of 15 to 40 for our spiti valley road trip",
+            "Do check our reviews on Google and Facebook",
+            "Because we are travelling Chitkul Valley this is the time when Mountains are covered with snow and snow peak just outside your homestay"
+        ],
+        iternary: [
+            {
+                title: "Delhi - Narkanda ( 8 Hours Night journey)",
+                desc: "We will board a bus from Delhi and start a further journey to Narkanda. This will be a night journey to Shimla. Our tentative journey start time from Delhi is at 09.00 pm",
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Explore Narkanda (2 to 3 Hours)",
+                desc: "We will reach Shimla in the morning at 07.00 am and start our journey from Shimla to Narkanda. We will reach the small village of Narkanda by check-in time. This village will definitely give you a nostalgic vibe of your childhood village visit. Also this village is the best place to indulge in local himachali experience. Night stay in Narkanda",
+                attractions: "Visit Hatu peak, Tani jubber Lake & Church",
+                meal: ["Dinner"],
+            },
+            {
+                title: "Narkanda to Chitkul (7 hours)",
+                desc: "We will start our scenic journey by 09.00 am and travel to chitkul. In the evening we will go for a walk to the village and Monastery. Our stay has a mesmerising view of Mountains. Before we start our journey to a high-altitude area we will acclimatize for a day. Night stay in Chitkul.",
+                attractions: "Kinnaur Gate, Half Caved Road, sangla valley, Chitkul last Dhaba",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Chitkul – Nako – Gue - Tabo (9 hours journey)",
+                desc: "After a quick breakfast we will start our journey towards kaza. We will visit Nako Lake. We will also visit Gue monastery, a 500 year old Mummy. This journey is going to be beautiful as the mountains start turning into cold desert. Landscape you better capture in eyes we will reach Tabo around 05.00 pm Night stay in Tabo",
+                attractions: "Nako lake, Nako Monastery, Gue monastery, Tabo monastery",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Tabo – Key Monastery – Chicham Bridge – Kibber - Kaza",
+                desc: "After breakfast, we head to the beautiful Key Monastery. This monastery looks beautiful from the road. The monastery’s structure, as visible from the base of the hill, is a photographer’s delight. From Key, we now visit Kibber village to see the local life. It has around 80 houses. We are also visiting the highest suspension bridge at a height of 13596 which connects 2 villages Kibber & Chicham. Night stay in Kaza",
+                attractions: "Key Monastery, Kibber & Chicham Bridge",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Kaza – Langza – Hikkim – Komic - Kaza",
+                desc: "Today, first we will go to Langza –the second highest motorable village after Komik. This village is home to many fossils; get yourself clicked with the iconic Buddha statue which is also the most popular picture of Langza on the internet. Want to send a post from 14,400 feet above sea level? Then we will Hikkim -the world's highest post office, and Komik. Night stay in Kaza",
+                attractions: "Hikkim Highest post Office, Komic Monastery & langza statue of lord buddha",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Kaza - Dhankar Monastery - Kalpa (7 hours)",
+                desc: "We will start our return journey to Kalpa. Enjoy the beauty of Snow Clad mountains while returning. We can stop midway and take some good pictures near the frozen waterfall. We will reach Kalpa by evening. You get to see the clear Kinnaur Kailash mountain from the village. Night stay in Kalpa",
+                attractions: "",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Kalpa to Shimla to Delhi (08 hours)",
+                desc: "Today will start the journey a little early to avoid any road closure / Landslide / any weather restriction. will reach shimla by evening 06.00 pm board a bus & night journey to Delhi.",
+                attractions: "",
+                meal: ["Breakfast"],
+            },
+            {
+                title: "Reach Delhi",
+                desc: "We will reach Delhi by 08.00am. Please book your flights accordingly so you won't have to rush as the Winter trip is totally weather depending",
+                attractions: "",
+                meal: [],
+            },
+        ],
+        months: ["Nov", "Dec", "Jan", "Feb"],
+        departure: [
+            {
+                start: "04 Nov",
+                end: "12 Nov",
+                seats_left: 15
+            },
+            {
+                start: "11 Nov",
+                end: "19 Nov",
+                seats_left: 15
+            },
+            {
+                start: "18 Nov",
+                end: "26 Nov",
+                seats_left: 15
+            },
+            {
+                start: "25 Nov",
+                end: "03 Dec",
+                seats_left: 15
+            },
+            {
+                start: "02 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "09 Dec",
+                end: "17 Dec",
+                seats_left: 15
+            },
+            {
+                start: "16 Dec",
+                end: "24 Dec",
+                seats_left: 15
+            },
+            {
+                start: "06 Jan",
+                end: "14 Jan",
+                seats_left: 15
+            },
+            {
+                start: "13 Jan",
+                end: "21 Jan",
+                seats_left: 15
+            },
+            {
+                start: "13 Jan",
+                end: "21 Jan",
+                seats_left: 15
+            },
+            {
+                start: "20 Jan",
+                end: "28 Jan",
+                seats_left: 15
+            },
+            {
+                start: "27 Jan",
+                end: "04 Feb",
+                seats_left: 15
+            },
+            {
+                start: "03 Feb",
+                end: "11 Feb",
+                seats_left: 15
+            },
+            {
+                start: "10 Feb",
+                end: "18 Feb",
+                seats_left: 15
+            },
+        ],
+        price_breakup: [
+            {
+                departure: "Delhi to Delhi",
+                duration: "9 Days",
+                price: "18,500",
+            },
+        ],
+        price_extras: [
+            {
+                title: "Tripple Sharing",
+                price: 0
+            },
+            {
+                title: "Twin Sharing",
+                price: "2,500"
+            },
+            {
+                title: "Train bookings from Mumbai / Gujrat / Pune / Hyderabad / Chennai",
+                price: 1
+            }
+        ],
+        discount: "Group discount available for group of 3+",
+        inclusion: [
+            "Transport as per choice of starting point",
+            "06 Breakfasts and 06 Dinners",
+            "01 Night in Chitkul Homestay",
+            "02 Night stay Kaza Homestay",
+            "01 Night stay at Narkanda Hotel",
+            "01 Night Tabo Homestay",
+            "01 Night stay in Kalpa Homestay",
+            "All Required Permit by Government / Taxes / toll / Parking",
+            "Experience trip leader from Backpacker Tours",
+            "Basic First Aid kit as per winter arrangements",
+        ],
+        exclusion: [
+            "Any Extra transport not mentioned in Itinerary",
+            "Any Lunch, snacks during the stay",
+            "Any Internal Transport & Stay in Delhi",
+            "Any extra cost due to Road blocks, landslide or Out of human Control",
+            "Any adventure sports",
+        ],
+        note: [
+            "Accommodation type on this trip is a homestay. remember you are going for winter expedition weather can go up to -15 degree in day time",
+            "Spiti valley is the coldest area of Himachal pradesh so use of water is very limited.",
+            "Homestay in Chitkul, Tabo, Kaza & Kalpa all this Hometsya have chimney inbuilt to keep yourself warm and accommodative.",
+            "In winters water supply is very limited in spiti region because most of the water bodies get frozen.",
+            "Winter spiti is adventure trip don't expect leisure amenities.",
+            "Pickup from Mumbai, Pune, Ahmedabad, Surat and Vadodara is available.",
+            "Anyone from any state of India can join this trip. We can help you travel from your city to Delhi",
+            "Backpacker Tours is an Experience curating company. If you are looking for lowest budget trip then we may disappoint you.",
+            "All travel Exploration is depending on weather conditions and road conditions.",
+            "Please add at least 1 day extra in your itinerary in case of bad weather or heavy snowfall you will have window time to reach your destination on time. this is very helpful.",
+            "We are travelling in High altitude mountain please carry require medicine",
+        ],
+        cancle_policy: [
+            "Cancel before 30 Day of Departure INR 6,900/- Chargeable",
+            "Cancel before 15 Day of Departure INR 9,900/- Chargeable",
+            "No Refund for cancellation between 15 days to date of departure or No show",
+        ],
+        gallery: [
+            "v1697567045/spiti_valley/1_js0yaf.jpg",
+            "v1697567057/spiti_valley/2_d2lr9y.jpg",
+            "v1697567048/spiti_valley/3_a6g84d.jpg",
+            "v1697567052/spiti_valley/4_b1depc.jpg",
+            "v1697567056/spiti_valley/5_shufsv.jpg",
+            "v1697567052/spiti_valley/6_um5gjc.jpg",
+            "v1697567042/spiti_valley/7_teosqa.jpg",
+            "v1697567050/spiti_valley/8_v6icc4.jpg",
+            "v1697567038/spiti_valley/9_jmfkfj.jpg",
+            "v1697567041/spiti_valley/10_vhunye.jpg",
+            "v1697567059/spiti_valley/11_evrwkn.jpg",
+        ],
+        highlights: [],
+        things_to_carry: [],
+        faqs: [
+            {
+                que: "How do I join this trip to Himachal Pradesh? ",
+                ans: "To join the trip, you can meet us in New Delhi at the specified pickup location, or if you prefer, you can directly join in Amritsar to avoid the long train journey from Delhi."
+            },
+            {
+                que: "What type of train tickets will be provided for the journey from Delhi to Amritsar & Chandigarh to Delhi?",
+                ans: ": Non-AC sleeper class train tickets will be provided. We recommend booking your seats well in advance to secure confirmed train reservations. AC upgrade is also available on extra charges"
+            },
+            {
+                que: "How do I contact the organizers for more information or to book my spot?",
+                ans: " You can contact the organizers through the provided contact information for any inquiries or to book your spot. They will be happy to assist you."
+            },
+            {
+                que: "Are meals included in the itinerary, and what type of cuisine can we expect?",
+                ans: "06 Breakfast & 06 dinner is included in the itinerary, Lunch is not included here because you can try on some local dish like, Chole Kulche, Bhature in Punjab, variety of naan in Amritsar, Siddu, laphing, Momos, Tandoori in Himachal Pradesh Himachal Pradesh offers a variety of cuisine, including North Indian and local Himachali dishes."
+            },
+            {
+                que: "What should I carry for this trip? ",
+                ans: " It's recommended to pack comfortable clothing suitable for the season, comfortable walking shoes, warm clothing for cooler evenings, any necessary medications, toiletries, and a valid ID. A more detailed packing list may be provided a week before departure."
+            },
+            {
+                que: "Are there any physical fitness requirements for the trip's activities? ",
+                ans: "Most activities are designed to be accessible to participants of average physical fitness. However, if any specific activity has physical requirements, the organizers will inform you in advance"
+            },
+            {
+                que: "What is the group size for this trip? ",
+                ans: "The group size is 15 people in one batch in a comfortable 15-seater mini traveller."
+            },
+            {
+                que: "How do I make payments for the trip, and what is the payment schedule? ",
+                ans: " To book your slot you can pay INR 8,000/- per person and balance amount to be paid before 05th December. any booking happening in November will pay 50% to block seat and balance amount before 5th December"
+            },
+        ]
+    },
+    //Meghalaya
+    //Kasol Manali
+    //Kerala
+
     // Kerala Trip
     {
         id: "7a201394-5728-4383-8606-2b85baa2c5cf",
@@ -9,9 +474,17 @@ const tripsData = [
         places_covered: "Munnar | Kolukkumalai | Thekkady 1N | Alleppey | Varkala",
         discount: "Early Bird discount available for group bookings on First come first serve basis",
         gallery: [
-            "kerala1.png",
-            "kerala2.png",
-            "kerala3.png",
+            "v1697567045/spiti_valley/1_js0yaf.jpg",
+            "v1697567057/spiti_valley/2_d2lr9y.jpg",
+            "v1697567048/spiti_valley/3_a6g84d.jpg",
+            "v1697567052/spiti_valley/4_b1depc.jpg",
+            "v1697567056/spiti_valley/5_shufsv.jpg",
+            "v1697567052/spiti_valley/6_um5gjc.jpg",
+            "v1697567042/spiti_valley/7_teosqa.jpg",
+            "v1697567050/spiti_valley/8_v6icc4.jpg",
+            "v1697567038/spiti_valley/9_jmfkfj.jpg",
+            "v1697567041/spiti_valley/10_vhunye.jpg",
+            "v1697567059/spiti_valley/11_evrwkn.jpg",
         ],
         months: ["Sep", "Oct", "Nov", "Dec", "Jan"],
         departure: [
@@ -216,9 +689,17 @@ const tripsData = [
         places_covered: "Shillong | Phe Phe Falls | Krangsuri waterfall | Dawki Camping",
         discount: "",
         gallery: [
-            "meghalaya1.png",
-            "meghalaya2.png",
-            "meghalaya3.png"
+            "v1697567045/spiti_valley/1_js0yaf.jpg",
+            "v1697567057/spiti_valley/2_d2lr9y.jpg",
+            "v1697567048/spiti_valley/3_a6g84d.jpg",
+            "v1697567052/spiti_valley/4_b1depc.jpg",
+            "v1697567056/spiti_valley/5_shufsv.jpg",
+            "v1697567052/spiti_valley/6_um5gjc.jpg",
+            "v1697567042/spiti_valley/7_teosqa.jpg",
+            "v1697567050/spiti_valley/8_v6icc4.jpg",
+            "v1697567038/spiti_valley/9_jmfkfj.jpg",
+            "v1697567041/spiti_valley/10_vhunye.jpg",
+            "v1697567059/spiti_valley/11_evrwkn.jpg",
         ],
         months: ["Sep", "Oct", "Nov", "Dec"],
         departure: [
@@ -479,7 +960,17 @@ const tripsData = [
         places_covered: "Kedarnath | Chopta Valley | Rishikesh",
         discount: "",
         gallery: [
-            "kedarnath1.png",
+            "v1697567045/spiti_valley/1_js0yaf.jpg",
+            "v1697567057/spiti_valley/2_d2lr9y.jpg",
+            "v1697567048/spiti_valley/3_a6g84d.jpg",
+            "v1697567052/spiti_valley/4_b1depc.jpg",
+            "v1697567056/spiti_valley/5_shufsv.jpg",
+            "v1697567052/spiti_valley/6_um5gjc.jpg",
+            "v1697567042/spiti_valley/7_teosqa.jpg",
+            "v1697567050/spiti_valley/8_v6icc4.jpg",
+            "v1697567038/spiti_valley/9_jmfkfj.jpg",
+            "v1697567041/spiti_valley/10_vhunye.jpg",
+            "v1697567059/spiti_valley/11_evrwkn.jpg",
         ],
         months: ["Sep", "Oct"],
         departure: [
@@ -661,524 +1152,6 @@ const tripsData = [
         ]
     },
 
-    // Spiti Valley Trip
-    {
-        id: "95d0068c-c285-43f0-9711-1ae6cd23538d",
-        category: "upcoming",
-        title: "Spiti Valley With Chandratal Lake",
-        total_seats: 15,
-        duration: "8 Days",
-        places_covered: "Delhi | Chitkul - Nako | - Kaza | Hikkim | Ki | Kibber | Chicham Bridge | Chandratal Lake - Kunzum pass | Sissu - Manali",
-        discount: "Group Discount available on 5+ booking",
-        gallery: [
-            "spitivalley1.png",
-        ],
-        months: ["Sep", "Oct", "Nov", "Dec", "Jan"],
-        departure: [
-            {
-                start: "27 Sep",
-                end: "02 Oct",
-                seats_left: 15
-            },
-            {
-                start: "07 Oct",
-                end: "12 Oct",
-                seats_left: 15
-            },
-            {
-                start: "14 Oct",
-                end: "19 Oct",
-                seats_left: 15
-            },
-            {
-                start: "21 Oct",
-                end: "26 Oct",
-                seats_left: 15
-            },
-            {
-                start: "04 Dec",
-                end: "09 Nov",
-                seats_left: 15
-            },
-            {
-                start: "11 Nov",
-                end: "16 Nov",
-                seats_left: 15
-            },
-            {
-                start: "18 Nov",
-                end: "23 Nov",
-                seats_left: 15
-            },
-            {
-                start: "25 Nov",
-                end: "30 Nov",
-                seats_left: 15
-            },
-            {
-                start: "02 Oct",
-                end: "07 Oct",
-                seats_left: 15
-            },
-            {
-                start: "09 Oct",
-                end: "14 Oct",
-                seats_left: 15
-            },
-            {
-                start: "06 Jan",
-                end: "11 Jan",
-                seats_left: 15
-            },
-            {
-                start: "13 Jan",
-                end: "18 Jan",
-                seats_left: 15
-            },
-        ],
-        description: [
-            "We are going to Spiti valley. You can also call it a look alike Ladakh. Trip starts from Delhi – Chandigarh – Chitkul - Nako – Kaza – Lagza – Chicham Bridge – Kibber – Ki – Hikkim - Chandratal – Kunzum Top - Sissu - Manali – Kullu - Delhi. We are exploring the highest post office in the world. We will draft a letter to our loved ones from here. Let’s pose for a group picture at Chicham Bridge, this is the highest bridge in Asia. We may be lucky to see prayer at ki monastery. We will play Mafia, click good pictures at Langza village with a backdrop of snow-clad mountains and a lot more. We will be visiting a 500-year-old mummy which is preserved in the monastery.",
-            "Did we tell you we are staying in valley view property and your morning view is going to be mountains and Spiti River?"
-        ],
-        iternary: [
-            {
-                title: "Delhi - Chitkul",
-                desc: "We will board a train from Delhi to Chandigarh and start a further journey to Chitkul. This will be a night journey to Chitkul. Our tentative journey start time from Delhi is at 12.00 pm.",
-                attractions: "",
-                meal: [],
-            },
-            {
-                title: "Relaxing day in Chitkul",
-                desc: "Today is a relaxing day in Chitkul. In the evening we will go for a walk to the village and Monastery. Our stay has a mesmerising view of Mountains. Before we start our journey to a high-altitude area we will acclimatize for a day. Night stay in Chitkul",
-                attractions: "Evening walk to Monastery, staying in valley view Homestay",
-                meal: ["Dinner"],
-            },
-            {
-                title: "Chitkul – Nako – Gue - Tabo (9 hours journey)",
-                desc: "After a quick breakfast we will start our journey towards kaza. We will visit Nako Lake. We will also visit Gue monastery, a 500-year-old Mummy. This journey is going to be beautiful as the mountains start turning into cold desert. Landscape you better capture in eyes we will reach Tabo around 05.00 pm Night stay in Tabo.",
-                attractions: "Nako Lake, Nako Monastery, Gue monastery, Tabo monastery",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Tabo – Ki – Chicham – Kibber - Kaza",
-                desc: "After breakfast, we head to the beautiful Key Monastery. This monastery looks beautiful from the road. The monastery’s structure, as visible from the base of the hill, is a photographer’s delight. From Key, we now visit Kibber village to see the local life. It has around 80 houses. We are also visiting the highest suspension bridge at a height of 13596 which connects 2 villages Kibber & Chicham. Night stay in Kaza",
-                attractions: "Key Monastery, Kibber, Chicham Bridge",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Kaza – Langza – Hikkim – Komic - Kaza",
-                desc: "Today, first we will go to Langza –the second highest motorable village after Komik. This village is home to many fossils; get yourself clicked with the iconic Buddha statue which is also the most popular picture of Langza on the internet. Want to send a post from 14,400 feet above sea level? Then we will Hikkim -the world's highest post office, and Komik. Night stay in Kaza",
-                attractions: "Hikkim, Komic, langza",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Kaza - Chandratal Lake (5 hours)",
-                desc: "We will start our day post Breakfast. Chandratal Lake is reckoned as the most charismatic lake situated in the laps of Himalayas. This enticing lake is perched on the SamudraTapu plateau which lies near Chandra River. Situated at an altitude of 4300 meters, Chandratal offers the most splendid views of the Spiti region. You can experience a sky full of stars at night. Night stay at Chandratal",
-                attractions: "Chandratal Lake & Kunzum pass top (14000 ft)",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Chandratal Lake to sissu (6 hrs journey)",
-                desc: "After breakfast we will leave for Manali, as it's going to be a 9hr drive. We are going to visit Chandratal Lake today. Prepare your mind for a hike to Chandratal Lake. We shall stop over for a bit at Batal, at Chandra Dhaba, made popular by the famous Chacha and Chachi dhaba and Kunzum La. We then proceed to sissu, we are staying in a valley view property here. Night stay in sissu",
-                attractions: "Chacha chachi dhaba, Atal tunnel",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Sissu – Manali - Delhi",
-                desc: "We will start our return journey by 06.00 am and drive from Sissu to Chandigarh. Board a train from Chandigarh to Delhi and reach Delhi by 10.00 pm. you can book your return flight in midnight after 11.00 pm on sunday",
-                attractions: "",
-                meal: ["Breakfast"],
-            },
-        ],
-        why: [
-            "Book your seats with us and rest we will do for you. Don’t Trust? Check out Reviews on Google: https://g.co/kgs/TbKAnb",
-            "We are taking only up to 15 participates in one batch",
-            "Because who don’t want a crazy group picture at Langza",
-            "We are crossing the high pass Kunzum Pass",
-            "We are taking you to 500-year-old mummy and its crazy history.",
-            "We have age limit of 18 to 40 for our Spiti valley road trip.",
-            "Do check our reviews on Google and Facebook",
-            "Because we are travelling from Kaza to Manali crossing kunzum pass this is the time when pass is less crowded, and you may also witness snowfall.",
-            "We are visiting the Moon Lake Chandratal.",
-            "We are Staying in Sissu for 1 night. You will not find this stay anywhere."
-        ],
-        highlights: [
-            "Road trip around Spiti valley via Kinnaur",
-            "Highest post office in the world",
-            "Highest bridge in Asia",
-            "Oldest Monastery",
-            "River walks",
-            "Late night Games & Dance",
-            "500-year-old mummy",
-            "Kunzum pass",
-            "Atal Tunnel",
-            "Staying in Sissu",
-            "Chandratal lake"
-        ],
-        price_breakup: [
-            {
-                departure: "Delhi to Delhi",
-                duration: "8 Days",
-                price: "18,500",
-            },
-            {
-                departure: "Mumbai to Mumbai",
-                duration: "10 Days",
-                price: "22,500",
-            }
-        ],
-        price_extras: [
-            {
-                title: "Twin Sharing",
-                price: "2,000"
-            }
-        ],
-        inclusion: [
-            "Transport as per itinerary starting from Delhi to Delhi",
-            "06 Breakfasts and 06 Dinners",
-            "01 Night in Chitkul",
-            "02 Night stay Kaza",
-            "01 Night stay at Chandratal",
-            "01 Night Tabo",
-            "01 Night stay in Sissu",
-            "Accommodation on Triple sharing (Hotels / Camps / Homestay )",
-            "All Required Permit by Government / Taxes / toll / Parking",
-            "Experience trip leader from Backpacker Tours"
-        ],
-        exclusion: [
-            "Any Extra transport not mentioned in Itinerary",
-            "Any Lunch",
-            "Any Internal Transport & Stay in Delhi",
-            "Any extra cost due to Road blocks, landslide or Out of human Control",
-            "Any adventure sports"
-        ],
-        note: [
-            "Homestay in Chitkul",
-            "Homestay in Tabo",
-            "Hotel in Kaza",
-            "Camp at Chandratal (Attached washroom)",
-            "Hotel in Sissu",
-            "Pickup from Mumbai, Pune, Ahmedabad, Surat and Vadodara is availabe",
-            "Anyone from any state of India can join this trip. We can help you travel from your city to Delhi",
-            "Backpacker Tours is an Experience curating company. If you are looking for budget trip than we may not a good option for you",
-            "All travel Exploration is depending on weather conditions and road conditions",
-            "If the Kaza to Manali route during our visit is not open. we may have to change the itinerary and return via Shimla route, but the return arrival date in delhi will remain same",
-            "We are travelling in High altitude mountain please carry require medicine",
-        ],
-        cancle_policy: [
-            "Cancel before 30 Day of Departure Booking 8,000/- Chargeable",
-            "Cancel before 15 Day of Departure INR 12,000/- Chargeable",
-            "No Refund for cancellation between 15 days to date of departure or No show",
-        ],
-        things_to_carry: [
-            {
-                title: "Documents",
-                items: [
-                    "At least 2 Copies of Photo ID proof for all members (Adhaar Card) (Pan Card is not Valid ID proof)",
-                    "Valid driving License in case you want to ride bike there. (Pillion rider dont need it)"
-                ]
-            },
-            {
-                title: "Toiletries",
-                items: [
-                    "Tooth Brush & Paste",
-                    "Toilet Soap / Hand sanitizer",
-                    "Tissue papers and hand towel.",
-                    "Face wash and Deodorant",
-                    "Moisturizing Cream",
-                    "Sunscreen recommended.",
-                    "Lip Guard (very much needed)",
-                    "Comb, Shaving Kit and Cold Cream",
-                ]
-            },
-            {
-                title: "Clothing Kit",
-                items: [
-                    "6 to 8 pair of clothes",
-                    "1 Towel",
-                    "4 / 5 Pairs of socks (woollen)",
-                    "1 pair of flip flops",
-                    "At least hodie for day use",
-                    "Warm head cover, ear covers & Forehead covers and Neck Pillow (Very useful)",
-                    "1 heavy woolen jacket",
-                    "1 pairs of thermal / Most useful thing. This way your bag comes down to half its size.",
-                    "Raincoat / Umbrella / if it rains in Delhi / Manali",
-                    "1 / 2 Track pants (If you want more comfort)",
-                ]
-            },
-            {
-                title: "Accessories",
-                items: [
-                    "Camera (Your choice)",
-                    "Mobile Charger & Power bank",
-                    "Pen and a small Diary, Bag locks (2 or more)",
-                    "Sunglasses very useful",
-                    "Recommended for remote areas / Small water bottle, say 500 ml",
-                    "Plastic Bags / Plastic Zip Lock Bags Twist-ties, safety pins",
-                ]
-            }
-        ]
-    },
-
-    // Spiti Valley Trip
-    {
-        id: "95d0068c-c285-43f0-9711-1ae6cd23538d",
-        category: "upcoming",
-        title: "Spiti Valley With Chandratal Lake",
-        total_seats: 15,
-        duration: "8 Days",
-        places_covered: "Delhi | Chitkul - Nako | - Kaza | Hikkim | Ki | Kibber | Chicham Bridge | Chandratal Lake - Kunzum pass | Sissu - Manali",
-        discount: "Group Discount available on 5+ booking",
-        gallery: [
-            "spitivalley1.png",
-        ],
-        months: ["Sep", "Oct", "Nov", "Dec", "Jan"],
-        departure: [
-            {
-                start: "27 Sep",
-                end: "02 Oct",
-                seats_left: 15
-            },
-            {
-                start: "07 Oct",
-                end: "12 Oct",
-                seats_left: 15
-            },
-            {
-                start: "14 Oct",
-                end: "19 Oct",
-                seats_left: 15
-            },
-            {
-                start: "21 Oct",
-                end: "26 Oct",
-                seats_left: 15
-            },
-            {
-                start: "04 Dec",
-                end: "09 Nov",
-                seats_left: 15
-            },
-            {
-                start: "11 Nov",
-                end: "16 Nov",
-                seats_left: 15
-            },
-            {
-                start: "18 Nov",
-                end: "23 Nov",
-                seats_left: 15
-            },
-            {
-                start: "25 Nov",
-                end: "30 Nov",
-                seats_left: 15
-            },
-            {
-                start: "02 Oct",
-                end: "07 Oct",
-                seats_left: 15
-            },
-            {
-                start: "09 Oct",
-                end: "14 Oct",
-                seats_left: 15
-            },
-            {
-                start: "06 Jan",
-                end: "11 Jan",
-                seats_left: 15
-            },
-            {
-                start: "13 Jan",
-                end: "18 Jan",
-                seats_left: 15
-            },
-        ],
-        description: [
-            "We are going to Spiti valley. You can also call it a look alike Ladakh. Trip starts from Delhi – Chandigarh – Chitkul - Nako – Kaza – Lagza – Chicham Bridge – Kibber – Ki – Hikkim - Chandratal – Kunzum Top - Sissu - Manali – Kullu - Delhi. We are exploring the highest post office in the world. We will draft a letter to our loved ones from here. Let’s pose for a group picture at Chicham Bridge, this is the highest bridge in Asia. We may be lucky to see prayer at ki monastery. We will play Mafia, click good pictures at Langza village with a backdrop of snow-clad mountains and a lot more. We will be visiting a 500-year-old mummy which is preserved in the monastery.",
-            "Did we tell you we are staying in valley view property and your morning view is going to be mountains and Spiti River?"
-        ],
-        iternary: [
-            {
-                title: "Delhi - Chitkul",
-                desc: "We will board a train from Delhi to Chandigarh and start a further journey to Chitkul. This will be a night journey to Chitkul. Our tentative journey start time from Delhi is at 12.00 pm.",
-                attractions: "",
-                meal: [],
-            },
-            {
-                title: "Relaxing day in Chitkul",
-                desc: "Today is a relaxing day in Chitkul. In the evening we will go for a walk to the village and Monastery. Our stay has a mesmerising view of Mountains. Before we start our journey to a high-altitude area we will acclimatize for a day. Night stay in Chitkul",
-                attractions: "Evening walk to Monastery, staying in valley view Homestay",
-                meal: ["Dinner"],
-            },
-            {
-                title: "Chitkul – Nako – Gue - Tabo (9 hours journey)",
-                desc: "After a quick breakfast we will start our journey towards kaza. We will visit Nako Lake. We will also visit Gue monastery, a 500-year-old Mummy. This journey is going to be beautiful as the mountains start turning into cold desert. Landscape you better capture in eyes we will reach Tabo around 05.00 pm Night stay in Tabo.",
-                attractions: "Nako Lake, Nako Monastery, Gue monastery, Tabo monastery",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Tabo – Ki – Chicham – Kibber - Kaza",
-                desc: "After breakfast, we head to the beautiful Key Monastery. This monastery looks beautiful from the road. The monastery’s structure, as visible from the base of the hill, is a photographer’s delight. From Key, we now visit Kibber village to see the local life. It has around 80 houses. We are also visiting the highest suspension bridge at a height of 13596 which connects 2 villages Kibber & Chicham. Night stay in Kaza",
-                attractions: "Key Monastery, Kibber, Chicham Bridge",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Kaza – Langza – Hikkim – Komic - Kaza",
-                desc: "Today, first we will go to Langza –the second highest motorable village after Komik. This village is home to many fossils; get yourself clicked with the iconic Buddha statue which is also the most popular picture of Langza on the internet. Want to send a post from 14,400 feet above sea level? Then we will Hikkim -the world's highest post office, and Komik. Night stay in Kaza",
-                attractions: "Hikkim, Komic, langza",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Kaza - Chandratal Lake (5 hours)",
-                desc: "We will start our day post Breakfast. Chandratal Lake is reckoned as the most charismatic lake situated in the laps of Himalayas. This enticing lake is perched on the SamudraTapu plateau which lies near Chandra River. Situated at an altitude of 4300 meters, Chandratal offers the most splendid views of the Spiti region. You can experience a sky full of stars at night. Night stay at Chandratal",
-                attractions: "Chandratal Lake & Kunzum pass top (14000 ft)",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Chandratal Lake to sissu (6 hrs journey)",
-                desc: "After breakfast we will leave for Manali, as it's going to be a 9hr drive. We are going to visit Chandratal Lake today. Prepare your mind for a hike to Chandratal Lake. We shall stop over for a bit at Batal, at Chandra Dhaba, made popular by the famous Chacha and Chachi dhaba and Kunzum La. We then proceed to sissu, we are staying in a valley view property here. Night stay in sissu",
-                attractions: "Chacha chachi dhaba, Atal tunnel",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Sissu – Manali - Delhi",
-                desc: "We will start our return journey by 06.00 am and drive from Sissu to Chandigarh. Board a train from Chandigarh to Delhi and reach Delhi by 10.00 pm. you can book your return flight in midnight after 11.00 pm on sunday",
-                attractions: "",
-                meal: ["Breakfast"],
-            },
-        ],
-        why: [
-            "Book your seats with us and rest we will do for you. Don’t Trust? Check out Reviews on Google: https://g.co/kgs/TbKAnb",
-            "We are taking only up to 15 participates in one batch",
-            "Because who don’t want a crazy group picture at Langza",
-            "We are crossing the high pass Kunzum Pass",
-            "We are taking you to 500-year-old mummy and its crazy history.",
-            "We have age limit of 18 to 40 for our Spiti valley road trip.",
-            "Do check our reviews on Google and Facebook",
-            "Because we are travelling from Kaza to Manali crossing kunzum pass this is the time when pass is less crowded, and you may also witness snowfall.",
-            "We are visiting the Moon Lake Chandratal.",
-            "We are Staying in Sissu for 1 night. You will not find this stay anywhere."
-        ],
-        highlights: [
-            "Road trip around Spiti valley via Kinnaur",
-            "Highest post office in the world",
-            "Highest bridge in Asia",
-            "Oldest Monastery",
-            "River walks",
-            "Late night Games & Dance",
-            "500-year-old mummy",
-            "Kunzum pass",
-            "Atal Tunnel",
-            "Staying in Sissu",
-            "Chandratal lake"
-        ],
-        price_breakup: [
-            {
-                departure: "Delhi to Delhi",
-                duration: "8 Days",
-                price: "18,500",
-            },
-            {
-                departure: "Mumbai to Mumbai",
-                duration: "10 Days",
-                price: "22,500",
-            }
-        ],
-        price_extras: [
-            {
-                title: "Twin Sharing",
-                price: "2,000"
-            }
-        ],
-        inclusion: [
-            "Transport as per itinerary starting from Delhi to Delhi",
-            "06 Breakfasts and 06 Dinners",
-            "01 Night in Chitkul",
-            "02 Night stay Kaza",
-            "01 Night stay at Chandratal",
-            "01 Night Tabo",
-            "01 Night stay in Sissu",
-            "Accommodation on Triple sharing (Hotels / Camps / Homestay )",
-            "All Required Permit by Government / Taxes / toll / Parking",
-            "Experience trip leader from Backpacker Tours"
-        ],
-        exclusion: [
-            "Any Extra transport not mentioned in Itinerary",
-            "Any Lunch",
-            "Any Internal Transport & Stay in Delhi",
-            "Any extra cost due to Road blocks, landslide or Out of human Control",
-            "Any adventure sports"
-        ],
-        note: [
-            "Homestay in Chitkul",
-            "Homestay in Tabo",
-            "Hotel in Kaza",
-            "Camp at Chandratal (Attached washroom)",
-            "Hotel in Sissu",
-            "Pickup from Mumbai, Pune, Ahmedabad, Surat and Vadodara is availabe",
-            "Anyone from any state of India can join this trip. We can help you travel from your city to Delhi",
-            "Backpacker Tours is an Experience curating company. If you are looking for budget trip than we may not a good option for you",
-            "All travel Exploration is depending on weather conditions and road conditions",
-            "If the Kaza to Manali route during our visit is not open. we may have to change the itinerary and return via Shimla route, but the return arrival date in delhi will remain same",
-            "We are travelling in High altitude mountain please carry require medicine",
-        ],
-        cancle_policy: [
-            "Cancel before 30 Day of Departure Booking 8,000/- Chargeable",
-            "Cancel before 15 Day of Departure INR 12,000/- Chargeable",
-            "No Refund for cancellation between 15 days to date of departure or No show",
-        ],
-        things_to_carry: [
-            {
-                title: "Documents",
-                items: [
-                    "At least 2 Copies of Photo ID proof for all members (Adhaar Card) (Pan Card is not Valid ID proof)",
-                    "Valid driving License in case you want to ride bike there. (Pillion rider dont need it)"
-                ]
-            },
-            {
-                title: "Toiletries",
-                items: [
-                    "Tooth Brush & Paste",
-                    "Toilet Soap / Hand sanitizer",
-                    "Tissue papers and hand towel.",
-                    "Face wash and Deodorant",
-                    "Moisturizing Cream",
-                    "Sunscreen recommended.",
-                    "Lip Guard (very much needed)",
-                    "Comb, Shaving Kit and Cold Cream",
-                ]
-            },
-            {
-                title: "Clothing Kit",
-                items: [
-                    "6 to 8 pair of clothes",
-                    "1 Towel",
-                    "4 / 5 Pairs of socks (woollen)",
-                    "1 pair of flip flops",
-                    "At least hodie for day use",
-                    "Warm head cover, ear covers & Forehead covers and Neck Pillow (Very useful)",
-                    "1 heavy woolen jacket",
-                    "1 pairs of thermal / Most useful thing. This way your bag comes down to half its size.",
-                    "Raincoat / Umbrella / if it rains in Delhi / Manali",
-                    "1 / 2 Track pants (If you want more comfort)",
-                ]
-            },
-            {
-                title: "Accessories",
-                items: [
-                    "Camera (Your choice)",
-                    "Mobile Charger & Power bank",
-                    "Pen and a small Diary, Bag locks (2 or more)",
-                    "Sunglasses very useful",
-                    "Recommended for remote areas / Small water bottle, say 500 ml",
-                    "Plastic Bags / Plastic Zip Lock Bags Twist-ties, safety pins",
-                ]
-            }
-        ]
-    },
-
     // Weekend - Gokarna
     {
         id: "af5dd872-1305-49b0-97a5-7500789c7c54",
@@ -1189,9 +1162,17 @@ const tripsData = [
         grade: "Medium",
         discount: "10% off if booked before 10th Aug 2023",
         gallery: [
-            "kerala1.png",
-            "kerala2.png",
-            "kerala3.png",
+            "v1697567045/spiti_valley/1_js0yaf.jpg",
+            "v1697567057/spiti_valley/2_d2lr9y.jpg",
+            "v1697567048/spiti_valley/3_a6g84d.jpg",
+            "v1697567052/spiti_valley/4_b1depc.jpg",
+            "v1697567056/spiti_valley/5_shufsv.jpg",
+            "v1697567052/spiti_valley/6_um5gjc.jpg",
+            "v1697567042/spiti_valley/7_teosqa.jpg",
+            "v1697567050/spiti_valley/8_v6icc4.jpg",
+            "v1697567038/spiti_valley/9_jmfkfj.jpg",
+            "v1697567041/spiti_valley/10_vhunye.jpg",
+            "v1697567059/spiti_valley/11_evrwkn.jpg",
         ],
         months: ["Sep", "Oct", "Nov", "Dec"],
         departure: [

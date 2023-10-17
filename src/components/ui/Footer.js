@@ -19,8 +19,8 @@ const Footer = () => {
                     <Col md="4">
                         <p><strong>Follow Us</strong></p>
                         <div className="d-flex gap-3">
-                            <i class="bi bi-instagram" style={{ fontSize: "1.2rem" }}></i>
-                            <i class="bi bi-facebook" style={{ fontSize: "1.2rem" }}></i>
+                            <i className="bi bi-instagram" style={{ fontSize: "1.2rem" }}></i>
+                            <i className="bi bi-facebook" style={{ fontSize: "1.2rem" }}></i>
                         </div>
                     </Col>
                 </Row>
