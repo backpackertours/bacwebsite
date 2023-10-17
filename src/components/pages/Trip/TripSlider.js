@@ -11,7 +11,7 @@ const TripSlider = ({ gallery }) => {
     const [animating, setAnimating] = useState(false);
 
     // cloudinary image url
-    const imageUrl = "https://res.cloudinary.com/dgjllfp17/image/upload/c_scale,h_700,w_950/v1693663080/backpackers/";
+    const imageUrl = "https://res.cloudinary.com/dgjllfp17/image/upload/c_scale,h_600,w_950/";
 
     // build items array from our gallery
     const items = gallery.map((item) => {

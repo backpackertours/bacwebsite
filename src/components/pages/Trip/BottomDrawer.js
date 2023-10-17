@@ -39,21 +39,21 @@ const BottomDrawer = ({ category, price_breakup, price_extras, discount }) => {
                     color="primary"
                     size="md"
                     onClick={handleShare}>
-                    <i class="bi bi-share-fill"></i> Share
+                    <i className="bi bi-share-fill"></i> Share
                 </Button>
                 <Button
                     className={body !== "prices" && "bg-outline"}
                     color="primary"
                     size="md"
                     onClick={handleShowPrices}>
-                    <i class="bi bi-currency-rupee"></i> Show Prices
+                    <i className="bi bi-currency-rupee"></i> Show Prices
                 </Button>
                 <Button
                     className={body !== "queryform" && "bg-outline"}
                     color="primary"
                     size="md"
                     onClick={handleSendQueries}>
-                    <i class="bi bi-list-check"></i> Send Queries
+                    <i className="bi bi-list-check"></i> Send Queries
                 </Button>
             </div>
             <Drawer

@@ -105,7 +105,7 @@ const Testimonials = (args) => {
                             </div>
                             <div className="d-flex gap-3">
                                 <Button className="rounded-pill py-2 px-4 hover-white" color="primary" outline>
-                                    Check Out Reviews On<i class="bi bi-google ms-2"></i>
+                                    Check Out Reviews On<i className="bi bi-google ms-2"></i>
                                 </Button>
                             </div>
                         </div>

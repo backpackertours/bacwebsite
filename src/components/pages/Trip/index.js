@@ -57,6 +57,8 @@ const Trip = () => {
     const isThingsToCarry = things_to_carry && things_to_carry.length > 0;
     const isWhy = why && why.length > 0;
 
+    window.scrollTo(0, 0);
+
     return (
         <section className="bg-gray">
             <BottomDrawer

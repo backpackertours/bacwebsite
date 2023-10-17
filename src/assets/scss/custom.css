@@ -12039,4 +12039,8 @@ textarea.form-control-lg {
 .accordion-button:focus {
   border-color: none;
   box-shadow: none;
+}
+
+:root {
+  scroll-behavior: unset;
 }/*# sourceMappingURL=custom.css.map */

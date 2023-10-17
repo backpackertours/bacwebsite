@@ -14,7 +14,7 @@ const ShareModal = ({ modal, toggle, body }) => {
                 <ModalBody className="p-4">
                     <div className="text-end">
                         <Button outline color="dark" onClick={toggle}>
-                            <i class="bi bi-x-lg"></i>
+                            <i className="bi bi-x-lg"></i>
                         </Button>
                     </div>
                     {body === "sharelink" ? <ShareLink /> : <QueryFormBody />}

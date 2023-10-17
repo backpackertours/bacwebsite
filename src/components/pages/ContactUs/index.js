@@ -27,7 +27,7 @@ const ContactUs = () => {
                 </Row>
                 <div>
                     <h3 className="mb-4">Locate Us</h3>
-                    <iframe className="w-100 rounded-4" style={{ height: 500 }} title="Backpacker Tours Address" src={mapUrl} allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe className="w-100 rounded-4" style={{ height: 500 }} title="Backpacker Tours Address" src={mapUrl} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </section>

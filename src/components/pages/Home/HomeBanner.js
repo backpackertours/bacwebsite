@@ -40,7 +40,7 @@ const HomeBanner = (props) => {
                         </div>
                         <div>
                             <Button className="rounded-pill py-2 px-4 text-white bg-gradient2 border-0">
-                                Explore Trips <i class="bi bi-arrow-down"></i>
+                                Explore Trips <i className="bi bi-arrow-down"></i>
                             </Button>
                         </div>
                     </Col>
