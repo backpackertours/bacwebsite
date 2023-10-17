@@ -229,6 +229,7 @@ Utilities
     color: #FFFFFF;
 }
 
+
 .button .nav-link {
     color: #FF8B23;
 }
@@ -313,7 +314,11 @@ Utilities
 }
 
 .mb-bottom {
-    margin-bottom: 56px;
+    margin-bottom: 78px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
 }
 
 /* Navbar hover styles */
@@ -323,4 +328,92 @@ Utilities
 
 .hover-show:hover .hover-show-menu {
     display: block !important;
+}
+
+.p-sm-4 {
+    padding: 1.5rem;
+}
+
+.trip-slider-image {
+    width: 100%;
+    height: 500px;
+}
+
+.mx-negative-0 {
+    margin-right: -0.4rem;
+    margin-left: -0.4rem;
+}
+
+.py-sm-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.testimonials-text {
+    min-height: 150px;
+}
+
+.stars>i {
+    color: #ffd500;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .px-sm-4 {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .mb-sm-menu {
+        margin-bottom: 78px;
+    }
+
+    .mb-sm-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    .border-sm-0 {
+        border: none;
+    }
+
+    .drop-shadow-sm-0 {
+        box-shadow: none;
+    }
+
+    .p-sm-4 {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .py-sm-3 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .trip-slider-image {
+        height: 300px;
+    }
+
+    .bg-mainbanner {
+        background-image: none;
+        background: #FAFAFA;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .w-88 {
+        width: 100% !important;
+    }
+
+
+    .testimonials-text {
+        min-height: 200px;
+    }
 }

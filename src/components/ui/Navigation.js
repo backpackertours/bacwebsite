@@ -22,7 +22,10 @@ const Navigation = (args) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
-    const handleLinkChange = (index) => setlink(index)
+    const handleLinkChange = (index) => {
+        setlink(index)
+        setIsOpen(false);
+    }
     return (
         <div>
             <Navbar {...args}>

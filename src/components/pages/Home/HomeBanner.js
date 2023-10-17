@@ -6,23 +6,15 @@ import {
     Button
 } from 'reactstrap';
 
-// import banner from '../../../assets/images/banner.png';
 import polaroids from '../../../assets/images/polaroids.png';
 const HomeBanner = (props) => {
 
     return (
         <section className="bg-mainbanner">
-            <div className="container py-5">
+            <div className="container py-5 px-sm-4">
                 <Row>
-                    <Col className="py-3" lg="5" md="6">
-                        <div className="d-flex gap-3 align-items-center justify-content-start py-2 mb-4">
-                            {/*
-                        **** ASK - Should we keep the logo or a nice text in the banner ***
-                        <img
-                            style={{ width: "80px" }}
-                            alt="Backpackertours Logo"
-                            src={BackpackerLogo}
-                        /> */}
+                    <Col className="mb-sm-4 py-sm-3" lg="5" md="6">
+                        <div className="d-flex gap-3 align-items-center justify-content-start mb-4">
                             <div className="d-flex flex-column">
                                 <span className="mb-0 text-slate text-header">Backpacker</span>
                                 <div className="mt-0 text-gradient">
@@ -31,7 +23,7 @@ const HomeBanner = (props) => {
                             </div>
                         </div>
                         <div className="mb-5 text-muted">
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem corporis, et ad quas odit itaque sint voluptas recusandae maxime incidunt? Delectus inventore ducimus odio natus! Accusantium quo quos ab neque!</p>
+                            <p>Unlock the magic of India's vibrant tapestry with Backpacker Tours, your trusted companion for unforgettable group tours and exhilarating treks. Our expertly crafted itineraries promise to unveil the hidden gems and authentic experiences that will leave you spellbound.</p>
                         </div>
                         <div className='d-flex gap-3 mb-5'>
                             <div className='p-3 bg-white text-center rounded-4'><span style={{ fontSize: "2rem" }}>🏔️</span><p className='mb-0'>Group Tours</p></div>

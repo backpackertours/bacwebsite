@@ -77,7 +77,7 @@ const Trip = () => {
                 location={location}
                 grade={grade}
             />
-            <section className="container pb-5">
+            <section className="container pb-5 px-sm-4">
                 <Row>
                     <Col md="8">
                         <TripSlider gallery={gallery} />

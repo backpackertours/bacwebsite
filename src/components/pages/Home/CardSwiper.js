@@ -19,12 +19,12 @@ const CardSwiper = ({ data }) => {
     return (
         <>
             <Swiper
-                slidesPerView={2}
+                slidesPerView={1.5}
                 spaceBetween={20}
                 navigation={true}
                 breakpoints={{
                     640: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetween: 25,
                     },
                     768: {

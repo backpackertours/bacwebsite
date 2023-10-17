@@ -15,8 +15,9 @@ const PriceBody = ({ price_breakup, price_extras, discount }) => {
     const toggle = () => setModal(!modal);
 
     return (
-        <Card className="bg-white rounded-4 p-4 drop-shadow border-md">
+        <Card className="bg-white rounded-4 drop-shadow border-sm-0 drop-shadow-sm-0 p-sm-4">
             <div className="rounded-4">
+                <h5 className="mb-4 d-md-none">Price Breakup</h5>
                 {price_breakup.map(item => (
                     <PriceBreakup
                         key={uuid4()}
@@ -41,7 +42,7 @@ const PriceBody = ({ price_breakup, price_extras, discount }) => {
                         </div>
                     </>
                 )}
-                <div className="mb-3">
+                <div>
                     <small><strong>*Prices are on per person basis.</strong></small>
                 </div>
                 {

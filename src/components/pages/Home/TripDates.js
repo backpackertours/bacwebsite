@@ -8,7 +8,7 @@ const TripDates = ({ departureDates }) => {
     const dates = datesArr.map(date => {
         const dateMonth = date.start.split(" ");
         return (
-            <Col sm="3" md="3" className="px-1" key={uuid4()}>
+            <Col xs="3" sm="3" md="3" className="px-1" key={uuid4()}>
                 <div className="p-1 text-center rounded-3 bg-gray">
                     <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[0]}</small>
                     <small className="d-block" style={{ fontSize: "12px" }}>{dateMonth[1]}</small>
@@ -18,7 +18,7 @@ const TripDates = ({ departureDates }) => {
     });
 
     return (
-        <Row className='mb-2 mx-0'>
+        <Row className='mb-2 mx-negative-0'>
             {dates}
         </Row>
     )

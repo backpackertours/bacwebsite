@@ -12,7 +12,6 @@ const QueryFormBody = () => {
         <Card className="bg-white rounded-4 px-4 border-0">
             <div>
                 <h5 className="mb-4">Send Enquiry</h5>
-
                 <Form>
                     <FormGroup>
                         <Input

@@ -5,7 +5,7 @@ import founder from '../../../assets/images/founder.png';
 const AboutUs = () => {
     return (
         <section className="bg-gray">
-            <div className="container py-5">
+            <div className="container py-5 px-sm-4">
                 <Row>
                     <Col className="mx-auto" lg="8">
                         <div className='mb-4 text-center'>
