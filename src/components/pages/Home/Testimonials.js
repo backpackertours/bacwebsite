@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import {
     Button,
     Carousel,
@@ -34,7 +33,6 @@ const Testimonials = (args) => {
         setActiveIndex(newIndex);
     };
 
-    const googleMapsLink = "https://maps.app.goo.gl/yrgPAbvCxe5xb12KA";
     const cloudinaryLink = "https://res.cloudinary.com/dgjllfp17/image/upload/v1696523917/Testimonials/";
 
     const slides = testimonialsData.map((item) => {
