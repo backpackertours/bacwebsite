@@ -31,7 +31,7 @@ const PriceBody = ({ price_breakup, price_extras, discount }) => {
                     <>
                         <hr className="mb-3 mt-0 dashed" />
                         <div className="mb-3">
-                            <h6 className="mb-2"><i class="bi bi-cash-stack text-primary"></i> Extras</h6>
+                            <h6 className="mb-2"><i className="bi bi-cash-stack text-primary"></i> Extras</h6>
                             {price_extras.map(item => (
                                 <PriceExtras
                                     key={uuid4()}

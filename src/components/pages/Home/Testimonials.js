@@ -87,11 +87,9 @@ const Testimonials = (args) => {
                                 Read the testimonials and get inspired to embark on your own adventure in captivating India.
                             </div>
                             <div className="d-flex gap-3">
-                                <Link to={googleMapsLink} target="_blank">
-                                    <Button className="rounded-pill py-2 px-4 hover-white" color="primary" outline>
-                                        Check Out Reviews On<i class="bi bi-google ms-2"></i>
-                                    </Button>
-                                </Link>
+                                <Button className="rounded-pill py-2 px-4 hover-white" color="primary" outline>
+                                    Check Out Reviews On<i className="bi bi-google ms-2"></i>
+                                </Button>
                             </div>
                         </div>
                     </Col>

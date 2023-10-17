@@ -31,11 +31,9 @@ const HomeBanner = (props) => {
                             <div className='p-3 bg-white text-center rounded-4'><span style={{ fontSize: "2rem" }}>🚐</span><p className='mb-0'>Family Trips</p></div>
                         </div>
                         <div>
-                            <a href="#upcomingtrips">
-                                <Button className="rounded-pill py-2 px-4 text-white bg-gradient2 border-0">
-                                    Explore Trips <i class="bi bi-arrow-down"></i>
-                                </Button>
-                            </a>
+                            <Button className="rounded-pill py-2 px-4 text-white bg-gradient2 border-0">
+                                Explore Trips <i className="bi bi-arrow-down"></i>
+                            </Button>
                         </div>
                     </Col>
                     <Col className="position-relative" lg="7" md="6">
