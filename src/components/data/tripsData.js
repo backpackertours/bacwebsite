@@ -460,8 +460,544 @@ const tripsData = [
             },
         ]
     },
+
     //Meghalaya
+    // Meghalaya Trip 
+    {
+        id: "d6681295-225e-4a7e-b5d7-52c87acf469d",
+        category: "upcoming",
+        title: "Meghalaya: Explore it in best ways",
+        total_seats: 15,
+        duration: "7 Days",
+        places_covered: "Shillong | Phe Phe Falls | Krangsuri waterfall | Dawki | Mawlynnong | Cherrapunjee | Nongriat",
+        discount: "",
+        gallery: [
+            "v1698027638/meghalaya/1.jpg",
+            "v1698027638/meghalaya/2.jpg",
+            "v1698027638/meghalaya/3.jpg",
+            "v1698027638/meghalaya/4.jpg",
+            "v1698027638/meghalaya/5.jpg",
+            "v1698027638/meghalaya/6.jpg",
+            "v1698027638/meghalaya/7.jpg",
+            "v1698027638/meghalaya/8.jpg",
+            "v1698027638/meghalaya/9.jpg",
+        ],
+        months: ["Nov", "Dec", "Jan"],
+        departure: [
+            {
+                start: "06 Nov",
+                end: "12 Nov",
+                seats_left: 15
+            },
+            {
+                start: "13 Nov",
+                end: "19 Nov",
+                seats_left: 15
+            },
+            {
+                start: "21 Nov",
+                end: "27 Nov",
+                seats_left: 15
+            },
+            {
+                start: "04 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "11 Dec",
+                end: "17 Dec",
+                seats_left: 15
+            },
+            {
+                start: "19 Dec",
+                end: "25 Dec",
+                seats_left: 15
+            },
+            {
+                start: "26 Dec",
+                end: "01 Jan",
+                seats_left: 15
+            },
+            {
+                start: "04 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "08 Jan",
+                end: "14 Jan",
+                seats_left: 15
+            },
+            {
+                start: "15 Jan",
+                end: "21 Jan",
+                seats_left: 15
+            },
+            {
+                start: "22 Jan",
+                end: "28 Jan",
+                seats_left: 15
+            },
+        ],
+        description: [],
+        iternary: [
+            {
+                title: "Arrival at Guwahati to Shillong (05 hrs)",
+                desc: [
+                    "Airport pickup will be at 12.00 pm.",
+                    "From Airport Drive to Shillong on the way, Stop at Umiam Lake viewpoint.",
+                    "After reaching Shillong. We will go to the Police Bazaar for shopping and Dinner.",
+                    "Night stay in Shillong."
+
+                ],
+                attractions: "Umiam Lake & Shillong market.",
+                meal: ["Dinner"],
+            },
+            {
+                title: "Shillong - Phe Phe Falls - Krangsuri waterfall - Dawki Camping",
+                desc: [
+                    "After a Breakfast we will go to Explore Phe Phe falls one of the less explored and less crowded waterfalls",
+                    "Krang Suri Waterfalls spend time near the waterfall. You can also try local khasi foods here which are quite famous.",
+                    "Proceed to Umngot River Dawki-Tamabil is an open border between Bangladesh & India. It is used mainly for coal & stone transportation to Bangladesh. Cross old suspension dawki bridge It was constructed in 1932 by the British.",
+                    "Overnight Riverside camping at Dawki. This campsite is in a very secluded village. You will not find any tourists around purley local experience.",
+
+                ],
+                attractions: "Krangsuri waterfall, Night camping at Dawki River, Phe Phe falls, Tamabil Open border India Bangladesh",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Dawki – Mawlynnong - Cherrapunjee",
+                desc: [
+                    "Are you ready to take a dip into the cleanest river of Meghalaya? You can go Kayaking and Cliff Jumping here.",
+                    "Check out from Campsite and we will visit the cleanest village of India, have lunch and then start our journey towards Cherrapunjee.",
+                    "Night stay in Cherrapunjee",
+                ],
+                attractions: "Dip into Cleanest River of Meghalaya, Mawlynnong- Cleanest village of india",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Exploring Caves & Waterfalls in Cherrapunjee",
+                desc: [
+                    "Meghalaya is a place with lots of caves. We will visit Limestone cave Mawsmai & Marine Fossil Arwah caves. You won’t find these caves anywhere.",
+                    "Today we will also visit Wei saw doing waterfall you will have to walk in forest to visit these 3 steps waterfall.",
+                    "Night stay in Cherrapunjee hotel",
+                ],
+                attractions: "Arwah caves, Mawsmai Cave, Seven sister waterfall, Wei sawdong waterfall",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Sohra to Double Decker Root Bridge Trek",
+                desc: [
+                    "Start early in the morning at 04.00 am from Sohra and Drive to Tyrna from where you can start your trek to the beautiful Double decker root bridge.",
+                    "The Double Decker Root Bridge - One of the most famous places with trekkers visiting Meghalaya, is really a lovely must visit place. We are also visiting the beautiful Rainbow fall",
+                    "We are staying one night in Nongriat.",
+                ],
+                attractions: "Rainbow falls, Blue Lagoon, Double Decker Root Bridge",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Nongriat to Cherrapunjee",
+                desc: [
+                    "Let's take a bath in the natural swimming pool of Nongriat. Go for morning walk to Double nongriat village.",
+                    "After breakfast we will start our return hike to base village and drive to cherrapunjee",
+                    "In the evening we will go to Nohkalikai falls. Night stay in Cherrapunjee",
+                ],
+                attractions: "Nohkalikai falls & Leisure Day in Sohra",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Cheraapunjee to Guwahati",
+                desc: [
+                    "We will start our return journey post breakfast.",
+                    "Drive back to Guwahati Airport. Book your return flight journey post 06.00pm",
+                    "Adios to the mountains and fellow trip mates.",
+                ],
+                attractions: "",
+                meal: [],
+            }
+        ],
+        why: [
+            "We are camping on the less crowded beach of Dawki, going for Kayaking in Asia's cleanest river, and going cliff jumping in Dawki.",
+            "We are staying in a valley view property on this trip. In Dawki, Nongriat & Cherrapunjee",
+            "We are staying in Nongriat for one night. clicking some great pictures on the double decker root bridge when it is not crowded. And believe us this is the place where you get a chance to explore local and raw versions of Meghalaya.",
+            "Witnessing some beautiful waterfalls of Meghalaya, Phe Phe falls, Krangsuri falls, Rainbow falls, Blue Lagoon, Wei saw dong falls & Nohkalikai falls.",
+            "We are caving into Arwah & Mawsmai walking into this cave in one of the great experiences one must not miss when in meghalaya. we are taking some good group picture while caving.",
+            "This trip is suitable for someone who love slow itinerary, who love to explore any places peacefully who loves to explore nature",
+        ],
+        highlights: [],
+        price_breakup: [
+            {
+                departure: "Guwahati",
+                duration: "7 Days",
+                price: "18,500",
+            },
+        ],
+        price_extras: [
+            {
+                title: "Twin Sharing",
+                price: "2,500"
+            }
+        ],
+        inclusion: [
+            "Stay on Triple / Twin Sharing basis in home stay / Hotel",
+            "Veg 06 Breakfast & 06 Dinner",
+            "3N Stay in Hotel Cherrapunji",
+            "1N stay in Dawki Campsite",
+            "1N Stay in Shillong Hostel",
+            "1N stay in Nongriat Homestay",
+            "All places of visit as per itinerary",
+            "Travel from Guwahati to Guwahati by Private vehicle",
+
+        ],
+        exclusion: [
+            "Any items/services not specifically mentioned under inclusions",
+            "Entry fees to any monument",
+            "Visit to any place not listed in the itinerary extra charges applicable",
+            "Evacuation charges and damage of any nature",
+            "Costs arising out of unforeseen circumstances such as bad weather, landslides, road conditions and any other circumstances beyond our control.",
+            "Personal expenses, laundry, telephone calls, personal medicines, alcoholic beverages, Entry tickets etc.",
+            "Transport from hometown to Guwahati and back",
+            "Tips for the local guide and support staff",
+        ],
+        note: [
+            "In Guwahati, we will meet at the Airport at 12.00pm. Please do not be late.",
+            "We reach Guwahati railway station by 03.00 pm on the last day. Please book your return travel flights or train, any time after 06.00 pm",
+            "The trip schedule is subject to change. Days of visits to the mentioned places could be shifted back and forth depending on availability of stays",
+            "Carrying rainwear is very important (BAG COVER, PLASTIC BAGS). Take all necessary precautions to keep yourself and your belongings dry(for monsoon season).",
+            "While we're moving in groups to various places, try and stick to the group and not wander off.",
+        ],
+        cancle_policy: [
+            "Cancel before 45 Day of Departure INR 5000/- per person.",
+            "Cancel before 10 Day of Departure INR 10,000/- per Person",
+            "NO Refund between 10 days to dates of departure cancellation.",
+        ],
+        things_to_carry: [
+            {
+                title: "Footwear",
+                items: [
+                    "Sturdy shoes for walking/climbing, slippers/flip-flops."
+                ]
+            },
+            {
+                title: "Clothing",
+                items: [
+                    "Warm fleece/down jackets, thick socks, gloves, beanie, neck warmer/scarf/muffler, thermals (base layer)."
+                ]
+            },
+            {
+                title: "Accessories",
+                items: [
+                    "Torch, cap, sunglasses, swiss knife (optional), water bottle, multi-plug (optional)"
+                ]
+            },
+            {
+                title: "Toiletries",
+                items: [
+                    "Towel, soap, face wash, lip balm, sunscreen (min 40 SPF), hand sanitizer, toothbrush, toothpaste, toilet paper"
+                ]
+            },
+            {
+                title: "Rainwear",
+                items: [
+                    "Raincoat/jacket/poncho, rain cover for bags (VERY IMPORTANT), spare plastic bags (to waterproof your belongings)"
+                ]
+            },
+            {
+                title: "Medical",
+                items: [
+                    "Personal medication (Asthma, Allergen medication etc.)"
+                ]
+            },
+            {
+                title: "Personal recreation",
+                items: [
+                    "Camera, binoculars, books, music, cards etc.(Important for those long boring times when the weather turns bad)"
+                ]
+            },
+            {
+                title: "Miscellaneous",
+                items: [
+                    "Rucksack (no suitcases, trolley or duffle bags), an extra day bag for day outings, valid photo ID/address proof, 3 passport size photographs"
+                ]
+            },
+            {
+                title: "Tips",
+                items: [
+                    "Avoid carrying new clothes as colors tend to fade in sunlight there. Avoid jeans and other kinds of rigid/uncomfortable clothing."
+                ]
+            }
+        ]
+    },
+
     //Kasol Manali
+    {
+        id: "d6681295-225e-4a7e-b5d7-52c87acf469d",
+        category: "upcoming",
+        title: "Meghalaya: Explore it in best ways",
+        total_seats: 15,
+        duration: "7 Days",
+        places_covered: "Shillong | Phe Phe Falls | Krangsuri waterfall | Dawki | Mawlynnong | Cherrapunjee | Nongriat",
+        discount: "",
+        gallery: [
+            "v1698027638/meghalaya/1.jpg",
+            "v1698027638/meghalaya/2.jpg",
+            "v1698027638/meghalaya/3.jpg",
+            "v1698027638/meghalaya/4.jpg",
+            "v1698027638/meghalaya/5.jpg",
+            "v1698027638/meghalaya/6.jpg",
+            "v1698027638/meghalaya/7.jpg",
+            "v1698027638/meghalaya/8.jpg",
+            "v1698027638/meghalaya/9.jpg",
+        ],
+        months: ["Nov", "Dec", "Jan"],
+        departure: [
+            {
+                start: "06 Nov",
+                end: "12 Nov",
+                seats_left: 15
+            },
+            {
+                start: "13 Nov",
+                end: "19 Nov",
+                seats_left: 15
+            },
+            {
+                start: "21 Nov",
+                end: "27 Nov",
+                seats_left: 15
+            },
+            {
+                start: "04 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "11 Dec",
+                end: "17 Dec",
+                seats_left: 15
+            },
+            {
+                start: "19 Dec",
+                end: "25 Dec",
+                seats_left: 15
+            },
+            {
+                start: "26 Dec",
+                end: "01 Jan",
+                seats_left: 15
+            },
+            {
+                start: "04 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "08 Jan",
+                end: "14 Jan",
+                seats_left: 15
+            },
+            {
+                start: "15 Jan",
+                end: "21 Jan",
+                seats_left: 15
+            },
+            {
+                start: "22 Jan",
+                end: "28 Jan",
+                seats_left: 15
+            },
+        ],
+        description: [],
+        iternary: [
+            {
+                title: "Arrival at Guwahati to Shillong (05 hrs)",
+                desc: [
+                    "Airport pickup will be at 12.00 pm.",
+                    "From Airport Drive to Shillong on the way, Stop at Umiam Lake viewpoint.",
+                    "After reaching Shillong. We will go to the Police Bazaar for shopping and Dinner.",
+                    "Night stay in Shillong."
+
+                ],
+                attractions: "Umiam Lake & Shillong market.",
+                meal: ["Dinner"],
+            },
+            {
+                title: "Shillong - Phe Phe Falls - Krangsuri waterfall - Dawki Camping",
+                desc: [
+                    "After a Breakfast we will go to Explore Phe Phe falls one of the less explored and less crowded waterfalls",
+                    "Krang Suri Waterfalls spend time near the waterfall. You can also try local khasi foods here which are quite famous.",
+                    "Proceed to Umngot River Dawki-Tamabil is an open border between Bangladesh & India. It is used mainly for coal & stone transportation to Bangladesh. Cross old suspension dawki bridge It was constructed in 1932 by the British.",
+                    "Overnight Riverside camping at Dawki. This campsite is in a very secluded village. You will not find any tourists around purley local experience.",
+
+                ],
+                attractions: "Krangsuri waterfall, Night camping at Dawki River, Phe Phe falls, Tamabil Open border India Bangladesh",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Dawki – Mawlynnong - Cherrapunjee",
+                desc: [
+                    "Are you ready to take a dip into the cleanest river of Meghalaya? You can go Kayaking and Cliff Jumping here.",
+                    "Check out from Campsite and we will visit the cleanest village of India, have lunch and then start our journey towards Cherrapunjee.",
+                    "Night stay in Cherrapunjee",
+                ],
+                attractions: "Dip into Cleanest River of Meghalaya, Mawlynnong- Cleanest village of india",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Exploring Caves & Waterfalls in Cherrapunjee",
+                desc: [
+                    "Meghalaya is a place with lots of caves. We will visit Limestone cave Mawsmai & Marine Fossil Arwah caves. You won’t find these caves anywhere.",
+                    "Today we will also visit Wei saw doing waterfall you will have to walk in forest to visit these 3 steps waterfall.",
+                    "Night stay in Cherrapunjee hotel",
+                ],
+                attractions: "Arwah caves, Mawsmai Cave, Seven sister waterfall, Wei sawdong waterfall",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Sohra to Double Decker Root Bridge Trek",
+                desc: [
+                    "Start early in the morning at 04.00 am from Sohra and Drive to Tyrna from where you can start your trek to the beautiful Double decker root bridge.",
+                    "The Double Decker Root Bridge - One of the most famous places with trekkers visiting Meghalaya, is really a lovely must visit place. We are also visiting the beautiful Rainbow fall",
+                    "We are staying one night in Nongriat.",
+                ],
+                attractions: "Rainbow falls, Blue Lagoon, Double Decker Root Bridge",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Nongriat to Cherrapunjee",
+                desc: [
+                    "Let's take a bath in the natural swimming pool of Nongriat. Go for morning walk to Double nongriat village.",
+                    "After breakfast we will start our return hike to base village and drive to cherrapunjee",
+                    "In the evening we will go to Nohkalikai falls. Night stay in Cherrapunjee",
+                ],
+                attractions: "Nohkalikai falls & Leisure Day in Sohra",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Cheraapunjee to Guwahati",
+                desc: [
+                    "We will start our return journey post breakfast.",
+                    "Drive back to Guwahati Airport. Book your return flight journey post 06.00pm",
+                    "Adios to the mountains and fellow trip mates.",
+                ],
+                attractions: "",
+                meal: [],
+            }
+        ],
+        why: [
+            "We are camping on the less crowded beach of Dawki, going for Kayaking in Asia's cleanest river, and going cliff jumping in Dawki.",
+            "We are staying in a valley view property on this trip. In Dawki, Nongriat & Cherrapunjee",
+            "We are staying in Nongriat for one night. clicking some great pictures on the double decker root bridge when it is not crowded. And believe us this is the place where you get a chance to explore local and raw versions of Meghalaya.",
+            "Witnessing some beautiful waterfalls of Meghalaya, Phe Phe falls, Krangsuri falls, Rainbow falls, Blue Lagoon, Wei saw dong falls & Nohkalikai falls.",
+            "We are caving into Arwah & Mawsmai walking into this cave in one of the great experiences one must not miss when in meghalaya. we are taking some good group picture while caving.",
+            "This trip is suitable for someone who love slow itinerary, who love to explore any places peacefully who loves to explore nature",
+        ],
+        highlights: [],
+        price_breakup: [
+            {
+                departure: "Guwahati",
+                duration: "7 Days",
+                price: "18,500",
+            },
+        ],
+        price_extras: [
+            {
+                title: "Twin Sharing",
+                price: "2,500"
+            }
+        ],
+        inclusion: [
+            "Stay on Triple / Twin Sharing basis in home stay / Hotel",
+            "Veg 06 Breakfast & 06 Dinner",
+            "3N Stay in Hotel Cherrapunji",
+            "1N stay in Dawki Campsite",
+            "1N Stay in Shillong Hostel",
+            "1N stay in Nongriat Homestay",
+            "All places of visit as per itinerary",
+            "Travel from Guwahati to Guwahati by Private vehicle",
+
+        ],
+        exclusion: [
+            "Any items/services not specifically mentioned under inclusions",
+            "Entry fees to any monument",
+            "Visit to any place not listed in the itinerary extra charges applicable",
+            "Evacuation charges and damage of any nature",
+            "Costs arising out of unforeseen circumstances such as bad weather, landslides, road conditions and any other circumstances beyond our control.",
+            "Personal expenses, laundry, telephone calls, personal medicines, alcoholic beverages, Entry tickets etc.",
+            "Transport from hometown to Guwahati and back",
+            "Tips for the local guide and support staff",
+        ],
+        note: [
+            "In Guwahati, we will meet at the Airport at 12.00pm. Please do not be late.",
+            "We reach Guwahati railway station by 03.00 pm on the last day. Please book your return travel flights or train, any time after 06.00 pm",
+            "The trip schedule is subject to change. Days of visits to the mentioned places could be shifted back and forth depending on availability of stays",
+            "Carrying rainwear is very important (BAG COVER, PLASTIC BAGS). Take all necessary precautions to keep yourself and your belongings dry(for monsoon season).",
+            "While we're moving in groups to various places, try and stick to the group and not wander off.",
+        ],
+        cancle_policy: [
+            "Cancel before 45 Day of Departure INR 5000/- per person.",
+            "Cancel before 10 Day of Departure INR 10,000/- per Person",
+            "NO Refund between 10 days to dates of departure cancellation.",
+        ],
+        things_to_carry: [
+            {
+                title: "Footwear",
+                items: [
+                    "Sturdy shoes for walking/climbing, slippers/flip-flops."
+                ]
+            },
+            {
+                title: "Clothing",
+                items: [
+                    "Warm fleece/down jackets, thick socks, gloves, beanie, neck warmer/scarf/muffler, thermals (base layer)."
+                ]
+            },
+            {
+                title: "Accessories",
+                items: [
+                    "Torch, cap, sunglasses, swiss knife (optional), water bottle, multi-plug (optional)"
+                ]
+            },
+            {
+                title: "Toiletries",
+                items: [
+                    "Towel, soap, face wash, lip balm, sunscreen (min 40 SPF), hand sanitizer, toothbrush, toothpaste, toilet paper"
+                ]
+            },
+            {
+                title: "Rainwear",
+                items: [
+                    "Raincoat/jacket/poncho, rain cover for bags (VERY IMPORTANT), spare plastic bags (to waterproof your belongings)"
+                ]
+            },
+            {
+                title: "Medical",
+                items: [
+                    "Personal medication (Asthma, Allergen medication etc.)"
+                ]
+            },
+            {
+                title: "Personal recreation",
+                items: [
+                    "Camera, binoculars, books, music, cards etc.(Important for those long boring times when the weather turns bad)"
+                ]
+            },
+            {
+                title: "Miscellaneous",
+                items: [
+                    "Rucksack (no suitcases, trolley or duffle bags), an extra day bag for day outings, valid photo ID/address proof, 3 passport size photographs"
+                ]
+            },
+            {
+                title: "Tips",
+                items: [
+                    "Avoid carrying new clothes as colors tend to fade in sunlight there. Avoid jeans and other kinds of rigid/uncomfortable clothing."
+                ]
+            }
+        ]
+    },
+
     //Kerala
 
     // Kerala Trip
@@ -677,276 +1213,6 @@ const tripsData = [
             "No Refund for cancellation between 15 days to date of departure or No show",
         ],
         things_to_carry: []
-    },
-
-    // Meghalaya Trip 
-    {
-        id: "d6681295-225e-4a7e-b5d7-52c87acf469d",
-        category: "upcoming",
-        title: "Meghalaya: Explore it in best way",
-        total_seats: 15,
-        duration: "7 Days",
-        places_covered: "Shillong | Phe Phe Falls | Krangsuri waterfall | Dawki Camping",
-        discount: "",
-        gallery: [
-            "v1697567045/spiti_valley/1_js0yaf.jpg",
-            "v1697567057/spiti_valley/2_d2lr9y.jpg",
-            "v1697567048/spiti_valley/3_a6g84d.jpg",
-            "v1697567052/spiti_valley/4_b1depc.jpg",
-            "v1697567056/spiti_valley/5_shufsv.jpg",
-            "v1697567052/spiti_valley/6_um5gjc.jpg",
-            "v1697567042/spiti_valley/7_teosqa.jpg",
-            "v1697567050/spiti_valley/8_v6icc4.jpg",
-            "v1697567038/spiti_valley/9_jmfkfj.jpg",
-            "v1697567041/spiti_valley/10_vhunye.jpg",
-            "v1697567059/spiti_valley/11_evrwkn.jpg",
-        ],
-        months: ["Sep", "Oct", "Nov", "Dec"],
-        departure: [
-            {
-                start: "26 Sep",
-                end: "02 Oct",
-                seats_left: 15
-            },
-            {
-                start: "08 Oct",
-                end: "14 Oct",
-                seats_left: 15
-            },
-            {
-                start: "23 Oct",
-                end: "29 Oct",
-                seats_left: 15
-            },
-            {
-                start: "26 Sep",
-                end: "02 Nov",
-                seats_left: 15
-            },
-            {
-                start: "06 Nov",
-                end: "12 Nov",
-                seats_left: 15
-            },
-            {
-                start: "13 Sep",
-                end: "19 Oct",
-                seats_left: 15
-            },
-            {
-                start: "21 Nov",
-                end: "27 Nov",
-                seats_left: 15
-            },
-            {
-                start: "04 Dec",
-                end: "10 Dec",
-                seats_left: 15
-            },
-            {
-                start: "11 Dec",
-                end: "17 Dec",
-                seats_left: 15
-            },
-            {
-                start: "19 Dec",
-                end: "25 Dec",
-                seats_left: 15
-            },
-            {
-                start: "26 Dec",
-                end: "01 Jan",
-                seats_left: 15
-            },
-        ],
-        description: [],
-        iternary: [
-            {
-                title: "Arrival at Guwahati to Shillong (05 hrs)",
-                desc: [
-                    "Airport pickup will be at 12.00 pm.",
-                    "From Airport Drive to Shillong on the way, Stop at Umiam Lake viewpoint.",
-                    "After reaching Shillong. We will go to the Police Bazaar for shopping and Dinner.",
-                    "Night stay in Shillong."
-
-                ],
-                attractions: "Umiam Lake & Shillong market.",
-                meal: ["Dinner"],
-            },
-            {
-                title: "Shillong - Phe Phe Falls - Krangsuri waterfall - Dawki Camping",
-                desc: [
-                    "After a Breakfast we will go to Explore Phe Phe falls one of the less explored and less crowded waterfalls",
-                    "Krang Suri Waterfalls spend time near the waterfall. You can also try local khasi foods here which are quite famous.",
-                    "Proceed to Umngot River Dawki-Tamabil is an open border between Bangladesh & India. It is used mainly for coal & stone transportation to Bangladesh. Cross old suspension dawki bridge It was constructed in 1932 by the British.",
-                    "Overnight Riverside camping at Dawki. This campsite is in a very secluded village. You will not find any tourists around purley local experience.",
-
-                ],
-                attractions: "Krangsuri waterfall, Night camping at Dawki River, Phe Phe falls, Tamabil Open border India Bangladesh",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Dawki – Mawlynnong - Cherrapunjee",
-                desc: [
-                    "Are you ready to take a dip into the cleanest river of Meghalaya? You can go Kayaking and Cliff Jumping here.",
-                    "Check out from Campsite and we will visit the cleanest village of India, have lunch and then start our journey towards Cherrapunjee.",
-                    "Night stay in Cherrapunjee",
-                ],
-                attractions: "Dip into Cleanest River of Meghalaya, Mawlynnong- Cleanest village of india",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Exploring Caves & Waterfalls in Cherrapunjee",
-                desc: [
-                    "Meghalaya is a place with lots of caves. We will visit Limestone cave Mawsmai & Marine Fossil Arwah caves. You won’t find these caves anywhere.",
-                    "Today we will also visit Wei saw doing waterfall you will have to walk in forest to visit these 3 steps waterfall.",
-                    "Night stay in Cherrapunjee hotel",
-                ],
-                attractions: "Arwah caves, Mawsmai Cave, Seven sister waterfall, Wei sawdong waterfall",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Sohra to Double Decker Root Bridge Trek",
-                desc: [
-                    "Start early in the morning at 04.00 am from Sohra and Drive to Tyrna from where you can start your trek to the beautiful Double decker root bridge.",
-                    "The Double Decker Root Bridge - One of the most famous places with trekkers visiting Meghalaya, is really a lovely must visit place. We are also visiting the beautiful Rainbow fall",
-                    "We are staying one night in Nongriat.",
-                ],
-                attractions: "Rainbow falls, Blue Lagoon, Double Decker Root Bridge",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Nongriat to Cherrapunjee",
-                desc: [
-                    "Let's take a bath in the natural swimming pool of Nongriat. Go for morning walk to Double nongriat village.",
-                    "After breakfast we will start our return hike to base village and drive to cherrapunjee",
-                    "In the evening we will go to Nohkalikai falls. Night stay in Cherrapunjee",
-                ],
-                attractions: "Nohkalikai falls & Leisure Day in Sohra",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Cheraapunjee to Guwahati",
-                desc: [
-                    "We will start our return journey post breakfast.",
-                    "Drive back to Guwahati Airport. Book your return flight journey post 06.00pm",
-                    "Adios to the mountains and fellow trip mates.",
-                ],
-                attractions: "",
-                meal: [],
-            }
-        ],
-        why: [
-            "We are camping on the less crowded beach of Dawki, going for Kayaking in Asia's cleanest river, and going cliff jumping in Dawki.",
-            "We are staying in a valley view property on this trip. In Dawki, Nongriat & Cherrapunjee",
-            "We are staying in Nongriat for one night. clicking some great pictures on the double decker root bridge when it is not crowded. And believe us this is the place where you get a chance to explore local and raw versions of Meghalaya.",
-            "Witnessing some beautiful waterfalls of Meghalaya, Phe Phe falls, Krangsuri falls, Rainbow falls, Blue Lagoon, Wei saw dong falls & Nohkalikai falls.",
-            "We are caving into Arwah & Mawsmai walking into this cave in one of the great experiences one must not miss when in meghalaya. we are taking some good group picture while caving.",
-            "This trip is suitable for someone who love slow itinerary, who love to explore any places peacefully who loves to explore nature",
-        ],
-        highlights: [],
-        price_breakup: [
-            {
-                departure: "Guwahati",
-                duration: "7 Days",
-                price: "18,500",
-            },
-        ],
-        price_extras: [
-            {
-                title: "Twin Sharing",
-                price: "2,500"
-            }
-        ],
-        inclusion: [
-            "Stay on Triple / Twin Sharing basis in home stay / Hotel",
-            "Veg 06 Breakfast & 06 Dinner",
-            "3N Stay in Hotel Cherrapunji",
-            "1N stay in Dawki Campsite",
-            "1N Stay in Shillong Hostel",
-            "1N stay in Nongriat Homestay",
-            "All places of visit as per itinerary",
-            "Travel from Guwahati to Guwahati by Private vehicle",
-
-        ],
-        exclusion: [
-            "Any items/services not specifically mentioned under inclusions",
-            "Entry fees to any monument",
-            "Visit to any place not listed in the itinerary extra charges applicable",
-            "Evacuation charges and damage of any nature",
-            "Costs arising out of unforeseen circumstances such as bad weather, landslides, road conditions and any other circumstances beyond our control.",
-            "Personal expenses, laundry, telephone calls, personal medicines, alcoholic beverages, Entry tickets etc.",
-            "Transport from hometown to Guwahati and back",
-            "Tips for the local guide and support staff",
-        ],
-        note: [
-            "In Guwahati, we will meet at the Airport at 12.00pm. Please do not be late.",
-            "We reach Guwahati railway station by 03.00 pm on the last day. Please book your return travel flights or train, any time after 06.00 pm",
-            "The trip schedule is subject to change. Days of visits to the mentioned places could be shifted back and forth depending on availability of stays",
-            "Carrying rainwear is very important (BAG COVER, PLASTIC BAGS). Take all necessary precautions to keep yourself and your belongings dry(for monsoon season).",
-            "While we're moving in groups to various places, try and stick to the group and not wander off.",
-        ],
-        cancle_policy: [
-            "Cancel before 45 Day of Departure INR 5000/- per person.",
-            "Cancel before 10 Day of Departure INR 10,000/- per Person",
-            "NO Refund between 10 days to dates of departure cancellation.",
-        ],
-        things_to_carry: [
-            {
-                title: "Footwear",
-                items: [
-                    "Sturdy shoes for walking/climbing, slippers/flip-flops."
-                ]
-            },
-            {
-                title: "Clothing",
-                items: [
-                    "Warm fleece/down jackets, thick socks, gloves, beanie, neck warmer/scarf/muffler, thermals (base layer)."
-                ]
-            },
-            {
-                title: "Accessories",
-                items: [
-                    "Torch, cap, sunglasses, swiss knife (optional), water bottle, multi-plug (optional)"
-                ]
-            },
-            {
-                title: "Toiletries",
-                items: [
-                    "Towel, soap, face wash, lip balm, sunscreen (min 40 SPF), hand sanitizer, toothbrush, toothpaste, toilet paper"
-                ]
-            },
-            {
-                title: "Rainwear",
-                items: [
-                    "Raincoat/jacket/poncho, rain cover for bags (VERY IMPORTANT), spare plastic bags (to waterproof your belongings)"
-                ]
-            },
-            {
-                title: "Medical",
-                items: [
-                    "Personal medication (Asthma, Allergen medication etc.)"
-                ]
-            },
-            {
-                title: "Personal recreation",
-                items: [
-                    "Camera, binoculars, books, music, cards etc.(Important for those long boring times when the weather turns bad)"
-                ]
-            },
-            {
-                title: "Miscellaneous",
-                items: [
-                    "Rucksack (no suitcases, trolley or duffle bags), an extra day bag for day outings, valid photo ID/address proof, 3 passport size photographs"
-                ]
-            },
-            {
-                title: "Tips",
-                items: [
-                    "Avoid carrying new clothes as colors tend to fade in sunlight there. Avoid jeans and other kinds of rigid/uncomfortable clothing."
-                ]
-            }
-        ]
     },
 
     // Kedarnath Trip
