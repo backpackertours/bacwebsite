@@ -73,9 +73,9 @@ const Testimonials = (args) => {
     return (
         <section className="bg-gray">
             <div className="container py-5 px-sm-4">
-                <Row>
-                    <Col className="pe-5 p-3 mb-sm-4" md="6">
-                        <div className="pe-5">
+                <Row className="justify-content-between">
+                    <Col className="mb-sm-4" md="5">
+                        <div>
                             <div className='mb-4'>
                                 <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>🙋🏻‍♂️</span>
                             </div>

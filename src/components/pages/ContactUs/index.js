@@ -8,6 +8,7 @@ const ContactUs = () => {
 
     return (
         <section className="bg-gray">
+            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
             <section className="container py-5 px-sm-4">
                 <div className='mb-4 text-center'>
                     <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>📲</span>

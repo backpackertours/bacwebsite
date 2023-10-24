@@ -11,10 +11,11 @@ const HomeBanner = (props) => {
 
     return (
         <section className="bg-mainbanner">
+            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
             <div className="container py-5 px-sm-4">
                 <Row>
                     <Col className="mb-sm-4 py-sm-3" lg="5" md="6">
-                        <div className="d-flex gap-3 align-items-center justify-content-start mb-4">
+                        <div className="d-flex gap-3 align-items-center justify-content-start mb-5">
                             <div className="d-flex flex-column">
                                 <span className="mb-0 text-slate text-header">Backpacker</span>
                                 <div className="mt-0 text-gradient">
@@ -28,12 +29,14 @@ const HomeBanner = (props) => {
                         <div className='d-flex gap-3 mb-5'>
                             <div className='p-3 bg-white text-center rounded-4'><span style={{ fontSize: "2rem" }}>🏔️</span><p className='mb-0'>Group Tours</p></div>
                             <div className='p-3 bg-white text-center rounded-4'><span style={{ fontSize: "2rem" }}>⛺</span><p className='mb-0'>Treks & Campings</p></div>
-                            <div className='p-3 bg-white text-center rounded-4'><span style={{ fontSize: "2rem" }}>🚐</span><p className='mb-0'>Family Trips</p></div>
+                            <div className='p-3 bg-white text-center rounded-4'><span style={{ fontSize: "2rem" }}>🚐</span><p className='mb-0'>Private Trips</p></div>
                         </div>
                         <div>
-                            <Button className="rounded-pill py-2 px-4 text-white bg-gradient2 border-0">
-                                Explore Trips <i className="bi bi-arrow-down"></i>
-                            </Button>
+                            <a href="#upcomingtrips">
+                                <Button className="rounded-pill py-2 px-4 text-white bg-gradient2 border-0">
+                                    Explore Trips <i className="bi bi-arrow-down"></i>
+                                </Button>
+                            </a>
                         </div>
                     </Col>
                     <Col className="position-relative" lg="7" md="6">

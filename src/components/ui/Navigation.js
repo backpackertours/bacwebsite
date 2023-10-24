@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import uuid4 from 'uuid4';
 
 import {
     Button,
@@ -14,6 +15,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import tripsData from '../data/tripsData';
 
 import logo from '../../assets/images/logo.png';
 
@@ -26,6 +28,10 @@ const Navigation = (args) => {
         setlink(index)
         setIsOpen(false);
     }
+
+    const upcoming = tripsData.filter((trip) => trip.category === "upcoming");
+    const weekend = tripsData.filter((trip) => trip.category === "weekend");
+
     return (
         <div>
             <Navbar {...args}>
@@ -49,18 +55,13 @@ const Navigation = (args) => {
                                 Upcoming Trips
                             </DropdownToggle>
                             <DropdownMenu center="true" className="drop-shadow hover-show-menu rounded-4 border">
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Spiti Valley Trek</Link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Himachal Pradesh</Link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Leh Ladakh</Link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Meghalaya Paradise</Link>
-                                </DropdownItem>
+                                {
+                                    upcoming.map(trip => (
+                                        <DropdownItem key={uuid4()}>
+                                            <Link className="nav-link py-0" to={`/trip/${trip.id}`}>{trip.title}</Link>
+                                        </DropdownItem>
+                                    ))
+                                }
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <UncontrolledDropdown nav inNavbar className="me-4 hover-show">
@@ -68,20 +69,13 @@ const Navigation = (args) => {
                                 Weekend Gateways
                             </DropdownToggle>
                             <DropdownMenu center="true" className="drop-shadow hover-show-menu rounded-4 border">
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Matheran Trek</Link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Garbette Plateu</Link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Mumbai Backwaters</Link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <Link className="nav-link py-0" to="/trip">Kalavantin Durg</Link>
-                                </DropdownItem>
-                                {/* <DropdownItem divider />
-                                <DropdownItem>Reset</DropdownItem> */}
+                                {
+                                    weekend.map(trip => (
+                                        <DropdownItem key={uuid4()}>
+                                            <Link className="nav-link py-0" to={`/trip/${trip.id}`}>{trip.title}</Link>
+                                        </DropdownItem>
+                                    ))
+                                }
                             </DropdownMenu>
                         </UncontrolledDropdown>
                         <NavItem className="me-4">

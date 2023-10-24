@@ -1,3 +1,7 @@
+ul {
+    padding-left: 10px;
+}
+
 .dropdown-item:hover {
     background-color: transparent !important;
 }
@@ -223,6 +227,7 @@ Utilities
 .text-header {
     font-size: 4.5rem;
     font-weight: 700;
+    line-height: 4.75rem;
 }
 
 .hover-white:hover {
@@ -363,6 +368,11 @@ Utilities
 
 /* Media queries */
 @media (max-width: 768px) {
+    .text-header {
+        font-size: 3rem;
+        line-height: 3.25rem;
+    }
+
     .px-sm-4 {
         padding-right: 1.5rem;
         padding-left: 1.5rem;
