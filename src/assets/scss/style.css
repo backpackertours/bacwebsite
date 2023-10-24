@@ -369,8 +369,8 @@ Utilities
 /* Media queries */
 @media (max-width: 768px) {
     .text-header {
-        font-size: 3rem;
-        line-height: 3.25rem;
+        font-size: 4rem;
+        line-height: 4.25rem;
     }
 
     .px-sm-4 {
