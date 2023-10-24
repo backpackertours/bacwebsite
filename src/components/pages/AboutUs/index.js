@@ -5,6 +5,7 @@ import founder from '../../../assets/images/founder.png';
 const AboutUs = () => {
     return (
         <section className="bg-gray">
+            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
             <div className="container py-5 px-sm-4">
                 <Row>
                     <Col className="mx-auto" lg="8">

@@ -1,7 +1,7 @@
 const tripsData = [
     //Himachal Pradesh
     {
-        id: "b545135d-15b3-4741-9e68-5c64532313a4",
+        id: "85ac6dc3-16ac-4a7d-8fe0-45356d613ab0",
         category: "upcoming",
         title: "Winter Trip to Himachal Pradesh",
         total_seats: 15,
@@ -202,9 +202,10 @@ const tripsData = [
             },
         ]
     },
+
     //Spiti Valley
     {
-        id: "95d0068c-c285-43f0-9711-1ae6cd23538d",
+        id: "a3419b5d-e71f-4153-97ac-cd9440d84b7f",
         category: "upcoming",
         title: "Spiti Valley Winter Expedition",
         total_seats: 15,
@@ -460,277 +461,37 @@ const tripsData = [
             },
         ]
     },
+
     //Meghalaya
-    //Kasol Manali
-    //Kerala
-
-    // Kerala Trip
     {
-        id: "7a201394-5728-4383-8606-2b85baa2c5cf",
+        id: "6107a94a-16cd-4e01-bcbd-dc37df35e950",
         category: "upcoming",
-        title: "South India : Kerala Trip",
-        total_seats: 15,
-        duration: "6 Days",
-        places_covered: "Munnar | Kolukkumalai | Thekkady 1N | Alleppey | Varkala",
-        discount: "Early Bird discount available for group bookings on First come first serve basis",
-        gallery: [
-            "v1697567045/spiti_valley/1_js0yaf.jpg",
-            "v1697567057/spiti_valley/2_d2lr9y.jpg",
-            "v1697567048/spiti_valley/3_a6g84d.jpg",
-            "v1697567052/spiti_valley/4_b1depc.jpg",
-            "v1697567056/spiti_valley/5_shufsv.jpg",
-            "v1697567052/spiti_valley/6_um5gjc.jpg",
-            "v1697567042/spiti_valley/7_teosqa.jpg",
-            "v1697567050/spiti_valley/8_v6icc4.jpg",
-            "v1697567038/spiti_valley/9_jmfkfj.jpg",
-            "v1697567041/spiti_valley/10_vhunye.jpg",
-            "v1697567059/spiti_valley/11_evrwkn.jpg",
-        ],
-        months: ["Sep", "Oct", "Nov", "Dec", "Jan"],
-        departure: [
-            {
-                start: "27 Sep",
-                end: "02 Oct",
-                seats_left: 15
-            },
-            {
-                start: "07 Oct",
-                end: "12 Oct",
-                seats_left: 15
-            },
-            {
-                start: "14 Oct",
-                end: "19 Oct",
-                seats_left: 15
-            },
-            {
-                start: "21 Oct",
-                end: "26 Oct",
-                seats_left: 15
-            },
-            {
-                start: "04 Dec",
-                end: "09 Nov",
-                seats_left: 15
-            },
-            {
-                start: "11 Nov",
-                end: "16 Nov",
-                seats_left: 15
-            },
-            {
-                start: "18 Nov",
-                end: "23 Nov",
-                seats_left: 15
-            },
-            {
-                start: "25 Nov",
-                end: "30 Nov",
-                seats_left: 15
-            },
-            {
-                start: "02 Oct",
-                end: "07 Oct",
-                seats_left: 15
-            },
-            {
-                start: "09 Oct",
-                end: "14 Oct",
-                seats_left: 15
-            },
-            {
-                start: "06 Jan",
-                end: "11 Jan",
-                seats_left: 15
-            },
-            {
-                start: "13 Jan",
-                end: "18 Jan",
-                seats_left: 15
-            },
-        ],
-        description: [
-            "On this trip to Kerala we are going to Munnar - Kolukkumalai - Thekkady - Varkala - Munroe island - Jatayu earth center – Alleppey. The best time to visit Kerala is between September to February to witness post monsoon Greenery. On this trip we are staying in munnar for 2 night going for boating in interiors of Munroe island and staying is beautiful houseboat for lifetime experience in Alleppey",
-            "Kerala is a charming South Indian destination that should be in every traveler’s bucket list. Adorned with the emerald backwaters, sprawling and lush tea estates, pristine hill stations, and azure Arabian Sea, Kerala tourism boasts numerous tourist places with which you will fall in love instantly. Anyone between 15 to 50 age group can join this trip with to Kerala"
-        ],
-        iternary: [
-            {
-                title: "Kochi Arrival (Railway station & Airport Pickup) – Drive to Munnar",
-                desc: [
-                    "Pick up from Kochi around 12.00 pm and drive to Munnar.",
-                    "On the way to Munnar you will be welcomed by tea gardens, waterfalls and foggy evenings On the way we will visit to Cheeyappara waterfalls & Valara waterfall",
-                    "Will try our luck if we are able to catch a sunset from a viewpoint on the way. Night stay in Munnar Hotel / Homestay",
-                ],
-                attractions: "",
-                meal: [],
-            },
-            {
-                title: "Munnar local visit",
-                desc: [
-                    "Today we will visit to Top station, Mattupetty dam, and some beautiful tea estate reason why munnar is famous",
-                    "Carmelagiri national park for elephant safari & Eravikulam National park to witness nilgiri tahr",
-                    "In the evening we will go to local restaurant of munnar to have some munnar style food mostly",
-                    "Night stay in Munnar. Did we tell you we are staying in valley view property here you will love it"
-                ],
-                attractions: "",
-                meal: [],
-            },
-            {
-                title: "Munnar - Kolukkumalai (Offroad Jeep safari) – Thekkady",
-                desc: [
-                    "Wakeup early at 03.00 am check out from munnar stay and It’s a one hours drive to sunrise point",
-                    "This location is not accessible by Normal vehicles. For this we need to hire a private jeep which takes you on this adventure off-roading trip to Kolukkumalai peak.",
-                    "The best part of this plan is we are visiting here on weekdays so it won’t be crowded",
-                    "We will reach thekkady around 02.00 pm. We can go to watch Famous Kalaripayattu show by evening",
-                    "Thekkady has a very nice spice market. You must not miss Night stay in Thekkady."
-                ],
-                attractions: "",
-                meal: [],
-            },
-            {
-                title: "Thekkady to Varkala",
-                desc: [
-                    "Today you we will drive from Thekkady to Varkala post breakfast",
-                    "On the way to Varkala we will visit the Jatayu Earth Center. The Jatayu statue is 200 feet long, 150 feet wide, 70 feet in height and occupies 15,000 square feet. this places looks beautiful and this is one of the largest bird sculpture in world",
-                    "From Jayatu world center we will drive to varkala beaches for sunset we will go for a dinner in cafe and explore streets of varkala and cafes",
-                    "Night stay in varkala Hostel / Homestay"
-                ],
-                attractions: "",
-                meal: [],
-            },
-            {
-                title: "Varkala to Munroe island (Backwaters) to Alleppey",
-                desc: [
-                    "Today morning we will visit munroe island and backwaters of Kollam",
-                    "Munroe island is the hidden gem of Kerala and less explored away from the touristy crowded area",
-                    "Surrounded my serene ashtamudi lake & Kallada river",
-                    "The best way to enjoy this river is by taking a canoe ride through the narrow canals of backwaters",
-                    "The ride takes you through tiny hamlets located along the backwaters and provides a glimpse of the daily life of villagers. this places is loves among the traveler and backpackers from all over the world",
-                    "After a canoe ride we will drive to alleppey we are staying in a houseboat here. Houseboat experience is a must in kerala. Night stay in alleppey houseboat"
-                ],
-                attractions: "",
-                meal: ["Breakfast", "Lunch"],
-            },
-            {
-                title: "Check out from Alleppey drop to airport",
-                desc: [
-                    "We will return to Alleppey boat stand around 10.00 am",
-                    "You can book your return flight or train journey from Kochi to your home city after 05.00 pm.",
-                    "After a cheerful vacation in Kerala we will drop you at the airport. see you soon on another road trip with Backpacker Tours"
-                ],
-                attractions: "",
-                meal: ["Breakfast"],
-            },
-        ],
-        why: [],
-        highlights: [],
-        price_breakup: [
-            {
-                departure: "Travel cost from Kochi / Ernakulam",
-                duration: "6 Days",
-                price: "18,500",
-            }
-        ],
-        price_extras: [
-            {
-                title: "Tripple Sharing",
-                price: 0
-            },
-            {
-                title: "Twin Sharing",
-                price: "2,000"
-            },
-            {
-                title: "Train bookings from Mumbai / Gujrat / Pune",
-                price: "2,500"
-            }
-        ],
-        inclusion: [
-            "Internal transport throughout the journey will be in 15 seater minibus",
-            "Breakfast & Dinner or Lunch (11 meals) as per the day wise schedule mentioned",
-            "Stay in Hotel, Houseboat & Homestay on Triple sharing basis",
-            "Offroad jeep safari to Kolukkumalai sunrise point",
-            "Kathakkakli & Kalaripayattu show entry fees in Thekkady",
-            "All Vehicle Tax, Parking Entry",
-            "Experienced trip lead from Backpacker Tours",
-            "2 Nights stay in Munnar, 1 Nights stay in Thekkady, 01 night stay in varkala, 1 Nights stay in Houseboat alleppey / Munroe"
-        ],
-        exclusion: [
-            "Any meals not mentioned in Inclusions",
-            "Any Entry fees tickets to waterfall, Monuments, tea garden, Boat ride, anything not mentioned in Inclusions",
-            "Any cold drinks, juice, soft drink or Mineral water",
-            "Any meal ordered from the hotel room service or from the menu",
-            "Any visit to places not mentioned in Itinerary",
-        ],
-        note: [
-            "All stay as per itinerary is on triple sharing if you want to upgrade on twin sharing extra charges will be applicable",
-            "Those who are arriving kochi by flight please book your flight arriving airport before 12.00 pm",
-            "Customize dates available for Group of 5+ Rates will be different for private plan",
-            "Check in & Check out time will be as per the schedule of the Hotel.",
-            "Before booking your flight tickets please confirm the availability with us",
-            "You can choose to travel between Mumbai to Ernakulam Non ac Sleeper or AC sleeper Cost will be different for both the transport",
-            "Backpacker tours are not responsible for allotting seats in train reservation. Train seats are booked on first come first serve."
-        ],
-        cancle_policy: [
-            "Cancel before 30 Day of Departure Booking 8,000/- Chargeable",
-            "Cancel before 15 Day of Departure INR 12,000/- Chargeable",
-            "No Refund for cancellation between 15 days to date of departure or No show",
-        ],
-        things_to_carry: []
-    },
-
-    // Meghalaya Trip 
-    {
-        id: "d6681295-225e-4a7e-b5d7-52c87acf469d",
-        category: "upcoming",
-        title: "Meghalaya: Explore it in best way",
+        title: "Meghalaya: Explore it in best ways",
         total_seats: 15,
         duration: "7 Days",
-        places_covered: "Shillong | Phe Phe Falls | Krangsuri waterfall | Dawki Camping",
+        places_covered: "Shillong | Phe Phe Falls | Krangsuri waterfall | Dawki | Mawlynnong | Cherrapunjee | Nongriat",
         discount: "",
         gallery: [
-            "v1697567045/spiti_valley/1_js0yaf.jpg",
-            "v1697567057/spiti_valley/2_d2lr9y.jpg",
-            "v1697567048/spiti_valley/3_a6g84d.jpg",
-            "v1697567052/spiti_valley/4_b1depc.jpg",
-            "v1697567056/spiti_valley/5_shufsv.jpg",
-            "v1697567052/spiti_valley/6_um5gjc.jpg",
-            "v1697567042/spiti_valley/7_teosqa.jpg",
-            "v1697567050/spiti_valley/8_v6icc4.jpg",
-            "v1697567038/spiti_valley/9_jmfkfj.jpg",
-            "v1697567041/spiti_valley/10_vhunye.jpg",
-            "v1697567059/spiti_valley/11_evrwkn.jpg",
+            "v1698027638/meghalaya/1.jpg",
+            "v1698027638/meghalaya/2.jpg",
+            "v1698027638/meghalaya/3.jpg",
+            "v1698027638/meghalaya/4.jpg",
+            "v1698027638/meghalaya/5.jpg",
+            "v1698027638/meghalaya/6.jpg",
+            "v1698027638/meghalaya/7.jpg",
+            "v1698027638/meghalaya/8.jpg",
+            "v1698027638/meghalaya/9.jpg",
         ],
-        months: ["Sep", "Oct", "Nov", "Dec"],
+        months: ["Nov", "Dec", "Jan"],
         departure: [
-            {
-                start: "26 Sep",
-                end: "02 Oct",
-                seats_left: 15
-            },
-            {
-                start: "08 Oct",
-                end: "14 Oct",
-                seats_left: 15
-            },
-            {
-                start: "23 Oct",
-                end: "29 Oct",
-                seats_left: 15
-            },
-            {
-                start: "26 Sep",
-                end: "02 Nov",
-                seats_left: 15
-            },
             {
                 start: "06 Nov",
                 end: "12 Nov",
                 seats_left: 15
             },
             {
-                start: "13 Sep",
-                end: "19 Oct",
+                start: "13 Nov",
+                end: "19 Nov",
                 seats_left: 15
             },
             {
@@ -756,6 +517,26 @@ const tripsData = [
             {
                 start: "26 Dec",
                 end: "01 Jan",
+                seats_left: 15
+            },
+            {
+                start: "04 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "08 Jan",
+                end: "14 Jan",
+                seats_left: 15
+            },
+            {
+                start: "15 Jan",
+                end: "21 Jan",
+                seats_left: 15
+            },
+            {
+                start: "22 Jan",
+                end: "28 Jan",
                 seats_left: 15
             },
         ],
@@ -847,7 +628,7 @@ const tripsData = [
         highlights: [],
         price_breakup: [
             {
-                departure: "Guwahati",
+                departure: "Guwahati to Guwahati",
                 duration: "7 Days",
                 price: "18,500",
             },
@@ -949,123 +730,158 @@ const tripsData = [
         ]
     },
 
-    // Kedarnath Trip
+    //Kasol-Manali
     {
-        id: "3fa612f7-271d-46c2-93b7-d6865f5bc6b0",
+        id: "d5557076-f953-42fb-98f9-faa9c03c610e",
         category: "upcoming",
-        title: "Rishikesh – Kedarnath – Chopta",
+        title: "Backpacking to Kasol & Manali",
         total_seats: 15,
         duration: "7 Days",
-        age: "15 - 38",
-        places_covered: "Kedarnath | Chopta Valley | Rishikesh",
+        places_covered: "Manali | Kasol | Kalga | Mainkaran | Kullu | Sissu",
         discount: "",
         gallery: [
-            "v1697567045/spiti_valley/1_js0yaf.jpg",
-            "v1697567057/spiti_valley/2_d2lr9y.jpg",
-            "v1697567048/spiti_valley/3_a6g84d.jpg",
-            "v1697567052/spiti_valley/4_b1depc.jpg",
-            "v1697567056/spiti_valley/5_shufsv.jpg",
-            "v1697567052/spiti_valley/6_um5gjc.jpg",
-            "v1697567042/spiti_valley/7_teosqa.jpg",
-            "v1697567050/spiti_valley/8_v6icc4.jpg",
-            "v1697567038/spiti_valley/9_jmfkfj.jpg",
-            "v1697567041/spiti_valley/10_vhunye.jpg",
-            "v1697567059/spiti_valley/11_evrwkn.jpg",
+            "v1698148230/kasol-manali/1_a47gls.jpg",
+            "v1698148230/kasol-manali/2_qpeczl.jpg",
+            "v1698148229/kasol-manali/3_few1dl.jpg",
+            "v1698148229/kasol-manali/4_zmjgeu.jpg",
+            "v1698148229/kasol-manali/5_ashugh.jpg",
+            "v1698148229/kasol-manali/6_hdphxg.jpg",
         ],
-        months: ["Sep", "Oct"],
+        months: ["Oct", "Nov", "Dec", "Jan"],
         departure: [
             {
-                start: "04 Sep",
-                end: "10 Sep",
+                start: "30 Oct",
+                end: "05 Nov",
                 seats_left: 15
             },
             {
-                start: "11 Sep",
-                end: "17 Sep",
+                start: "04 Nov",
+                end: "10 Nov",
                 seats_left: 15
             },
             {
-                start: "24 Sep",
-                end: "30 Sep",
+                start: "06 Nov",
+                end: "12 Nov",
                 seats_left: 15
             },
             {
-                start: "01 Oct",
-                end: "07 Oct",
+                start: "11 Nov",
+                end: "17 Nov",
                 seats_left: 15
             },
             {
-                start: "08 Oct",
-                end: "14 Oct",
+                start: "13 Nov",
+                end: "19 Nov",
                 seats_left: 15
             },
             {
-                start: "15 Oct",
-                end: "21 Oct",
+                start: "18 Nov",
+                end: "24 Nov",
                 seats_left: 15
             },
             {
-                start: "22 Oct",
-                end: "28 Oct",
+                start: "20 Nov",
+                end: "26 Nov",
+                seats_left: 15
+            },
+            {
+                start: "25 Nov",
+                end: "01 Dec",
+                seats_left: 15
+            },
+            {
+                start: "27 Nov",
+                end: "03 Dec",
+                seats_left: 15
+            },
+            {
+                start: "02 Dec",
+                end: "08 Dec",
+                seats_left: 15
+            },
+            {
+                start: "04 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "09 Dec",
+                end: "15 Dec",
+                seats_left: 15
+            },
+            {
+                start: "11 Dec",
+                end: "17 Dec",
+                seats_left: 15
+            },
+            {
+                start: "16 Dec",
+                end: "22 Dec",
+                seats_left: 15
+            },
+            {
+                start: "18 Dec",
+                end: "24 Dec",
                 seats_left: 15
             },
         ],
         description: [
-            "A place which is open only for 6 months in a year and one of the 12 jyotirling in India. Being a pilgrim this valley also offers a beautiful view of Kedar valley just beside this chopta valley is also one of the beautiful locations one should not miss when in uttrakhand. Our trip will start from Delhi. We will cover Rishikesh – Devprayag – Kedarnath – Chopta – Tungnath. We are going for river rafting in Rishikesh, one of the most thrilling rafting spots in India. We are going for a cafe walk in the hippie land of Rishikesh. We will also go to a beach in the evening or can go for a small waterfall hike.",
-            "On this trip we are witnessing the confluence of Alaknanda and Bhagirathi river. Hiking to the beautiful Kedarnath Dham. We also have 1 relaxing day into nature in chopta. On this relaxing day you have the option to hike Tungnath Chandrashila point."
+            "If you are the kind of person who loves bonfire, who loves to explore local places rather than tourist spots, if walking into woods, or enjoying beer in the club of old manali and get high on live music sounds cool to you, then this trip is for you. This itinerary shows you beyond the bars and gives you out of the box experience."
         ],
         iternary: [
             {
-                title: "Start journey from Delhi",
-                desc: "We will meet in Delhi. Board a Train / Bus to Haridwar night journey. We will start our journey from Delhi at 11.00 pm to confirm train reservation, book your seat in advance. Night journey to Sonprayag",
+                title: "Delhi to Kasol night journey",
+                desc: "We are leaving from Delhi at 3pm and it's a night journey to Kasol by a semi sleeper volvo bus. We will take a break at a local dhaba for dinner. Our departure time or location from Delhi may change. Please talk to us before booking your arrival flight or train.",
                 attractions: "",
                 meal: [],
             },
             {
-                title: "Rishikesh - Devprayag - Sonprayag",
-                desc: "In the morning we will travel to Devprayag to see the Confluence of Alaknanda and Bhagirathi. Devprayag is the place where the holy rivers Bhagirathi and Alaknanda meet, merge into one and take the name Ganga, making it a unique pilgrimage. Reach Sonprayag by evening check in at our stay in Sonprayag. We are staying in Guest house for Night.",
-                attractions: "",
+                title: "We will reach Kasol & Walk to Chalal",
+                desc: "Check in at our campsite and we will visit holy manikaran gurudwara in the evening. Then you have free time for shopping in kasol market. We are staying at a campsite from where we can see the flowing Parvati River. This place is a beautiful spot in the morning to click good pictures. We can have a night full of stories, Games and Music. Overnight stay in Kasol",
+                attractions: "River side stay",
                 meal: ["Dinner"],
             },
             {
-                title: "Sonprayag to Kedarnath Temple trek",
-                desc: "We will start in the morning at 4.00 am and drive to gaurikund for a trek to Kedarnath temple. It's a 25 km trek. We will have breakfast here. We will reach kedarnath temple in the evening, take darshan and night stay at kedarnath dham. A lot of people do kirtan and bhajan in the evening. We can join them or just sit there and witness its beauty. Night stay at kedarnath",
+                title: "Kasol to Kalga (offbeat village) with Manikaran Gurudwara",
+                desc: "After breakfast, board a bus to Barsheni. Today we are staying at a village in Parvati valley, also a very less explored destination. Today we are staying at a rustic wooden cottage which has a good view from every room. You can also try some hot brownies which are specially served in Himachal Pradesh. Night stay at base village of Kalga",
+                attractions: "Rustic wooden home stay (Raw & offbeat experience)",
+                meal: ["Breakfast", "Dinner"],
+            },
+            {
+                title: "Parvati valley to Manali with old Manali & Mall Road",
+                desc: "We will drive to Manali today. We will reach Manali by 9.00 pm. Overnight stay in Manali. Here we have option for short trip of 6 days as well contact us for details.",
                 attractions: "",
                 meal: ["Breakfast", "Dinner"],
             },
             {
-                title: "Kedarnath to Chopta",
-                desc: "We will visit the bhairavnath temple. From here you get a view of kedarnath dham which is breathtaking. Take darshan at kedarnath temple after breakfast we will start trek back to gaurikund and then Travel to Chopta. will reach Chopta by 11.00 pm. Night stay in Chopta",
+                title: "Solang valley The Adventure Paradise & Atal Tunnel with Sissu waterfall",
+                desc: "We start our day after breakfast and board a cab for a visit to Solang Adventure valley. You have free time to do ATV rides, Zorbing, rope way, zip lining return by evening and we can go shopping in the Manali market. We will also visit hadimba temple in the morning. If roads to sissu is open, we will visit Sissu & waterfall. Night stay in Manali",
                 attractions: "",
                 meal: ["Breakfast", "Dinner"],
             },
             {
-                title: "A Day in Chopta visit to Highest Shiva temple in Asia",
-                desc: "Today is a relaxing day in the mountains. If you still have energy then let's go for a 5 km hike to tungnath temple and chandrashila peak. We have kept this optional: you can choose to stay at a hotel or go for a walk to a nearby village. Night stay in chopta. Note: We are staying in valley view property in Chopta for 2 nights",
-                attractions: "",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Chopta to Rishikesh",
-                desc: "From our homestay you can see beautiful Himalayan views right from your window. Post Breakfast We will start our journey to Rishikesh by 09.00 am. It's a 6 hrs journey and we will reach Rishikesh by evening. We will go for a walk to Ram Jhula after dinner. On the way we will stop by Ganga to click some photos. Night stay in Rishikesh",
-                attractions: "",
-                meal: ["Breakfast", "Dinner"],
-            },
-            {
-                title: "Rishikesh Rafting and drive to Delhi",
-                desc: "Today is an adventure day, we are going for River rafting in Rishikesh and witness the river Ganga by the beach. Witnessing ganga aarti in Rishikesh. We are also walking on Laxman Jhula. This place also has a good option to buy souvenirs for your family and friends. Please Book your return flight or Train post 11.00 pm from delhi",
+                title: "Manali to Kullu adventure",
+                desc: "Before we start our journey back to the city, let's do a must adventure in kullu river rafting and paragliding. These are must things to do when in Kullu. In the evening we will board a bus to Delhi.",
                 attractions: "",
                 meal: ["Breakfast"],
-            }
+            },
+            {
+                title: "Reach Delhi",
+                desc: "We will reach delhi tentatively by 8.00 am. People joining from other city you can book your flight/train departure after 12.00 pm and people who have choose for Mumbai to Mumbai will continue with us",
+                attractions: "",
+                meal: [],
+            },
         ],
         why: [
-            "Our stay at chopta will is in Valley view property with attached washroom",
-            "No rushed and ridge Itinerary",
-            "More into the nature and less into the crowd at affordable cost",
-            "Small Group of up to 20 members",
-            "Do read our reviews on Facebook, Google and Instagram",
-            "We may not be the budgeted one but we are surely the best one",
-            "Because we have got 100% positive feedback for our itinerary and Stays for this Itinerary"
+            "You will not get this kind of Itinerary anywhere.We have got a 5 - star rating for this itinerary till date.It is Affordable, slow itinerary & great group discount.",
+            "Backpacker Tours is a diversified travel company operating 15 + destinations in India and adding many more.so we have experience",
+            "This is not just a sightseeing trip we make sure you return home with a new friend, good memories, and some new experiences.we will give you stories to tell.",
+            "We do our own departure No collaborations with any other agents or travel company.",
+            "We have the best stays and transport facility our trip leaders are highly experienced for these locations.",
+            "Because we try to keep your experience raw and memorable",
+            "Before making any plan and sharing it with you guys, we at Backpacker Tours visit and choose the best stay and make best Itinerary possible so you have the best experience while traveling with us.",
+            "We've got 10 / 10 feedback for this itinerary till date from our traveler.",
+            "Do check our reviews on Facebook & Instagram"
         ],
         highlights: [],
         price_breakup: [
@@ -1074,116 +890,305 @@ const tripsData = [
                 duration: "7 Days",
                 price: "14,900",
             },
-            {
-                departure: "Mumbai to Mumbai",
-                duration: "9 Days",
-                price: "16,900",
-            },
-
         ],
-        price_extras: [],
-        private_plan: "Private trips for 5+ members are available. Kedarnath & Badrinath Customize trip available",
+        price_extras: [
+            {
+                title: "Tripple Sharing",
+                price: 0
+            },
+            {
+                title: "Twin Sharing",
+                price: "1,500"
+            }
+        ],
         inclusion: [
-            "1 Night stay in Sonprayag",
-            "1 Night stay in Rishikesh",
-            "2 Night stay in Chopta",
-            "1 Night stay in Kedarnath",
-            "5 Dinner & 5 Breakfast (Veg)",
-            "Travel between Delhi to Delhi",
-            "Travel in Private Traveler",
-            "Accommodation in Guesthouse/Hotel on Four sharing basis",
-            "Experience trip lead from Backpacker Tours"
-
+            "01 - night stay in Kasol: Riverside(Hippie & Cafes)",
+            "02 nights stay in 3 - star hotels in Manali(Valley view stay)",
+            "01 - night stay in Rustic wooden homestay(Offbeat experience)",
+            "15 seater Private traveler for 7 days internal transport",
+            "04 Breakfasts & 04 Dinners(Veg & Jain meal both option available)",
+            "Experience Trip leader from Backpacker Tours",
+            "Stay in room on Triple Sharing / Quad sharing(2 on bed 1 on mattress)"
         ],
         exclusion: [
-            "Any meals not mentioned in Itinerary",
-            "Any adventure activity",
-            "Any porter / any horse ride",
-            "Transport to bungee jumping location",
-            "Any additional expenses arising out of unforeseen circumstances like flight delay / cancellation / roadblocks / landslides/ strike or any other natural causes out of human control or any emergency evacuation expenses are excluded",
-            "If any Cancellation of departure due to Landslide/ Road block or bad weather forecast. Refund will be initiate depending on situation"
+            "Lunch is Excluded",
+            "Paragliding / ATV ride / Horse Ride / River rafting",
+            "Any Medical Emergency",
+            "Mineral Water / Porter",
+            "Any entry fees to Monument / Park"
         ],
         note: [
-            "We are staying in Guest house / Camps depending on availability",
-            "All our meals provided on this trip is Pure veg",
-            "We travel in a Group of 20 Members. We need minimum 6 members to run any departure",
-            "Kedarnath dham has very basic amenities for accommodation If you are looking for a luxury stay at kedarnath then we may not a good option for you",
-            "We need minimum 6 members to run any Group Departure or for customize dates and our driver act as a guide",
-            "Train Tickets arrangements from Mumbai / Vadodara/ Surat / Delhi is available",
-            "Chopta in our Itinerary is for a relaxing day you have option of going to tungnath and chandrashila peak our trip leader will be there to guide you",
-            "On Day 0 the trip will start at night 11.00 pm from New Delhi Railway station and end in Delhi on 06th day 11.00 pm. you can book your flight for further journey accordingly",
-            "People who want to join from Mumbai can contact us for train departure and arrangements",
+            "4 shared rooms have 1 double bed & 1 Mattress. We also have triple and twin occupancy options available on extra charges.",
+            "Anyone from any part of India can join this trip. Everyone under 38 years old can join this trip.",
+            "Solo Traveler / Office colleague / College friends / Cousin, anyone can join this trip.",
+            "This trip starts from Mumbai / Delhi & end in Mumbai / Delhi; however, anyone would like to join from Pune / Surat / Vadodara / Ahmedabad, or any other city can ask us for assistance by train / Flight we have option available",
+            "We are staying in tents in kasol this maybe not a 5-star hotel but sure a 5-star experience",
+            "We are taking only 20 people for this trip book your seats ASAP; bookings will confirm only after we received amount in our bank",
+            "Above rates are for group departures only. Rates for customize plan will hike",
+            "Triple sharing rooms can be arranged if participate inform us at least before 1 month of trip departure on extra charges",
+            "Backpacker Tours do not have any control on train tickets reservation / seat allotment / RAC or waiting in Indian Railways. For confirm train reservation book your seats well in advance or else tatkal charges will be extra",
+            "In winters due to heavy fog trains or internal travel may get delayed in north India. You understand that we are not responsible for the cancellation to any site visit although we will try our best to make all place of visit possible."
         ],
         cancle_policy: [
-            "Cancel before 30 Day of Departure INR 7000 Chargeable",
-            "Cancel before 15 Day of Departure INR 10,000 Chargeable",
-            "No Refund for cancellation between 15 days to date of departure"
+            "Cancel before 30 day of departure INR 5,000/- per person",
+            "Cancel before 10 day of departure INR 8,000/- per person",
+            "No Refund between 10 days to dates of departure."
         ],
         things_to_carry: [],
         faqs: [
             {
-                que: "I want to Travel only to Kedarnath. Is this Possible?",
-                ans: "Yes, however we do not have any Group departure but we can make private arrangements for you. We have option of Kedarnath Badrinath, Kedarnath - Rishikesh connect to us for details"
+                que: "Why does this itinerary not include other locations of Himachal Pradesh?",
+                ans: "We know a lot of you plan trips for the first time, but we want you to understand Himachal pradesh is not a onetime explore Destination. It is better to explore in Parts for example: Kangra Valley and Dhauladhar valley (Bir billing, Dalhousie, Dharamshala, Triund, Barot valley) all these locations are nearby to each other you will have to spend 7 more days to explore these places. So, we try to make sure that our day journey should be minimum so that the itinerary gives you proper exploration and experience."
             },
             {
-                que: "What type of stays can we expect on this trip?",
-                ans: "Rishikesh local we will do by walk and local transport as our stay is very near to the attractions and from Rishikesh to Guptkashi to Chopta to Rishikesh will be in Private Tempo Traveler"
+                que: "What is the travel time between the destinations during this Itinerary for 7 days?",
+                ans: "Delhi to Kasol & Kasol to Manali is the longest Journey of 14 hrs we have on this trip. Chandigarh to Kasol Kasol to Chandigarh is an 8 - 9 hrs journey. rest all places like Kasol to Manikaran to Kalga to Manali to sissu to Kullu is roughly 3hrs journey so the plus point on this itinerary is you reach all the destination location in daytime, and you don't get bore on long journeys"
             },
             {
-                que: "What is the type of travel we will get during this journey?",
-                ans: "Yes, however we do not have any Group departure but we can make private arrangements for you. We have option of Kedarnath Badrinath, Kedarnath - Rishikesh connect to us for details"
+                que: "Do we have any pickups available from any other location than delhi?",
+                ans: "Yes we do arrange travel from any cities of india on extra charges. Just try to confirm us in advance we can arrange your travel by Bus, Train & Flight as per availability. Tatkal train reservation option is also available."
             },
             {
-                que: "Why should you choose this Itinerary?",
-                ans: "Most of you plan your vacation once in a year so choose the itinerary which gives you good experience as well as relaxing time. We at Backpacker Tours visit this place before creating itinerary and choose our stays according to our point of checklist where participates has good feedback"
+                que: "What is this offbeat village” Kalga” about?",
+                ans: "We always talk about local experience, but no itinerary literally never added the local thing it was all just Maggi & Momos. So here on this trip to Himachal Pradesh we are taking you to a less explored village of Parvati valley where you will be staying in pure wooden Homestay. This place has no Traffic because it is not connected to the roads, so we will hike 15 min to reach our homestay. Staying here is a very basic wooden house but the valley view & food will really make you fall in love with this village. we have done this stay with more than 500+ participants hand all of them have been rated this village 10 on"
             },
-            {
-                que: "What if I want to join this trip from my home city?",
-                ans: "You can join this departure from anywhere in India our team can help you with the booking of train tickets or flight tickets from your hometown"
-            },
-            {
-                que: "Will it be recommended to first time trekkers?",
-                ans: "Yes. The best part about kedarnath trek is that porters and horse riders are easily available for up and down trips."
-            },
-            {
-                que: "Why should you travel with us?",
-                ans: "We lead our own group departure. No collaboration, not more than 20 participates in one departure, valley view accommodation, offbeat experience, experience trip leader, Relaxing Itinerary."
-            }
         ]
     },
 
-    // Weekend - Gokarna
+    // Kerala
     {
-        id: "af5dd872-1305-49b0-97a5-7500789c7c54",
-        title: "Beach Vacation to Gokarna",
-        category: "weekend",
-        duration: "2D",
-        location: "Bari village Igatpuri",
-        grade: "Medium",
-        discount: "10% off if booked before 10th Aug 2023",
+        id: "b4991cc7-71ad-46d2-9442-bbc4ce762307",
+        category: "upcoming",
+        title: "South India : Kerala Trip",
+        total_seats: 15,
+        duration: "6 Days",
+        places_covered: "Munnar | Kolukkumalai | Thekkady | Alleppey | Varkala",
+        discount: "Early bird discount available for group bookings on first come first serve basis.",
         gallery: [
-            "v1697567045/spiti_valley/1_js0yaf.jpg",
-            "v1697567057/spiti_valley/2_d2lr9y.jpg",
-            "v1697567048/spiti_valley/3_a6g84d.jpg",
-            "v1697567052/spiti_valley/4_b1depc.jpg",
-            "v1697567056/spiti_valley/5_shufsv.jpg",
-            "v1697567052/spiti_valley/6_um5gjc.jpg",
-            "v1697567042/spiti_valley/7_teosqa.jpg",
-            "v1697567050/spiti_valley/8_v6icc4.jpg",
-            "v1697567038/spiti_valley/9_jmfkfj.jpg",
-            "v1697567041/spiti_valley/10_vhunye.jpg",
-            "v1697567059/spiti_valley/11_evrwkn.jpg",
+            "v1698149108/kerala/1_zijcvb.jpg",
+            "v1698149108/kerala/2_jbh0cc.jpg",
+            "v1698149109/kerala/3_wi21rf.jpg",
+            "v1698149109/kerala/4_jpjlzq.jpg",
+            "v1698149110/kerala/5_gp1t54.jpg",
+            "v1698149110/kerala/6_zeglan.jpg",
         ],
-        months: ["Sep", "Oct", "Nov", "Dec"],
+        months: ["Sep", "Oct", "Nov", "Dec", "Jan"],
         departure: [
             {
-                start: "28 Sep",
-                end: "01 Oct",
+                start: "27 Sep",
+                end: "02 Oct",
+                seats_left: 15
             },
             {
-                start: "12 Oct",
-                end: "15 Oct",
+                start: "07 Oct",
+                end: "12 Oct",
+                seats_left: 15
             },
+            {
+                start: "14 Oct",
+                end: "19 Oct",
+                seats_left: 15
+            },
+            {
+                start: "21 Oct",
+                end: "26 Oct",
+                seats_left: 15
+            },
+            {
+                start: "28 Oct",
+                end: "02 Nov",
+                seats_left: 15
+            },
+            {
+                start: "04 Nov",
+                end: "09 Nov",
+                seats_left: 15
+            },
+            {
+                start: "11 Nov",
+                end: "16 Nov",
+                seats_left: 15
+            },
+            {
+                start: "18 Nov",
+                end: "23 Nov",
+                seats_left: 15
+            },
+            {
+                start: "25 Nov",
+                end: "30 Nov",
+                seats_left: 15
+            },
+            {
+                start: "02 Dec",
+                end: "07 Dec",
+                seats_left: 15
+            },
+            {
+                start: "09 Dec",
+                end: "14 Dec",
+                seats_left: 15
+            },
+            {
+                start: "06 Jan",
+                end: "11 Jan",
+                seats_left: 15
+            },
+            {
+                start: "13 Jan",
+                end: "18 Jan",
+                seats_left: 15
+            },
+        ],
+        description: [
+            "On this trip to Kerala we are going to Munnar - Kolukkumalai - Thekkady - Varkala - Munroe island - Jatayu earth center – Alleppey. The best time to visit Kerala is between September to February to witness post monsoon Greenery. On this trip we are staying in munnar for 2 night going for boating in interiors of Munroe island and staying is beautiful houseboat for lifetime experience in Alleppey",
+            "Kerala is a charming South Indian destination that should be in every traveler’s bucket list. Adorned with the emerald backwaters, sprawling and lush tea estates, pristine hill stations, and azure Arabian Sea, Kerala tourism boasts numerous tourist places with which you will fall in love instantly. Anyone between 15 to 50 age group can join this trip with to Kerala"
+        ],
+        iternary: [
+            {
+                title: "Kochi Arrival (Railway station & Airport Pickup) – Drive to Munnar",
+                desc: [
+                    "Pick up from Kochi around 12.00 pm and drive to Munnar.",
+                    "On the way to Munnar you will be welcomed by tea gardens, waterfalls and foggy evenings On the way we will visit to Cheeyappara waterfalls & Valara waterfall",
+                    "Will try our luck if we are able to catch a sunset from a viewpoint on the way. Night stay in Munnar Hotel / Homestay",
+                ],
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Munnar local visit",
+                desc: [
+                    "Today we will visit to Top station, Mattupetty dam, and some beautiful tea estate reason why munnar is famous",
+                    "Carmelagiri national park for elephant safari & Eravikulam National park to witness nilgiri tahr",
+                    "In the evening we will go to local restaurant of munnar to have some munnar style food mostly",
+                    "Night stay in Munnar. Did we tell you we are staying in valley view property here you will love it"
+                ],
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Munnar - Kolukkumalai (Offroad Jeep safari) – Thekkady",
+                desc: [
+                    "Wakeup early at 03.00 am check out from munnar stay and It’s a one hours drive to sunrise point",
+                    "This location is not accessible by Normal vehicles. For this we need to hire a private jeep which takes you on this adventure off-roading trip to Kolukkumalai peak.",
+                    "The best part of this plan is we are visiting here on weekdays so it won’t be crowded",
+                    "We will reach thekkady around 02.00 pm. We can go to watch Famous Kalaripayattu show by evening",
+                    "Thekkady has a very nice spice market. You must not miss Night stay in Thekkady."
+                ],
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Thekkady to Varkala",
+                desc: [
+                    "Today you we will drive from Thekkady to Varkala post breakfast",
+                    "On the way to Varkala we will visit the Jatayu Earth Center. The Jatayu statue is 200 feet long, 150 feet wide, 70 feet in height and occupies 15,000 square feet. this places looks beautiful and this is one of the largest bird sculpture in world",
+                    "From Jayatu world center we will drive to varkala beaches for sunset we will go for a dinner in cafe and explore streets of varkala and cafes",
+                    "Night stay in varkala Hostel / Homestay"
+                ],
+                attractions: "",
+                meal: [],
+            },
+            {
+                title: "Varkala to Munroe island (Backwaters) to Alleppey",
+                desc: [
+                    "Today morning we will visit munroe island and backwaters of Kollam",
+                    "Munroe island is the hidden gem of Kerala and less explored away from the touristy crowded area",
+                    "Surrounded my serene ashtamudi lake & Kallada river",
+                    "The best way to enjoy this river is by taking a canoe ride through the narrow canals of backwaters",
+                    "The ride takes you through tiny hamlets located along the backwaters and provides a glimpse of the daily life of villagers. this places is loves among the traveler and backpackers from all over the world",
+                    "After a canoe ride we will drive to alleppey we are staying in a houseboat here. Houseboat experience is a must in kerala. Night stay in alleppey houseboat"
+                ],
+                attractions: "",
+                meal: ["Breakfast", "Lunch"],
+            },
+            {
+                title: "Check out from Alleppey drop to airport",
+                desc: [
+                    "We will return to Alleppey boat stand around 10.00 am",
+                    "You can book your return flight or train journey from Kochi to your home city after 05.00 pm.",
+                    "After a cheerful vacation in Kerala we will drop you at the airport. see you soon on another road trip with Backpacker Tours"
+                ],
+                attractions: "",
+                meal: ["Breakfast"],
+            },
+        ],
+        why: [],
+        highlights: [],
+        price_breakup: [
+            {
+                departure: "Kochi / Ernakulam to Kochi / Ernakulam",
+                duration: "6 Days",
+                price: "18,500",
+            }
+        ],
+        price_extras: [
+            {
+                title: "Tripple Sharing",
+                price: 0
+            },
+            {
+                title: "Twin Sharing",
+                price: "2,000"
+            },
+            {
+                title: "Train bookings from Mumbai / Gujrat / Pune",
+                price: 1
+            }
+        ],
+        inclusion: [
+            "Internal transport throughout the journey will be in 15 seater minibus",
+            "Breakfast & Dinner or Lunch (11 meals) as per the day wise schedule mentioned",
+            "Stay in Hotel, Houseboat & Homestay on Triple sharing basis",
+            "Offroad jeep safari to Kolukkumalai sunrise point",
+            "Kathakkakli & Kalaripayattu show entry fees in Thekkady",
+            "All Vehicle Tax, Parking Entry",
+            "Experienced trip lead from Backpacker Tours",
+            "2 Nights stay in Munnar, 1 Nights stay in Thekkady, 01 night stay in varkala, 1 Nights stay in Houseboat alleppey / Munroe"
+        ],
+        exclusion: [
+            "Any meals not mentioned in Inclusions",
+            "Any Entry fees tickets to waterfall, Monuments, tea garden, Boat ride, anything not mentioned in Inclusions",
+            "Any cold drinks, juice, soft drink or Mineral water",
+            "Any meal ordered from the hotel room service or from the menu",
+            "Any visit to places not mentioned in Itinerary",
+        ],
+        note: [
+            "All stay as per itinerary is on triple sharing if you want to upgrade on twin sharing extra charges will be applicable",
+            "Those who are arriving kochi by flight please book your flight arriving airport before 12.00 pm",
+            "Customize dates available for Group of 5+ Rates will be different for private plan",
+            "Check in & Check out time will be as per the schedule of the Hotel.",
+            "Before booking your flight tickets please confirm the availability with us",
+            "You can choose to travel between Mumbai to Ernakulam Non ac Sleeper or AC sleeper Cost will be different for both the transport",
+            "Backpacker tours are not responsible for allotting seats in train reservation. Train seats are booked on first come first serve."
+        ],
+        cancle_policy: [
+            "Cancel before 30 Day of Departure Booking 8,000/- Chargeable",
+            "Cancel before 15 Day of Departure INR 12,000/- Chargeable",
+            "No Refund for cancellation between 15 days to date of departure or No show",
+        ],
+        things_to_carry: []
+    },
+
+    // Gokarna
+    {
+        id: "5b784eac-2f33-43f3-8e74-fb726f97c0aa",
+        title: "Beach Vacation to Gokarna",
+        category: "weekend",
+        total_seats: 15,
+        duration: "2 Days",
+        location: "",
+        grade: "",
+        discount: "",
+        gallery: [
+            "v1698150408/gokarna/1_apzyzr.jpg",
+            "v1698150406/gokarna/2_srnqai.jpg",
+            "v1698150406/gokarna/3_v8uyij.jpg",
+            "v1698150410/gokarna/4_yluyxd.jpg",
+            "v1698150405/gokarna/5_u7iirg.jpg",
+        ],
+        months: ["Oct", "Nov", "Dec"],
+        departure: [
             {
                 start: "26 Oct",
                 end: "29 Oct",
@@ -1214,19 +1219,19 @@ const tripsData = [
         ],
         iternary: [
             {
-                title: "Day 01 (Thursday) Mumbai To Gokarna",
+                title: "Mumbai To Gokarna",
                 desc: "We will meet at our starting point CSMT railway station, Departure time will be at 04.00 pm from Mumbai. It’s an overnight journey in train (Book your tickets in advance to get confirm train reservation)",
             },
             {
-                title: "Day 02 (Friday): Gokarna - Murudeshwar Temple - Honnavar Boat Ride",
+                title: "Gokarna - Murudeshwar Temple - Honnavar Boat Ride",
                 desc: "Pickup from Gokarna Railway station at 07.00 am. We are staying at Beach facing homestay for 2 nights. After fresh up and breakfast in a local restaurant we will today visit Murdeshwar temple to witness the second largest shiva statue in the world. then we visit Honnavar for a boat ride and then night stay at our beautiful beach homestay",
             },
             {
-                title: "Day 03 (Saturday): Hike To Paradise Beach & Half-Moon Beach",
+                title: "Hike To Paradise Beach & Half-Moon Beach",
                 desc: "We Will reach Gokarna by 04.00 am. Today we start our day by having a late breakfast. We have a full day to detox our mind from the stress, workload we had in the past few months. We are staying right on the beach. YLets go swimming, play cricket, play volleyball, throw a Frisbee or just take your beer and chill. You will see one of the best sunsets here. Night stay at gokarna",
             },
             {
-                title: "Day 04 (Sunday): Drive To Vibhooti Falls & Mirjan Fort",
+                title: "Drive To Vibhooti Falls & Mirjan Fort",
                 desc: "Today we start our day early in the morning by 8am we board our traveler and drive to yana caves, vibhooti falls & Mirjan fort. We will start our return journey by evening 03.00 pm & reach Mumbai on day 5 morning 06.00 am",
             },
         ],
@@ -1240,8 +1245,8 @@ const tripsData = [
         highlights: [],
         price_breakup: [
             {
-                departure: "Join from Gokarna",
-                duration: "2 D",
+                departure: "Gokarna to Gokarna",
+                duration: "2 Days",
                 price: "7,500",
             }
         ],
@@ -1251,7 +1256,7 @@ const tripsData = [
                 price: "1,000",
             },
         ],
-        private_plan: "Just pay INR 4,000/- to block your seats",
+        private_plan: "",
         inclusion: [
             "Travel from your city (Mumbai to Gokarna & return will be in sleeper non ac train)",
             "02 Stay on Best home stay in Gokarna on beach (Four / Triple sharing basis)",
@@ -1272,10 +1277,6 @@ const tripsData = [
             "No Refund between 10 days to dates of departure"
         ],
         things_to_carry: [],
-        venue: {
-            title: "Sanjay gandhi national park, Mumbai, India",
-            link: "https://www.google.com/maps/search/?api=1&query=19.2288092,72.9181784"
-        },
         faqs: [
             {
                 que: "What type of stay do we have during the beach stay?",
@@ -1297,6 +1298,479 @@ const tripsData = [
                 que: "What type of meals do we get during the trip?",
                 ans: "We provide Unlimited Veg / Non veg 02 Breakfast, 1 Dinner & 1 Lunch during a 4 days trip. Rest days we will be traveling by train so meals during train travel and during the day journey are not included"
             },
+        ]
+    },
+
+    // Shimla & Manali
+    // {
+    //     id: uuid4(),
+    //     title: "Shimla & Manali",
+    //     category: "weekend",
+    //     duration: "6 Days",
+    //     places_covered: "Kullu | Ancient Hadimba temple | Solang valley | Kufri | Jakhu temple | Shimla Mall Road | Manali mall road | Vashisht temple | solang valley",
+    //     location: "",
+    //     grade: "",
+    //     discount: "",
+    //     gallery: [
+    //         "v1697567045/spiti_valley/1_js0yaf.jpg",
+    //         "v1697567057/spiti_valley/2_d2lr9y.jpg",
+    //         "v1697567048/spiti_valley/3_a6g84d.jpg",
+    //         "v1697567052/spiti_valley/4_b1depc.jpg",
+    //         "v1697567056/spiti_valley/5_shufsv.jpg",
+    //         "v1697567052/spiti_valley/6_um5gjc.jpg",
+    //         "v1697567042/spiti_valley/7_teosqa.jpg",
+    //         "v1697567050/spiti_valley/8_v6icc4.jpg",
+    //         "v1697567038/spiti_valley/9_jmfkfj.jpg",
+    //         "v1697567041/spiti_valley/10_vhunye.jpg",
+    //         "v1697567059/spiti_valley/11_evrwkn.jpg",
+    //     ],
+    //     months: [],
+    //     departure: [],
+    //     description: [],
+    //     iternary: [
+    //         {
+    //             title: "Chandigarh to Shimla",
+    //             desc: "Your pickup will be arranged as per arrival time at railway station or airport . Your stay will be in 3 star hotels. In the evening you can choose to go to mall road for shopping or visit Christ church in Shimla.",
+    //             meal: ["Dinner"]
+    //         },
+    //         {
+    //             title: "Shimla to Kufri",
+    //             desc: "Morning drive from Shimla to Kufri. Kufri is famous for its adventure park and mahasu peak. From these places you can see multiple mountain peaks. The road journey to kufri itself is very beautiful. Today in the evening you can visit the remaining sightseeing areas of Shimla. Evening free in Shimla",
+    //             meal: ["Breakfast", "Dinner"]
+    //         },
+    //         {
+    //             title: "Shimla to Manali",
+    //             desc: "After breakfast, I start early in the morning at 8.00 am from Shimla and drive to Manali. It's a 7hr journey. On the way, river rafting in Kullu reaches Manali by evening. Take a walk to the mall road. You will get the best chaat and bundi ka halwa on mall road. Night stay in Manali",
+    //             meal: ["Breakfast", "Dinner"]
+    //         },
+    //         {
+    //             title: "Manali Sightseeing",
+    //             desc: "Start your journey in the morning around 8.00 am and drive to the beautiful Solang valley covered with snow. You can try out some adventure here: tube sliding, Snow skiing, zorbing, paragliding, and mountain biking. You will get the best maggie here. Night stay in manali",
+    //             meal: ["Breakfast", "Dinner"]
+    //         },
+    //         {
+    //             title: "Manali - Kasol - Manikaran",
+    //             desc: "Today you have a free day in Manali. You can choose to visit Kasol in Parvati valley and Manikaran Gurudwara and Night stay in kasol",
+    //             meal: ["Breakfast", "Dinner"]
+    //         },
+    //         {
+    //             title: "Reach Chandigarh",
+    //             desc: "We will drop you at Chandigarh around 06.0. pm. please book your further travel accordingly",
+    //         },
+    //     ],
+    //     price_breakup: [
+    //         {
+    //             departure: "Chandigarh",
+    //             duration: "6 Days",
+    //             price: "20,000",
+    //         }
+    //     ],
+    //     price_extras: [],
+    //     private_plan: "Private package with private cab",
+    //     inclusion: [
+    //         "Private Cab travel from Chandigarh to Shimla to Manali to Chandigarh",
+    //         "2 Night in Manali Hotel",
+    //         "2 Night in Shimla Hotel",
+    //         "1 Night in Kasol camp",
+    //         "All Sightseeing Mentioned in itinerary",
+    //         "Veg – Non veg 05 Breakfast & 05 Dinner",
+    //         "Driver Expenses & State Tax"
+    //     ],
+    //     exclusion: [
+    //         "Lunches we suggest try out local food when on mountains",
+    //         "Any places not mentioned in Itinerary",
+    //         "One places can be visited only one time"
+    //     ],
+    // },
+
+    // Kullu & Manali
+    // {
+    //     id: uuid4(),
+    //     title: "Kullu & Manali",
+    //     category: "weekend",
+    //     duration: "5 Days",
+    //     places_covered: "Solang valley | Hadimba Temple | Vashisht Temple | Mall Road | Monastery",
+    //     location: "",
+    //     grade: "",
+    //     discount: "",
+    //     gallery: [
+    //         "v1697567045/spiti_valley/1_js0yaf.jpg",
+    //         "v1697567057/spiti_valley/2_d2lr9y.jpg",
+    //         "v1697567048/spiti_valley/3_a6g84d.jpg",
+    //         "v1697567052/spiti_valley/4_b1depc.jpg",
+    //         "v1697567056/spiti_valley/5_shufsv.jpg",
+    //         "v1697567052/spiti_valley/6_um5gjc.jpg",
+    //         "v1697567042/spiti_valley/7_teosqa.jpg",
+    //         "v1697567050/spiti_valley/8_v6icc4.jpg",
+    //         "v1697567038/spiti_valley/9_jmfkfj.jpg",
+    //         "v1697567041/spiti_valley/10_vhunye.jpg",
+    //         "v1697567059/spiti_valley/11_evrwkn.jpg",
+    //     ],
+    //     months: [],
+    //     departure: [],
+    //     description: [],
+    //     iternary: [
+    //         {
+    //             title: "Delhi to Manali",
+    //             desc: "Delhi to Manali journey will be in Volvo Semi sleeper. This bus will depart from Delhi at 5.00 pm. Bus departure time may change we will confirm the departure time on the same day",
+    //         },
+    //         {
+    //             title: "Mall Road - Tibetan Monestary - Hadimba Temple",
+    //             desc: "You will reach Manali around 10.00 am. You can take a rest and leave for a 4hr sightseeing trip to Hadimba temple, Mall Road for shopping, and Tibetan monastery. Night stay in Manali.",
+    //             attractions: "Mall Road, Tibetan monastery, Hadimba temple",
+    //             meal: ["Dinner"]
+    //         },
+    //         {
+    //             title: "Manali – Kullu and Naggar castle",
+    //             desc: "Today we will drive to naggar castle after breakfast, have a tea coffee with your loved ones with the valley view restaurant. After a lunch break, we will go for river rafting in Kullu. You can also choose to go Paragliding here for a lifetime experience.",
+    //             attractions: "Naggar castle and Kullu Shawl Market",
+    //             meal: ["Breakfast", "Dinner"]
+    //         },
+    //         {
+    //             title: "Solang valley - Vashisht Temple - Atal tunnel",
+    //             desc: "Start your journey in the morning around 8.00 am and drive to the beautiful Solang valley covered with snow in winter. You can try out some adventure here: zorbing, paragliding, ATV ride, Mountain’s biking, you will get the best Maggie here. Night Journey to Delhi",
+    //             attractions: "Solang Valley",
+    //             meal: ["Breakfast"]
+    //         },
+    //         {
+    //             title: "Reach delhi",
+    //             desc: "You will reach Delhi around 07.00 am. You can book your flight or train tickets for return journey accordingly",
+    //         }
+    //     ],
+    //     price_breakup: [
+    //         {
+    //             departure: "Delhi",
+    //             duration: "5 Days",
+    //             price: "32,000",
+    //         }
+    //     ],
+    //     price_extras: [
+    //         {
+    //             title: "Tripple Sharing",
+    //             price: 0
+    //         },
+    //         {
+    //             title: "Deluxe Hotel",
+    //             price: 0
+    //         },
+    //         {
+    //             title: "3 Star Hotel",
+    //             price: "4,000"
+    //         }
+    //     ],
+    //     private_plan: "Private package with private cab",
+    //     inclusion: [
+    //         "AC Volvo Journey from Delhi to Manali and return",
+    //         "Pickup and drop from Volvo Stand to hotel",
+    //         "3 Star Hotel stay for 2 Nights with 1 extra mattress",
+    //         "Welcome drink on arrival",
+    //         "Day 2: Sightseeing to Mall Road, Tibetan monastery, Hadimba temple",
+    //         "Day 3: Sightseeing to Kullu & Naggar castle",
+    //         "Day 4: Solang valley, Vashisht Temple & Atal tunnel (Trip to Atal tunnel is weather depending in winters)",
+    //         "Veg – Non veg 02 Breakfast & 02 Dinner",
+    //         "Driver Expenses & State Tax"
+    //     ],
+    //     exclusion: [
+    //         "Travel till delhi pickup location",
+    //         "Any extra visit not mentioned in Itinerary",
+    //         "Any Transport limitation due to snowfall",
+    //         "ANy 4x4 vehicle used during snowfall",
+    //         "Lunches we suggest try out local food when on mountains"
+    //     ],
+    //     note: [
+    //         "Local Transport during this trip sightseeing basis.",
+    //         "Paragliding for 10 to 15 mins - INR 2,300/- per person",
+    //         "Any places not mentioned in Itinerary will be charge extra",
+    //         "All local sightseeing and pickup drop are in Alto or Swift 4-seater depending on group size",
+    //         "Day 2 Sightseeing: Mall Road, Vashisht Temple, Hadimba Monastery",
+    //         "Day 3 Sightseeing: Solang valley",
+    //         "Trip to Rohtang pass & sissu will be charged extra",
+    //         "Volvo bus departure from delhi will be at 07.00 pm Majnu ka tila or RK Ashram",
+    //         "In case of any help, you can always connect to our team 24x7: + 91 8082647928"
+    //     ]
+    // },
+
+    // Parvati Valley
+    {
+        id: "27305108-8836-4c5f-afab-a35ad6caa902",
+        title: "Parvati Valley",
+        category: "weekend",
+        duration: "5 Days",
+        total_seats: 15,
+        places_covered: "Delhi | Kasol | Manikaran | Kalga | Kheerganga",
+        location: "",
+        grade: "",
+        discount: "",
+        gallery: [
+            "v1698153044/parvati/1_iddu6y.jpg",
+            "v1698153048/parvati/2_oklphi.jpg",
+            "v1698153043/parvati/3_r2w6gl.jpg",
+            "v1698153044/parvati/4_kmfx2c.jpg",
+            "v1698153042/parvati/5_kevfvz.jpg",
+            "v1698153042/parvati/6_vwguci.jpg",
+            "v1698153046/parvati/7_jpv0uv.jpg",
+        ],
+        months: ["Aug", "Sep"],
+        departure: [
+            {
+                start: "26 Aug",
+                end: "31 Aug",
+                seats_left: 15
+            },
+            {
+                start: "29 Aug",
+                end: "03 Sep",
+                seats_left: 15
+            },
+            {
+                start: "14 Sep",
+                end: "19 Sep",
+                seats_left: 15
+            },
+            {
+                start: "19 Sep",
+                end: "24 Sep",
+                seats_left: 15
+            },
+            {
+                start: "27 Sep",
+                end: "02 Oct",
+                seats_left: 15
+            }
+        ],
+        description: [
+            "Beautiful places are often hidden away in the most easily accessible places. To those of us with less budget than enthusiasm, Himachal is like a gift from god to escape the stress of mundane life, Parvati Valley in Himachal is one of the most beautiful destinations in the world. Starting at the Confluence of River Parvati and river beas, the valley is famous for its pretty as a picture of coniferous forests and crystal-clear mountain streams. Nestled in these sylvan hills is the charming village of Kasol. Resplendent in natural beauty, Kasol is fast emerging as a hub for backpackers, trekkers, and nature lovers. However, it is also one of those places you want to strike off your bucket list before you have children as it is home to a deep-rooted local culture of pot and hippie hues. Even if you are not into either of those, there are many other things to do in Kasol."
+        ],
+        iternary: [
+            {
+                title: "Departure from delhi",
+                desc: [
+                    "Pickup from New Delhi railway station at night 11.00pm. Pickup location can be changed will be inform to you one day before departure",
+                    "Delhi to Kasol is 14 hr drive. Night Journey to Kasol"
+                ]
+            },
+            {
+                title: "Check-in at our stay explores Chalal O/N at Kasol",
+                desc: [
+                    "We will take a break at Mandi for Breakfast and reach kasol by 12.00 pm tentatively",
+                    "We are staying on the river side which is a walkable distance from the market and cafés.",
+                    "This place also has some best hippie things to take away for your friends & colleague",
+                    "This itinerary is loved by participants who are coming to relax, reset and chill.",
+                    "This is not a leisure trip. Your fitness will be tested. One more special part of this trip is that the places we are staying are connected to nature, natural beauty.",
+                    "So join us if you really want to experience Offbeat Or local Himacha pradesh"
+                ]
+            },
+            {
+                title: "Kasol to Kheerganga",
+                desc: [
+                    "After reaching barsheni hike to kheerganga village",
+                    "Kheerganga usually takes 5 - 6 hrs hike Pre winters are the best time to hike in kheerganga mountains",
+                    "This trek is Recommended to the first timer as well. We are staying in cosy camps today.",
+                    "Spend some musical time with fellow participants at Kheerganga top"
+                ]
+            },
+            {
+                title: "Kheerganga to Kalga O/N at Kalga",
+                desc: [
+                    "We are staying in a rustic wooden cottage here which has enough space for social distancing this place is very less explored by tourist",
+                    "It is forest land and most of the space here is apple orchards.",
+                    "We have a relaxing day at our stay in Kalga in an evening stroll around one of the best cafe there with a Beautiful sunset view",
+                    "We have free time in the evening"
+                ]
+            },
+            {
+                title: "Kalga to Manikaran to Delhi",
+                desc: [
+                    "Kheerganga is Famous for Hot water, a natural hot water bath",
+                    "After a delicious breakfast we'll start our ascend Base. take some pictures at the waterfall.",
+                    "We will start our return journey to Delhi by 06.00 pm.",
+                    "Night journey to delhi by volvo bus"
+                ]
+            },
+            {
+                title: "Drop in delhi morning 06.00 am",
+                desc: [
+                    "Reach Delhi by 06.00 am at ISBT Kashmiri Gate",
+                    "You can take the metro to the airport or railway station",
+                    "See you all soon on next trip maybe for Manali"
+                ]
+            }
+        ],
+        price_breakup: [
+            {
+                departure: "Delhi to Delhi",
+                duration: "5 Days",
+                price: "12,900",
+            }
+        ],
+        price_extras: [],
+        private_plan: "",
+        inclusion: [
+            "01 Night stay basic Hotel in Kasol",
+            "01 Night stay in Rustic wooden homestay in Kalga",
+            "01 Night stay in Kheerganga Campsite",
+            "Transport from Delhi to Kasol & return in Volvo bus",
+            "Accommodation on four / Triple sharing bases",
+            "03 Breakfast and 03 Dinner",
+            "Internal Transfer in Parvati valley by private vehicle",
+            "Experienced trip lead from Backpacker Tours",
+        ],
+        exclusion: [
+            "Anything Not Mentioned in Inclusions",
+            "Potter Charges will be extra (If any)",
+            "Lunch, we Suggest you try local food here in cafes and we have some good locations for lunch",
+            "Transport from your Home town to Delhi (It is Available on extra charges)",
+            "Any Activity / Adventure"
+        ],
+        note: [
+            "If you are someone who wants to just relax and enjoy your mountain time then this trip is for you. we will party, play games, walk into the nature",
+            "You can also carry your laptop on this trip incase you have less office leaves",
+            "People from Mumbai, Pune, Surat, Ahmedabad can get tatkal train Tickets on-demand 3T or Non AC sleeper on extra charges",
+            "Please carry Backpacks (No trolly bags allowed)",
+            "Everyone Between 18 to 35 ages can join this trip",
+            "People Travelling by flight or Train from their hometown till delhi, On day 01 book any flight or Train Arriving before 03.00 pm at Delhi and on day 06 book any flight or Train departing after 10.00 am.",
+            "Sudden change in weather on mountain is normal we may have to change Itinerary at last moment if any weather restrictions",
+            "This group will maximum accommodate 15 people on first come first serve basis.",
+            "Booking for this batch will be on a first come first serve basis.",
+        ],
+        cancle_policy: [
+            "Cancel before 30 Day of Departure INR 1500 per person will be chargeable"
+        ]
+    },
+
+    // Kedarkantha Trek
+    {
+        id: "690ec08b-6a7c-49cd-94ec-4c30db0b3dc7",
+        title: "Kedarkanth Trek",
+        category: "weekend",
+        duration: "6 Days",
+        total_seats: 15,
+        location: "",
+        grade: "",
+        discount: "",
+        gallery: [
+            "v1698161939/kedarkantha/1_lqd6uc.jpg",
+            "v1698161807/kedarkantha/2_vj2zqq.jpg",
+            "v1698161802/kedarkantha/3_rhyqgf.jpg",
+            "v1698161803/kedarkantha/4_kjyuha.jpg",
+        ],
+        months: ["Dec"],
+        departure: [
+            {
+                start: "03 Dec",
+                end: "10 Dec",
+                seats_left: 15
+            },
+            {
+                start: "10 Dec",
+                end: "17 Dec",
+                seats_left: 15
+            },
+            {
+                start: "17 Dec",
+                end: "24 Dec",
+                seats_left: 15
+            },
+            {
+                start: "24 Dec",
+                end: "31 Dec",
+                seats_left: 15
+            },
+        ],
+        description: [
+            "Experience the beauty of Kedarkantha, the most sought after snow trekking destination. The beauty of this trek is unsurpassed with views that are completely blissful to witness. This trek also offers an opportunity to experience the remote villages of Garhwal Himalayas and gain insight into their lifestyle and culture. The trip begins with a beautiful drive from Dehradun to the remote village of Sankri. Indulge in an array of adventure activities like tree jummering, valley traverse, snow tubing and skiing here. Immerse yourself in the natural bounties surrounding you. The wait is over, from the base camp the next day we trek to Kedarkantha summit. The trail is difficult because you have to walk on the snow. However, the joy of walking on snow is inexplicable. At the summit, you will be rewarded with awe-inspiring views of Yamunotri and Gangotri ranges and also of Kinner Kailash range and other ranges in Himachal."
+        ],
+        iternary: [
+            {
+                title: "Dehradun to Sankri",
+                desc: "We Start our journey from Dehradun sharp at 7.00 am morning and board our minibus to sankri 08 hr ride from Sankri to Dehradun get ready for a local uttrakhand experience where your phones & internet will not work for a few days. We will reach sankri around 04.00 pm check in at our homestay Night stay in Sankri. Local village dinner will be served.",
+                meal: ["Dinner"]
+            },
+            {
+                title: "Sankri to Juda ka Talab",
+                desc: "Today we will hike up to Juda Ka Taal campsite. The trail starts from a point which comes after a short walk towards Taluka. The initial trail passes through the dense pine forest which gets covered with snow during the winter season. The trek is a bit steep in the beginning and mild steep till you reach the campsite. The name of the campsite is based on a small pond situated near the campsite. The pond is serene and it gets frozen during winters. The distance from Sankri to Juda Ka Taal is just 4 km. Dinner and overnight stay in camps",
+                meal: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+            },
+            {
+                title: "Juda ka Talab to Base camp",
+                desc: "After Breakfast we hike to Base camp of Kedarkantha. Morning at kedarkantha is beautiful and cold. It's a 4km hike from juda ka talab to base camp. This route goes between pine trees and you will also witness snow Peak Mountain from this place reach base camp by evening. Relaxing night at camp having homely cooked meals on mountains in middle of nowhere worth experiencing",
+                meal: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+            },
+            {
+                title: "Base camp to Kedarkantha top to Base",
+                desc: "Today we will hike for 10 km from base camp to the mountain top. Click some good pictures with clear sky & snow around. It’s a long day but full of Excitement of the journey and conquering kedarkantha peak spends some time on top & witness some nearest peaks from this location and return to Base Camp. Night stay at Campsite dinner will be served.",
+                meal: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+            },
+            {
+                title: "Base Camp to Sankri",
+                desc: "We will start our trek for Sankri and reach the village by 3.00 pm. We have a rest day to explore near the market & village. Try some local food in restaurants & explore this village by walking and back to homestay for a good night sleep. Night stay in Sankri",
+                meal: ["Breakfast", "Lunch", "Snacks", "Dinner"]
+            },
+            {
+                title: "Sankri to Dehradun",
+                desc: "After 6 days of mountain life we are finally starting our journey to city life. We reach Dehradun by evening and board our train/bus to Delhi for a night journey. Book your trip ASAP to confirm train Reservation. We reach Delhi by Next Day morning 08.00 am",
+                meal: ["Breakfast"]
+            },
+        ],
+        price_breakup: [
+            {
+                departure: "Sankri to Sankri",
+                duration: "6 Days",
+                price: "6,000",
+            }
+        ],
+        price_extras: [
+            {
+                title: "Dehradun to Dehradun",
+                price: "900"
+            },
+            {
+                title: "Delhi to Delhi",
+                price: "1,900"
+            }
+        ],
+        private_plan: "",
+        inclusion: [
+            "Accommodation (Guest house and Camping)",
+            "Meals on trek (Veg)",
+            "Breakfast, Lunch, Dinner",
+            "Snack bag extra from Backpacker Tours (Maggie, Biscuits, Green tea, energy bar)",
+            "Trek equipment: Sleeping bag, mattress, tent (triple sharing), Dining tent, kitchen, toilet tent, utensils, Gaiters & crampons",
+            "GST, permits and entry fee are Included",
+            "First aid medical kit",
+            "Mountaineering qualified & professional trek Leader, guide and Support staff.",
+            "Transport from Dehradun to Sankri and return (Bolero or Tempo traveler)"
+        ],
+        exclusion: [
+            "Any kind of personal expenses",
+            "Food during the transit.",
+            "Insurance.",
+            "Any extra cost which arise because of road blocks or landslide",
+            "Mules or porters to carry personal luggage.",
+            "Anything not specifically mentioned under the Inclusions.",
+            "Any kind of emergency evacuation charges."
+        ],
+        note: [
+            "This trek will be operated by our local Guide, Experienced Guide",
+            "We have enough supply of food at our campsite (No meals skip, no shortage of meals)",
+            "All Staff, Guide and Stay are managed by our Experienced team of professional based",
+            "Our campsite has Dining tent with comfortable seating arrangements",
+            "This is not a picnic trip, we are going on a adventure do not expect it to be comfortable, and to much amenities",
+            "Sankri has only BSNL network available",
+            "This trek will be led by experienced trek lead from Backpacker tours",
+            "Kedarkantha summit in winter is fully dependent on weather conditions",
+            "Shoe, Trek pole, Trekking bags are available on rent at base village",
+            "No consumption of Alcohol / Drug during the trek",
+            "We are taking only 15 - 20 people in 1 batch",
+            "Porters & mules are available for bags transport till Kedarkantha base camp",
+            "We suggest you to carry small bag which has good space to keep your jackets & inners wears",
+            "Mail confirmation will be given once booking amount reflects in our Bank account",
+            "Toilet tents are very basic as there is no permanent construction allowed by forest department"
+        ],
+        cancle_policy: [
+            "Cancel before 30 Day of Departure INR 3000 per person",
+            "Cancel before 15 Day of Departure INR 6000 per person",
+            "No Refund for cancellation between 10 days to dates of departure"
         ]
     }
 ];

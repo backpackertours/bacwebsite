@@ -61,6 +61,7 @@ const Trip = () => {
 
     return (
         <section className="bg-gray">
+            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
             <BottomDrawer
                 category={category}
                 price_breakup={price_breakup}

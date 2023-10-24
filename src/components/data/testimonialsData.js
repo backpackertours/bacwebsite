@@ -9,7 +9,7 @@ const testimonialsData = [
         src: "dev.jpg",
         name: "Dev Kumar",
         description: "Chirag is an amazing organizer and trip leader. I was first skeptical of joining a group of random strangers but his icebreaking sessions and fun games made everyone open up to be good friends. His curated itinerary for the Meghalaya trip was enthralling and well very managed.",
-        key: 5,
+        key: 2,
     },
     {
         src: "poonam.jpg",

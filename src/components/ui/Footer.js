@@ -1,4 +1,5 @@
 import { Row, Col } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     const currentUrl = window.location.href;
@@ -6,6 +7,8 @@ const Footer = () => {
     // check if we are on trip details page
     const isTripPage = currentUrl.includes("/trip");
 
+    const instaLink = "https://www.instagram.com/backpackertours/";
+    const facebookLink = ""
     return (
         <footer className={`${isTripPage ? "mb-sm-menu" : ""}`}>
             <div className="container py-5 px-sm-4">
@@ -16,15 +19,15 @@ const Footer = () => {
                     </Col>
                     <Col md="4">
                         <p><strong>Contact Info</strong></p>
-                        <p className="text-muted"><i className="bi bi-envelope"></i> backpackertours.in@gmail.com</p>
-                        <p className="text-muted"><i className="bi bi-telephone"></i> +91 7758905725</p>
-                        <p className="text-muted"><i className="bi bi-telephone"></i> +91 2557905877</p>
+                        <p className="text-muted"><i className="bi bi-envelope"></i> backpackmumbai@gmail.com</p>
+                        <p className="text-muted"><i className="bi bi-telephone"></i> +91 8082647928</p>
+                        <p className="text-muted"><i className="bi bi-telephone"></i> +91 8286835202</p>
                     </Col>
                     <Col md="4">
                         <p><strong>Follow Us</strong></p>
                         <div className="d-flex gap-3">
-                            <i className="bi bi-instagram" style={{ fontSize: "1.2rem" }}></i>
-                            <i className="bi bi-facebook" style={{ fontSize: "1.2rem" }}></i>
+                            <Link to={instaLink} className="text-dark"><i className="bi bi-instagram" style={{ fontSize: "1.2rem" }}></i></Link>
+                            <Link to={facebookLink} className="text-dark"><i className="bi bi-facebook" style={{ fontSize: "1.2rem" }}></i></Link>
                         </div>
                     </Col>
                 </Row>
