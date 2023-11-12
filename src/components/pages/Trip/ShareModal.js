@@ -7,7 +7,7 @@ import {
 import QueryFormBody from './QueryFormBody.js';
 import ShareLink from './ShareLink.js';
 
-const ShareModal = ({ modal, toggle, body }) => {
+const ShareModal = ({ modal, toggle, body, trip }) => {
     return (
         <div>
             <Modal isOpen={modal} toggle={toggle}>
@@ -17,7 +17,7 @@ const ShareModal = ({ modal, toggle, body }) => {
                             <i className="bi bi-x-lg"></i>
                         </Button>
                     </div>
-                    {body === "sharelink" ? <ShareLink /> : <QueryFormBody />}
+                    {body === "sharelink" ? <ShareLink /> : <QueryFormBody trip={trip} />}
                 </ModalBody>
             </Modal>
         </div>

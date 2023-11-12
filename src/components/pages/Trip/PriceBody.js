@@ -9,7 +9,7 @@ import ShareModal from './ShareModal';
 import PriceBreakup from './PriceBreakup';
 import PriceExtras from './PriceExtras';
 
-const PriceBody = ({ price_breakup, price_extras, discount }) => {
+const PriceBody = ({ price_breakup, price_extras, discount, trip }) => {
     const [modal, setModal] = useState(false);
 
     const toggle = () => setModal(!modal);
@@ -49,10 +49,10 @@ const PriceBody = ({ price_breakup, price_extras, discount }) => {
                     discount && (<AlertBox icon="wallet2" text={discount} />)
                 }
                 <Button className="d-none d-md-block w-100 bg-primary text-white border border-0 rounded-3 mt-3" onClick={toggle}>
-                    Send Enquiry
+                    Send Inquiry
                 </Button>
             </div>
-            <ShareModal modal={modal} toggle={toggle} body="queryform" />
+            <ShareModal modal={modal} toggle={toggle} body="queryform" trip={trip} />
         </Card>
     )
 }

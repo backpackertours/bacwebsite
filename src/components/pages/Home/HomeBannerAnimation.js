@@ -7,9 +7,13 @@ const HomeBannerAnimation = () => {
                 // Same substring at the start will only be typed out once, initially
                 'Tours.',
                 1000,
-                'Treks.',
+                'Road Trips.',
                 1000,
                 'Adventures.',
+                1000,
+                'Offbeat.',
+                1000,
+                'Experience.',
                 1000
             ]}
             wrapper="span"

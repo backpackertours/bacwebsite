@@ -58,7 +58,7 @@ const Navigation = (args) => {
                                 {
                                     upcoming.map(trip => (
                                         <DropdownItem key={uuid4()}>
-                                            <Link className="nav-link py-0" to={`/trip/${trip.id}`}>{trip.title}</Link>
+                                            <Link className="nav-link py-0" to={`/trip/${trip.id}`} onClick={() => setIsOpen(false)}>{trip.menu_title}</Link>
                                         </DropdownItem>
                                     ))
                                 }
@@ -72,7 +72,7 @@ const Navigation = (args) => {
                                 {
                                     weekend.map(trip => (
                                         <DropdownItem key={uuid4()}>
-                                            <Link className="nav-link py-0" to={`/trip/${trip.id}`}>{trip.title}</Link>
+                                            <Link className="nav-link py-0" to={`/trip/${trip.id}`} onClick={() => setIsOpen(false)}>{trip.menu_title}</Link>
                                         </DropdownItem>
                                     ))
                                 }

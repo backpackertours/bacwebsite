@@ -76,9 +76,10 @@ const Testimonials = (args) => {
                 <Row className="justify-content-between">
                     <Col className="mb-sm-4" md="5">
                         <div>
-                            <div className='mb-4'>
+                            {/* TODO - Remove this if not used. */}
+                            {/* <div className='mb-4'>
                                 <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>🙋🏻‍♂️</span>
-                            </div>
+                            </div> */}
                             <h2 className="mb-4">Client Reviews</h2>
                             <div className="mb-5">
                                 Discover what our satisfied travelers have to say about their extraordinary experiences with Backpacker Tours. Our group tours have left an indelible impression, creating cherished memories and forming lifelong bonds.

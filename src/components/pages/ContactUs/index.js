@@ -8,11 +8,12 @@ const ContactUs = () => {
 
     return (
         <section className="bg-gray">
-            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
+            <div className="bg-dark text-light text-center py-1">We are still working on the website. For inquiry, please contact +91 8082647928.</div>
             <section className="container py-5 px-sm-4">
-                <div className='mb-4 text-center'>
+                {/* TODO - Remove this if not used. */}
+                {/* <div className='mb-4 text-center'>
                     <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>📲</span>
-                </div>
+                </div> */}
                 <h1 className="mb-5 text-center">Contact Us</h1>
                 <Row className="pt-3 justify-content-between">
                     <Col className="mb-5 d-flex flex-column gap-3" lg="5">

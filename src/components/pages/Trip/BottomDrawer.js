@@ -9,7 +9,7 @@ import BottomDrawerButton from './BottomDrawerButton';
 
 import 'react-modern-drawer/dist/index.css';
 
-const BottomDrawer = ({ category, price_breakup, price_extras, discount }) => {
+const BottomDrawer = ({ trip }) => {
     const [isOpen, setIsOpen] = useState(false);
     const [body, setBody] = useState("");
 
@@ -23,6 +23,9 @@ const BottomDrawer = ({ category, price_breakup, price_extras, discount }) => {
         setBody(bodyType);
         setIsOpen(true);
     }
+
+    // expand trip
+    const { category, price_breakup, price_extras, discount } = trip
 
     // Drawer body tyes
     const SHARE = "SHARE";
@@ -61,7 +64,7 @@ const BottomDrawer = ({ category, price_breakup, price_extras, discount }) => {
             >
                 {body === SHARE && <ShareLink />}
                 {body === PRICING && <PriceBody category={category} price_breakup={price_breakup} price_extras={price_extras} discount={discount} />}
-                {body === ENQUIRY && <QueryFormBody />}
+                {body === ENQUIRY && <QueryFormBody trip={trip} />}
             </Drawer>
         </section >
     )

@@ -8,11 +8,12 @@ const WeekendGatewayCards = () => {
     return (
         <section className='bg-gray'>
             <div className="container py-5 px-sm-4">
-                <div className='mb-4'>
+                {/* TODO - Remove this if not used. */}
+                {/* <div className='mb-4'>
                     <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>⛰️</span>
-                </div>
+                </div> */}
                 <div className="mb-4">
-                    <h3>Weekend Gateways</h3>
+                    <h3>WEEKEND GATEWAYS</h3>
                 </div>
                 <CardSwiper data={upcomingTripsList} />
             </div>
