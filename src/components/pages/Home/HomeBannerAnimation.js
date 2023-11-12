@@ -7,13 +7,21 @@ const HomeBannerAnimation = () => {
                 // Same substring at the start will only be typed out once, initially
                 'Tours.',
                 1000,
+<<<<<<< HEAD:src/components/pages/Home/HomeBannerAnimation.js
                 'Road Trips.',
+=======
+                'Treks',
+>>>>>>> bcb7f93874c9a9cf2d6eab61f3e0a88033fd11ec:src/components/layout/Banner/TypewriterAnimation.js
                 1000,
-                'Adventures.',
+                'Adventures',
                 1000,
+<<<<<<< HEAD:src/components/pages/Home/HomeBannerAnimation.js
                 'Offbeat.',
                 1000,
                 'Experience.',
+=======
+                'Experiences',
+>>>>>>> bcb7f93874c9a9cf2d6eab61f3e0a88033fd11ec:src/components/layout/Banner/TypewriterAnimation.js
                 1000
             ]}
             wrapper="span"
