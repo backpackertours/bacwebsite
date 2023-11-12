@@ -1,0 +1,429 @@
+ul {
+    padding-left: 10px;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #FC9538 !important;
+}
+
+.dropdown-item:active {
+    color: #FFFFFF;
+}
+
+.mt-nav {
+    margin-top: 76px;
+}
+
+.bg-primary-light {
+    background: #DACDFF;
+}
+
+.bg-gray {
+    background-color: #FAFAFA;
+}
+
+.ls-5 {
+    letter-spacing: 0.1rem;
+}
+
+.bg-mainbanner {
+    background-image: url("../images/bannerbackground3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-testimonial {
+    background-image: url("../images/testimonialbackground.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 1rem;
+}
+
+.swiper-scrollbar {
+    position: relative !important;
+    margin-top: 1.25rem;
+}
+
+.swiper-slide {
+    height: auto;
+}
+
+/*
+Change swiper corousel previous, next button styles
+*/
+.swiper-button-next,
+.swiper-button-prev {
+    position: relative;
+    margin-top: 2.5rem;
+    width: 50%;
+    display: inline-block;
+    color: #FFFFFF;
+    padding: 0px 20px;
+}
+
+.swiper-button-prev {
+    text-align: end;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 16px;
+    line-height: 0.5;
+    padding: 12px 16px;
+    border-radius: 50%;
+    background-color: #FF8B23;
+}
+
+/* 
+Date card background.
+*/
+.bg-light-primary {
+    border: 1px solid #bea7ff;
+}
+
+.slider-container {
+    overflow: hidden;
+    height: 500px;
+    border-radius: 2rem;
+}
+
+.sliding-background {
+    /* The image height times 3 */
+    width: 5076px;
+    height: 500px;
+    background: url('../../assets/images/BackpackerSlider2.png') repeat-x;
+    background-size: contain;
+    animation: slide 60s linear infinite;
+}
+
+/* 
+Animation to make the background image slide infinitly
+ */
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(-1692px, 0, 0);
+        /* The image width */
+    }
+}
+
+/* 
+About Us Page Styles
+ */
+.founder-img {
+    width: 300px;
+    height: 300px;
+}
+
+/* 
+Share buttons background colors 
+*/
+.bg-outline {
+    background: #FFFFFF;
+    color: #6E3DFA;
+}
+
+.f2 {
+    font-size: 2rem;
+}
+
+.f3 {
+    font-size: 3rem;
+}
+
+.bg-whatsapp {
+    background-color: #25d366;
+}
+
+.bg-facebook {
+    background-color: #4267B2;
+}
+
+.bg-snapchat {
+    background-color: #f5f100;
+}
+
+/* 
+Price card, Send enquiry form position
+ */
+.sticky-price-card {
+    position: sticky;
+    top: 6.5rem;
+}
+
+/* 
+Utilities
+ */
+
+.h40 {
+
+    height: 40px;
+}
+
+.w-88 {
+    width: 88% !important;
+}
+
+.px-10 {
+    padding-right: 5rem !important;
+    padding-left: 5rem !important;
+}
+
+.drop-shadow {
+    box-shadow: 0 15px 20px -6px rgb(0 0 0 / 0.15);
+}
+
+.shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(83, 83, 83, 0.1), 0 2px 4px -2px rgba(34, 34, 34, 0.1);
+}
+
+
+.shadow-sm {
+    box-shadow: 0 10px 12px -6px rgb(0 0 0 / 0.15);
+}
+
+.bg-gradient3 {
+    background: linear-gradient(90deg, #FC9538 0%, #c42400 100%);
+}
+
+/*
+.bg-gradient2 {
+    background-color: #46DB81;
+    background: linear-gradient(90deg, #94D014 0%, #46DB81 100%);
+}*/
+
+.text-gradient {
+    background: linear-gradient(90deg, #FC9538 0%, #D12F24 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient2 {
+    background: linear-gradient(90deg, #94D014 0%, #FC9538 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-body {
+    color: rgb(71 85 105);
+}
+
+.text-header {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.75rem;
+}
+
+.hover-white:hover {
+    color: #FFFFFF;
+}
+
+
+.button .nav-link {
+    color: #FF8B23;
+}
+
+.button:hover .nav-link {
+    color: white !important;
+}
+
+.r-5 {
+    transform: rotate(5deg);
+}
+
+.r-5-n {
+    transform: rotate(-5deg);
+}
+
+.r-8 {
+    transform: rotate(8deg);
+}
+
+.r-10 {
+    transform: rotate(10deg);
+}
+
+.r-10-n {
+    transform: rotate(-10deg);
+}
+
+.top-5 {
+    top: 5%;
+}
+
+.bottom-8 {
+    bottom: 8%;
+}
+
+.bottom-5 {
+    bottom: 8%;
+}
+
+.start-25 {
+    right: 25%;
+}
+
+.start-20 {
+    right: 20%;
+}
+
+.start-5 {
+    right: 5%;
+}
+
+/* Upcoming Trip Dates Buttons */
+.btn-date {
+    background: none;
+    color: #000;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-date:hover,
+.btn-date:active {
+    background: none !important;
+    color: #FF8B23 !important;
+}
+
+.btn-date-active {
+    background: #FF8B23;
+    color: #FFF;
+    border-radius: 8px;
+}
+
+.btn-date-active:hover,
+.btn-date-active:active {
+    background: #FF8B23 !important;
+    color: #FFF !important;
+    border-radius: 8px;
+}
+
+.dashed {
+    border-top: 1px dashed gray;
+}
+
+.mb-bottom {
+    margin-bottom: 78px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+/* Navbar hover styles */
+.hover-show .hover-show-menu {
+    display: none !important;
+}
+
+.hover-show:hover .hover-show-menu {
+    display: block !important;
+}
+
+.p-sm-4 {
+    padding: 1.5rem;
+}
+
+.trip-slider-image {
+    width: 100%;
+    height: 500px;
+}
+
+.mx-negative-0 {
+    margin-right: -0.4rem;
+    margin-left: -0.4rem;
+}
+
+.py-sm-3 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.testimonials-text {
+    min-height: 150px;
+}
+
+.stars>i {
+    color: #ffd500;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .text-header {
+        font-size: 4rem;
+        line-height: 4.25rem;
+    }
+
+    .px-sm-4 {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .mb-sm-menu {
+        margin-bottom: 78px;
+    }
+
+    .mb-sm-4 {
+        margin-bottom: 1.5rem;
+    }
+
+    .border-sm-0 {
+        border: none;
+    }
+
+    .drop-shadow-sm-0 {
+        box-shadow: none;
+    }
+
+    .p-sm-4 {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+
+    .py-sm-3 {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .trip-slider-image {
+        height: 300px;
+    }
+
+    .bg-mainbanner {
+        background-image: none;
+        background: #FAFAFA;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .w-88 {
+        width: 100% !important;
+    }
+
+
+    .testimonials-text {
+        min-height: 200px;
+    }
+}

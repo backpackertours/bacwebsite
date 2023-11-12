@@ -1,30 +1,26 @@
-// import Navigation from './components/layout/Navigation';
-import Banner from './components/layout/Banner';
-// import UpTrips from './components/ui/UpTrips';
-// import WeekendTrips from './components/ui/WeekendTrips';
-// import Testimonials from './components/ui/Testimonials';
-// import Footer from './components/layout/Footer';
-// import TripDetails from './components/ui/TripDetails';
-// import Slider from './components/ui/Slider';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import Layout from './components/ui/Layout';
+import Home from './components/pages/Home';
+import Trip from './components/pages/Trip';
+import AboutUs from './components/pages/AboutUs';
+import ContactUs from './components/pages/ContactUs';
+import ScrollToTop from "./components/ui/ScrollToTop";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Navigation expand="md" horizontal="end" /> */}
-      {/* Home Page */}
-
-      <Banner />
-      {/* 
-      <UpTrips />
-      <WeekendTrips />
-      <Testimonials />
-      <Slider /> 
-      */}
-
-      {/* Trip Details Page */}
-      {/* <TripDetails /> */}
-      {/* <Footer /> */}
-    </div>
+    <BrowserRouter>
+      <ScrollToTop />
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="trip/:id" element={<Trip />} />
+          <Route path="aboutus" element={<AboutUs />} />
+          <Route path="contactus" element={<ContactUs />} />
+          {/*<Route path="*" element={<NoPage />} /> */}
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
