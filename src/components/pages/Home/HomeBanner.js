@@ -11,7 +11,7 @@ const HomeBanner = (props) => {
 
     return (
         <section className="bg-mainbanner">
-            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
+            <div className="bg-dark text-light text-center py-1">We are still working on the website. For inquiry, please contact +91 8082647928.</div>
             <div className="container py-5 px-sm-4">
                 <Row>
                     <Col className="mb-sm-4 py-sm-3" lg="5" md="6">

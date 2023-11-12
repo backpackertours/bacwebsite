@@ -61,13 +61,8 @@ const Trip = () => {
 
     return (
         <section className="bg-gray">
-            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
-            <BottomDrawer
-                category={category}
-                price_breakup={price_breakup}
-                price_extras={price_extras}
-                discount={discount}
-            />
+            <div className="bg-dark text-light text-center py-1">We are still working on the website. For inquiry, please contact +91 8082647928.</div>
+            <BottomDrawer trip={trip} />
             <TripHeader
                 title={title}
                 private_plan={private_plan}
@@ -93,7 +88,6 @@ const Trip = () => {
                         {exclusion && <InclusionCard title="Exclusion" items={exclusion} icon="x" />}
                         {note && <InclusionCard title="Please Note" items={note} icon="dash" />}
                         <Cancellation cancle_policy={cancle_policy} />
-
                     </Col>
                     <Col className="d-none d-md-block" md="4">
                         <div className="sticky-price-card">
@@ -102,6 +96,7 @@ const Trip = () => {
                                 price_breakup={price_breakup}
                                 price_extras={price_extras}
                                 discount={discount}
+                                trip={trip}
                             />
                         </div>
                     </Col>

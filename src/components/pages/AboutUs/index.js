@@ -5,15 +5,16 @@ import founder from '../../../assets/images/founder.png';
 const AboutUs = () => {
     return (
         <section className="bg-gray">
-            <div className="bg-dark text-light text-center py-1">This website is still in development.</div>
+            <div className="bg-dark text-light text-center py-1">We are still working on the website. For inquiry, please contact +91 8082647928.</div>
             <div className="container py-5 px-sm-4">
                 <Row>
                     <Col className="mx-auto" lg="8">
-                        <div className='mb-4 text-center'>
+                        {/* TODO - Remove this if not used. */}
+                        {/* <div className='mb-4 text-center'>
                             <span className='px-3 py-2 bg-white text-center text-slate rounded-4' style={{ fontSize: "3rem" }}>🚀</span>
-                        </div>
+                        </div> */}
                         <h1 className="mb-4 text-center">Our Mission</h1>
-                        <div className="mb-4 fs-5 text-muted">
+                        <div className="mb-4 fs-5 text-muted text-center">
                             <p><i className="bi bi-quote text-primary" style={{ fontSize: "4rem", fontWeight: "600" }}></i> Welcome to Backpacker Tours, your gateway to unforgettable adventures in India! Our mission
                                 is to take you beyond the ordinary, exploring offbeat locations that are untouched by mass
                                 tourism.
