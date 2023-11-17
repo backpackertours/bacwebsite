@@ -9,7 +9,7 @@ const HomeBannerAnimation = () => {
                 1000,
                 'Road Trips.',
                 1000,
-                'Adventures',
+                'Adventures.',
                 1000,
                 'Offbeat.',
                 1000,

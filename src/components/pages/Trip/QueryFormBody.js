@@ -104,7 +104,7 @@ const QueryFormBody = ({ trip }) => {
     return (
         <Card className="bg-white rounded-4 px-4 border-0">
             <div>
-                <h5 className="mb-4">Send Enquiry for {trip.title}</h5>
+                <h5 className="mb-4">Send Inquiry for {trip.title}</h5>
                 <Form onSubmit={handleFormSubmit} noValidate="true">
                     <Row>
                         <Col md="12">
