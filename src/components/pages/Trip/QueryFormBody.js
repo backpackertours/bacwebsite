@@ -38,8 +38,8 @@ const QueryFormBody = ({ trip }) => {
     }
 
     const initialEmailState = {
-        type: "error",
-        show: true
+        type: "",
+        show: false
     }
 
     const [form, setform] = useState(initialState);
