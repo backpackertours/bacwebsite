@@ -111,7 +111,7 @@ const QueryFormBody = ({ trip }) => {
         }
 
         const data = {
-            trip: form.trip.value,
+            trip: trip.title,
             name: form.name.value,
             phone: form.phone.value,
             email: form.email.value,
@@ -144,7 +144,7 @@ const QueryFormBody = ({ trip }) => {
             <div>
                 {emailAlert.show && <EmailAlert type={emailAlert.type} />}
                 <h5 className="mb-4">Send Inquiry for {trip.title}</h5>
-                <Form onSubmit={handleFormSubmit} noValidate="true">
+                <Form onSubmit={handleFormSubmit} noValidate={true}>
                     <Row>
                         <Col md="12">
                             <FormGroup>
@@ -233,7 +233,6 @@ const QueryFormBody = ({ trip }) => {
                                 </FormFeedback>
                             </FormGroup>
                         </Col>
-                        <input type="hidden" name="trip" value={trip.title} />
                     </Row>
                     <Button className="bg-primary text-white border border-0 rounded-3" type="submit">
                         Send Inquiry
