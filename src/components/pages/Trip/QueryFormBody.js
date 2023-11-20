@@ -10,6 +10,7 @@ import {
     Col,
     FormFeedback
 } from 'reactstrap';
+import EmailAlert from '../../ui/EmailAlert';
 
 const QueryFormBody = ({ trip }) => {
     //setup initial state
@@ -36,7 +37,13 @@ const QueryFormBody = ({ trip }) => {
         }
     }
 
+    const initialEmailState = {
+        type: "error",
+        show: true
+    }
+
     const [form, setform] = useState(initialState);
+    const [emailAlert, setEmailAlert] = useState(initialEmailState)
 
     const handleInputChange = (e) => {
         setform({
@@ -46,6 +53,13 @@ const QueryFormBody = ({ trip }) => {
                 value: e.target.value
             }
         });
+    }
+
+    const handleEmailAlert = (type) => {
+        setEmailAlert({ type: type, show: true })
+        setTimeout(() => {
+            setEmailAlert(initialEmailState)
+        }, 5000);
     }
 
     const handleFormSubmit = (e) => {
@@ -96,7 +110,31 @@ const QueryFormBody = ({ trip }) => {
             return;
         }
 
-        alert('Email Sent!');
+        const data = {
+            trip: form.trip.value,
+            name: form.name.value,
+            phone: form.phone.value,
+            email: form.email.value,
+            dates: form.dates.value,
+            message: form.message.value
+        };
+
+        fetch('https://development--superb-longma-b5e57e.netlify.app/.netlify/functions/sendemail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(response => {
+                if (response.ok) {
+                    handleEmailAlert("success")
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                handleEmailAlert("error")
+            });
 
         setform(initialState);
     }
@@ -104,6 +142,7 @@ const QueryFormBody = ({ trip }) => {
     return (
         <Card className="bg-white rounded-4 px-4 border-0">
             <div>
+                {emailAlert.show && <EmailAlert type={emailAlert.type} />}
                 <h5 className="mb-4">Send Inquiry for {trip.title}</h5>
                 <Form onSubmit={handleFormSubmit} noValidate="true">
                     <Row>
@@ -194,6 +233,7 @@ const QueryFormBody = ({ trip }) => {
                                 </FormFeedback>
                             </FormGroup>
                         </Col>
+                        <input type="hidden" name="trip" value={trip.title} />
                     </Row>
                     <Button className="bg-primary text-white border border-0 rounded-3" type="submit">
                         Send Inquiry

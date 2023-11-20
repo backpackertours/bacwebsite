@@ -118,6 +118,7 @@ const ContactForm = () => {
                 }
             })
             .catch(error => {
+                console.log(error);
                 handleEmailAlert("error")
             });
 
