@@ -105,7 +105,7 @@ const ContactForm = () => {
             message: form.message.value
         };
 
-        fetch('https://superb-longma-b5e57e.netlify.app/.netlify/functions/sendemail', {
+        fetch('https://backpackertours.in/.netlify/functions/sendemail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
