@@ -71,7 +71,7 @@ const ContactForm = () => {
 
 
         //validate message
-        const messagePattern = /^[A-Za-z0-9\s]+$/
+        const messagePattern = /^[a-zA-Z0-9.!_@ ]*$/
         const messageMatch = messagePattern.test(form.message.value)
 
         // if any of the input is not matching set up the validation errors.
