@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import EmailAlert from '../../ui/EmailAlert';
 import {
     Input,
     Form,
@@ -28,8 +29,13 @@ const initialState = {
     }
 }
 
+const initialEmailState = {
+    type: "",
+    show: false
+}
 const ContactForm = () => {
     const [form, setform] = useState(initialState);
+    const [emailAlert, setEmailAlert] = useState(initialEmailState)
 
     const handleInputChange = (e) => {
         setform({
@@ -39,6 +45,13 @@ const ContactForm = () => {
                 value: e.target.value
             }
         });
+    }
+
+    const handleEmailAlert = (type) => {
+        setEmailAlert({ type: type, show: true })
+        setTimeout(() => {
+            setEmailAlert(initialEmailState)
+        }, 5000);
     }
 
     const handleFormSubmit = (e) => {
@@ -58,7 +71,7 @@ const ContactForm = () => {
 
 
         //validate message
-        const messagePattern = /^[A-Za-z0-9\s]+$/
+        const messagePattern = /^[a-zA-Z0-9.!_@ ]*$/
         const messageMatch = messagePattern.test(form.message.value)
 
         // if any of the input is not matching set up the validation errors.
@@ -85,14 +98,37 @@ const ContactForm = () => {
             return;
         }
 
-        alert('Email Sent!');
+        const data = {
+            name: form.name.value,
+            phone: form.phone.value,
+            email: form.email.value,
+            message: form.message.value
+        };
+
+        fetch('https://development--superb-longma-b5e57e.netlify.app/.netlify/functions/sendemail', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(data),
+        })
+            .then(response => {
+                if (response.ok) {
+                    handleEmailAlert("success")
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                handleEmailAlert("error")
+            });
 
         setform(initialState);
     }
 
     return (
         <div>
-            <Form onSubmit={handleFormSubmit} noValidate="true">
+            {emailAlert.show && <EmailAlert type={emailAlert.type} />}
+            <Form onSubmit={handleFormSubmit} noValidate={true}>
                 <Row>
                     <Col md="12">
                         <FormGroup>
