@@ -119,7 +119,7 @@ const QueryFormBody = ({ trip }) => {
             message: form.message.value
         };
 
-        fetch('https://development--superb-longma-b5e57e.netlify.app/.netlify/functions/sendemail', {
+        fetch('https://superb-longma-b5e57e.netlify.app/.netlify/functions/sendemail', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
