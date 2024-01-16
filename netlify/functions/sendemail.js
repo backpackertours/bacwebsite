@@ -178,7 +178,8 @@ exports.handler = async function (event, context) {
         // Send the email
         const info = await transporter.sendMail({
             from: process.env.SENDER,
-            to: `${email}, ${process.env.SENDER} `,
+            to: email,
+            cc: process.env.SENDER,
             subject: `Thanks for Inquiry ${name}!`,
             html: trip ? renderedHtmlForTripEnquiry : renderedHtmlForContactUs,
         });
