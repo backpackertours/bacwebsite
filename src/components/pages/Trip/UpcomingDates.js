@@ -1,8 +1,3 @@
-import uuid4 from "uuid4";
-import { useState } from "react";
-import { Button, Row, Col } from 'reactstrap';
-
-
 const UpcomingDates = ({ months, departure }) => {
     // TODO - update below section once dates are automated.
     // const [currentMonth, setcurrentMonth] = useState(months[0]);
