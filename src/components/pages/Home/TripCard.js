@@ -5,8 +5,6 @@ import {
     CardBody,
 } from 'reactstrap';
 
-import TripDates from './TripDates';
-
 const TripCard = ({ trip }) => {
     const { title, duration, total_seats, grade } = trip;
     const price = trip.price_breakup[0].price;
@@ -41,10 +39,9 @@ const TripCard = ({ trip }) => {
                         {trip.category === "upcoming" ?
                             <span className="bg-white text-primary" style={{ fontSize: "12px", fontWeight: "700" }}><i className="bi bi-person-circle"></i> <small>{total_seats} Seats</small></span>
                             :
-                            <span className="bg-white text-primary" style={{ fontSize: "12px", fontWeight: "700" }}><i className="bi bi-star-fill"></i> <small>{grade} </small></span>
+                            <span className="bg-white text-primary" style={{ fontSize: "12px", fontWeight: "700" }}><i className="bi bi-star-fill"></i> <small>Grade: {grade} </small></span>
                         }
                     </div>
-                    <TripDates departureDates={trip.departure} />
                     <div>
                         <small style={{ fontSize: "12px", color: "gray" }}>Starting From</small>
                         <h6 className="text-slate">{`Rs. ${price} /-`}</h6>
