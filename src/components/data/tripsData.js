@@ -1184,7 +1184,7 @@ const tripsData = [
         total_seats: 15,
         duration: "2 Days",
         location: "",
-        grade: "",
+        grade: "Easy",
         discount: "",
         gallery: [
             "v1698150408/gokarna/1_apzyzr.jpg",
@@ -1506,7 +1506,7 @@ const tripsData = [
         total_seats: 15,
         places_covered: "Delhi | Kasol | Manikaran | Kalga | Kheerganga",
         location: "",
-        grade: "",
+        grade: "Easy",
         discount: "",
         gallery: [
             "v1698153044/parvati/1_iddu6y.jpg",
@@ -1654,7 +1654,7 @@ const tripsData = [
         duration: "6 Days",
         total_seats: 15,
         location: "",
-        grade: "",
+        grade: "Medium",
         discount: "",
         gallery: [
             "v1698161939/kedarkantha/1_lqd6uc.jpg",
